@@ -1,0 +1,43 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'tomathensBetaMap_mesh_0017.obj'
+
+# Vertices (Count = 16)
+v -72 -239 0
+v -73 -239 0
+v -73 -238 0
+v -72 -238 0
+v -59 -239 0
+v -60 -239 0
+v -60 -238 0
+v -59 -238 0
+v -45 -239 0
+v -46 -239 0
+v -46 -238 0
+v -45 -238 0
+v -32 -239 0
+v -33 -239 0
+v -33 -238 0
+v -32 -238 0
+
+# Texture cooridinates (Count = 8)
+vt 0.4358974 0.2
+vt 0.8461539 0.2
+vt 0.8461539 1
+vt 0.4358974 1
+vt 0 0.2
+vt 0.4102564 0.2
+vt 0.4102564 1
+vt 0 1
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g tomathensBetaMap_mesh_0017
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+f 5/5/1 6/6/1 7/7/1 8/8/1
+f 9/1/1 10/2/1 11/3/1 12/4/1
+f 13/5/1 14/6/1 15/7/1 16/8/1
+
