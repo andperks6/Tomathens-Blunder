@@ -12,6 +12,14 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Plastic SCM specific files
+plastic/
+plastic.log
+plastic.log.*
+plastic.ignore
+plastic.conf
+plastic.conf.*
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -86,3 +94,34 @@ crashlytics-build.properties
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Additional Unity specific files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.asset.meta
+*.unity.meta
+*.unity
+*.prefab.meta
+*.prefab
+*.mat.meta
+*.mat
+*.fbx.meta
+*.FBX.meta
+*.tga.meta
+*.cubemap.meta
+*.cubemap
+*.mp3.meta
+*.mp3
+*.wav.meta
+*.wav
+*.anim.meta
+*.anim
+*.controller.meta
+*.controller
+*.overrideController.meta
+*.overrideController
+*.mask.meta
+*.mask
+*.asset
+*.meta
