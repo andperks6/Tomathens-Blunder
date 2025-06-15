@@ -95,33 +95,3 @@ crashlytics-build.properties
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
-# Additional Unity specific files
-*.pidb.meta
-*.pdb.meta
-*.mdb.meta
-*.asset.meta
-*.unity.meta
-*.unity
-*.prefab.meta
-*.prefab
-*.mat.meta
-*.mat
-*.fbx.meta
-*.FBX.meta
-*.tga.meta
-*.cubemap.meta
-*.cubemap
-*.mp3.meta
-*.mp3
-*.wav.meta
-*.wav
-*.anim.meta
-*.anim
-*.controller.meta
-*.controller
-*.overrideController.meta
-*.overrideController
-*.mask.meta
-*.mask
-*.asset
-*.meta
