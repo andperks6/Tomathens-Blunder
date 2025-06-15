@@ -40,8 +40,19 @@ public class networktest2 : NetworkBehaviour
         // Cache a reference to the current player object
         GameObject oldPlayer = conn.identity.gameObject;
 
-        // Instantiate the new player object and broadcast to clients
-        NetworkServer.ReplacePlayerForConnection(conn, Instantiate(toad, transform.position, Quaternion.Euler(0, 0, 0)));
+        // Instantiate the new player object based on the selected race and broadcast to clients
+        // Ensure whichRace is a valid index for the races array
+        GameObject playerPrefabToSpawn = toad; // Default to toad
+        if (races != null && whichRace >= 0 && whichRace < races.Length && races[whichRace] != null)
+        {
+            playerPrefabToSpawn = races[whichRace];
+        }
+        else
+        {
+            Debug.LogError($"Invalid race index ({whichRace}) or races array not set. Spawning default toad prefab.");
+        }
+
+        NetworkServer.ReplacePlayerForConnection(conn, Instantiate(playerPrefabToSpawn, transform.position, Quaternion.Euler(0, 0, 0)));
 
         // Remove the previous player object that's now been replaced
         NetworkServer.Destroy(oldPlayer);

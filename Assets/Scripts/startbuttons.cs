@@ -17,20 +17,19 @@ public class startbuttons : MonoBehaviour
     {
 
     }
-        // Update is called once per frame
-        void Update()
-        {
-        
+    // Update is called once per frame
+    void Update()
+    {
+
         if (size == false)
-            {
-                transform.localScale = new Vector3(.5f, .5f, 1);
-            }
-            if (size == true)
-            {
-                transform.localScale = new Vector3(.6f, .6f, 1);
-                size = false;
-            }
-        network = FindObjectOfType<networktest>();
+        {
+            transform.localScale = new Vector3(.5f, .5f, 1);
+        }
+        if (size == true)
+        {
+            transform.localScale = new Vector3(.6f, .6f, 1);
+            size = false;
+        }
         }
         public void OnMouseOver()
         {
@@ -38,23 +37,25 @@ public class startbuttons : MonoBehaviour
         }
         public void OnMouseDown()
         {
-            if (gameObject.tag == "PlayerIcon")
-            {
-            
-            network.whichRace = boxident;
-           
-        }
-          if (gameObject.tag == "Next")
-          {
-            parent.addplayer2();
-            
+        if (gameObject.tag == "PlayerIcon")
+        {
 
-           
-          }
+            parent.whichRace = boxident;
+        }
+        // TODO: add switching teams functionality
+        //  if (gameObject.tag == "Next")
+        //   {
+        //             
+        //   }
+        if (gameObject.tag == "Start")
+        {
+            parent.addplayer2();
+
+        }
         if (gameObject.tag == "Sell")
         {
-            
+
         }
     }
-    
+
 }
