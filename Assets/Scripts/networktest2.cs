@@ -10,6 +10,7 @@ public class networktest2 : NetworkBehaviour
     public int boxident;
     public startbuttons sb1;
     public int whichRace;
+    startbuttons whichRaceObj;
     public NetworkConnection con2;
     public GameObject toad;
     // Start is called before the first frame update
@@ -56,5 +57,15 @@ public class networktest2 : NetworkBehaviour
 
         // Remove the previous player object that's now been replaced
         NetworkServer.Destroy(oldPlayer);
+    }
+
+    public void ShowSelectedChar(startbuttons character)
+    {
+        if (whichRaceObj)
+        {
+            whichRaceObj.GetComponent<SpriteRenderer>().color = Color.white;
+        }
+        whichRaceObj = character;
+        character.GetComponent<SpriteRenderer>().color = Color.red;
     }
 }
