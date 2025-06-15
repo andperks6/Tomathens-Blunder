@@ -158,6 +158,7 @@ Transform:
   m_Children:
   - {fileID: 4052000244507276}
   - {fileID: 4732900578181994}
+  - {fileID: 4967228199858016407}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -257,7 +258,7 @@ MonoBehaviour:
   xsize: {x: 0.7, y: 0.7, z: 1}
   Xrange: 0
   Yrange: 0
-  ProjectileSpot: {fileID: 0}
+  ProjectileSpot: {fileID: 4967228199858016407}
   holster: {fileID: 0}
   rangedAtk: 0
   spell: {fileID: 0}
@@ -492,3 +493,33 @@ MonoBehaviour:
   Stat: {fileID: 114755740905676284}
   player: {fileID: 114618134265774032}
   damage: 0
+--- !u!1 &6686103937654428819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4967228199858016407}
+  m_Layer: 0
+  m_Name: spellholster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4967228199858016407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686103937654428819}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.44099998, y: 0.44099998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4893996166697370}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
