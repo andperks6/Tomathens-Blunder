@@ -168,6 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6098c2b02038e944b8a4cf228e45ee02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   SM: {fileID: 0}
   ifm: {fileID: 0}
   sd: {fileID: 0}
@@ -185,7 +187,7 @@ MonoBehaviour:
   holster: {fileID: 0}
   rangedAtk: 0
   spell: {fileID: 0}
-  Interface: {fileID: 0}
+  Interface: {fileID: 1296621314005296, guid: b3981e3013b5d784ab5529f30b25d177, type: 3}
   dead: 0
   damage: 15
   HealthBar: {fileID: 114714036204840436}
