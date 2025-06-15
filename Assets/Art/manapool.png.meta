@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: 3b4717ca8abb4c8499c36ad11cb10066
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: manapool_0
+  - first:
+      213: 21300002
+    second: manapool_1
+  - first:
+      213: 21300004
+    second: manapool_2
+  - first:
+      213: 21300006
+    second: manapool_3
+  - first:
+      213: 21300008
+    second: manapool_4
+  - first:
+      213: 21300010
+    second: manapool_5
+  - first:
+      213: 21300012
+    second: manapool_6
+  - first:
+      213: 21300014
+    second: manapool_7
+  - first:
+      213: 21300016
+    second: manapool_8
+  - first:
+      213: 21300018
+    second: manapool_9
+  - first:
+      213: 21300020
+    second: manapool_10
+  - first:
+      213: 21300022
+    second: manapool_11
+  - first:
+      213: 21300024
+    second: manapool_12
+  - first:
+      213: 21300026
+    second: manapool_13
+  - first:
+      213: 21300028
+    second: manapool_14
+  - first:
+      213: 21300030
+    second: manapool_15
+  - first:
+      213: 21300032
+    second: manapool_16
+  - first:
+      213: 21300034
+    second: manapool_17
+  - first:
+      213: 21300036
+    second: manapool_18
+  - first:
+      213: 21300038
+    second: manapool_19
+  - first:
+      213: 21300040
+    second: manapool_20
+  - first:
+      213: 21300042
+    second: manapool_21
+  - first:
+      213: 21300044
+    second: manapool_22
+  - first:
+      213: 21300046
+    second: manapool_23
+  - first:
+      213: 21300048
+    second: manapool_24
+  - first:
+      213: 21300050
+    second: manapool_25
+  - first:
+      213: 21300052
+    second: manapool_26
+  - first:
+      213: 21300054
+    second: manapool_27
+  - first:
+      213: 21300056
+    second: manapool_28
+  - first:
+      213: 21300058
+    second: manapool_29
+  - first:
+      213: 21300060
+    second: manapool_30
+  - first:
+      213: 21300062
+    second: manapool_31
+  - first:
+      213: 21300064
+    second: manapool_32
+  - first:
+      213: 21300066
+    second: manapool_33
+  - first:
+      213: 21300068
+    second: manapool_34
+  - first:
+      213: 21300070
+    second: manapool_35
+  - first:
+      213: 21300072
+    second: manapool_36
+  - first:
+      213: 21300074
+    second: manapool_37
+  - first:
+      213: 21300076
+    second: manapool_38
+  - first:
+      213: 21300078
+    second: manapool_39
+  - first:
+      213: 21300080
+    second: manapool_40
+  - first:
+      213: 21300082
+    second: manapool_41
+  - first:
+      213: 21300084
+    second: manapool_42
+  - first:
+      213: 21300086
+    second: manapool_43
+  - first:
+      213: 21300088
+    second: manapool_44
+  - first:
+      213: 21300090
+    second: manapool_45
+  - first:
+      213: 21300092
+    second: manapool_46
+  - first:
+      213: 21300094
+    second: manapool_47
+  - first:
+      213: 21300096
+    second: manapool_48
+  - first:
+      213: 21300098
+    second: manapool_49
+  - first:
+      213: 21300100
+    second: manapool_50
+  - first:
+      213: 21300102
+    second: manapool_51
+  - first:
+      213: 21300104
+    second: manapool_52
+  - first:
+      213: 21300106
+    second: manapool_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: manapool_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 897
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2211a23faff17e64a8f15f56ad95df43
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 877
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd50188ea65d6c4eb922b944296f8a8
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 858
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dc23dc1438c9d47b92a7e4f0b88119
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 838
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7eaf4ba753fa54e9e32294786f3d9a
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 819
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1175249de22cdb47915883036cf93d7
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 799
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3858cbd7eabe7f64e81712ac298977d0
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 780
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93d75d2c06a6ff43971eee65c2ceb29
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 760
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fcec9bac79e5341a25b34ec921f7d2
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 741
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7161a47c0224747bc20ca160f40ea0
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 721
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8230ca0bfa4504592105515d809911
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 702
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e14645bf75d9a4c8cd41f6f600ae26
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 682
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48636a407665ff448c3bfb8fb66a18e
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 663
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f715a870ab24624e8b2f172c491e270
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 643
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c323257be7a4ffb4592c22cbdd9859a0
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 624
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c448c0fece661428064d8dfbf5b557
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 604
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da90f04390a4cc42a9d7786bcbf48af
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 585
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d685cf8593a35cf4d8a1f26fcbcd1c3a
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 569
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f405be42b7bfaf47b9d2dd56215ead5
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 554
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379abb377f2ea344e8bf2af5b8f20188
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 538
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0519254ba309c8c4ea5f754c5a5eb9a3
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 522
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f0bb28cf81d2b488c6c957542288c2
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 507
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097a272993e5d954e943bd6b26b52ede
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 491
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b90f8f656a22c4bb42b2c770d1d8f2
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 476
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eddf77192931540b2ed3a029412596
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 460
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7caa7fb7f4b6941a24f398ed0e38fb
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 444
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9171cdc759f934e8f0ce0890149936
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 429
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f737440017f5040be277465263828c
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 413
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eff764ec82baa4f91393d3892ec673
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 398
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbbcb63ec9aed34c800ac232c7d3ea8
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 382
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bae406d5830c2409e84156288faf97
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 366
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd77423050a785d46b4d02a5eaf69d99
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 351
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8b5cbc7bbd22e4a8ccdf495c4589d4
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 335
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e35dd245ab0a4e4183e57c0cf9ce8c8
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 320
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2894e7481bc25ec4c94a5596adad77ab
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_34
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 304
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00299d8aaf0b557479e98bb4020d8dd5
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 288
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8632e9a72b792b4d80efa70b90e62dd
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 273
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f503552e721794e9396d52a8af4749
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 257
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a88a904bb920f84ab294bf9d6b5e045
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 242
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86a75e75d4a4964b9c6ee0700b4042c
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_39
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 226
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38edfa265ca5fc2488c009168ebf2039
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 210
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cf6b2eee993cf4abd51d08ff50fc33
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 195
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673bb7edeb697b1449c48bf4859f0e3f
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_42
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 179
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5803fea5eba458e42817a0105de33abd
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_43
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 164
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491f54d46ec5b214da7e728a305f515a
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_44
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 148
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137774b1538beb44b974054b1aa93242
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c31c745bb914064798ad8f2e5dafefc
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_46
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 117
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2257e6fb7f5a8704485dedb9db23608c
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_47
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 101
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3af350772df844384c7b0b1389d7c1
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 86
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162976d4df962bf4c8836f234b4555f6
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_49
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425a8ed97c42fcc46b847308d0ce473e
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 54
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed6c6482268c52409c8568711637700
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 39
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c41d11fbe28104bb6bd76b3ff67fc5
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_52
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 23
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5593e369e537d4abbb4eebfa455071
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manapool_53
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856f73da126a58649b5d40b1abcbfb3c
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b71993b1759b48f46aec12ae3afd165d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      manapool_0: 21300000
+      manapool_1: 21300002
+      manapool_10: 21300020
+      manapool_11: 21300022
+      manapool_12: 21300024
+      manapool_13: 21300026
+      manapool_14: 21300028
+      manapool_15: 21300030
+      manapool_16: 21300032
+      manapool_17: 21300034
+      manapool_18: 21300036
+      manapool_19: 21300038
+      manapool_2: 21300004
+      manapool_20: 21300040
+      manapool_21: 21300042
+      manapool_22: 21300044
+      manapool_23: 21300046
+      manapool_24: 21300048
+      manapool_25: 21300050
+      manapool_26: 21300052
+      manapool_27: 21300054
+      manapool_28: 21300056
+      manapool_29: 21300058
+      manapool_3: 21300006
+      manapool_30: 21300060
+      manapool_31: 21300062
+      manapool_32: 21300064
+      manapool_33: 21300066
+      manapool_34: 21300068
+      manapool_35: 21300070
+      manapool_36: 21300072
+      manapool_37: 21300074
+      manapool_38: 21300076
+      manapool_39: 21300078
+      manapool_4: 21300008
+      manapool_40: 21300080
+      manapool_41: 21300082
+      manapool_42: 21300084
+      manapool_43: 21300086
+      manapool_44: 21300088
+      manapool_45: 21300090
+      manapool_46: 21300092
+      manapool_47: 21300094
+      manapool_48: 21300096
+      manapool_49: 21300098
+      manapool_5: 21300010
+      manapool_50: 21300100
+      manapool_51: 21300102
+      manapool_52: 21300104
+      manapool_53: 21300106
+      manapool_6: 21300012
+      manapool_7: 21300014
+      manapool_8: 21300016
+      manapool_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 800a978ec382dce49b46b5074f36d4f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: vernash_0
+  - first:
+      213: 21300002
+    second: vernash_1
+  - first:
+      213: 21300004
+    second: vernash_2
+  - first:
+      213: 21300006
+    second: vernash_3
+  - first:
+      213: 21300008
+    second: vernash_4
+  - first:
+      213: 21300010
+    second: vernash_5
+  - first:
+      213: 21300012
+    second: vernash_6
+  - first:
+      213: 21300014
+    second: vernash_7
+  - first:
+      213: 21300016
+    second: vernash_8
+  - first:
+      213: 21300018
+    second: vernash_9
+  - first:
+      213: 21300020
+    second: vernash_10
+  - first:
+      213: 21300022
+    second: vernash_11
+  - first:
+      213: 21300024
+    second: vernash_12
+  - first:
+      213: 21300026
+    second: vernash_13
+  - first:
+      213: 21300028
+    second: vernash_14
+  - first:
+      213: 21300030
+    second: vernash_15
+  - first:
+      213: 21300032
+    second: vernash_16
+  - first:
+      213: 21300034
+    second: vernash_17
+  - first:
+      213: 21300036
+    second: vernash_18
+  - first:
+      213: 21300038
+    second: vernash_19
+  - first:
+      213: 21300040
+    second: vernash_20
+  - first:
+      213: 21300042
+    second: vernash_21
+  - first:
+      213: 21300044
+    second: vernash_22
+  - first:
+      213: 21300046
+    second: vernash_23
+  - first:
+      213: 21300048
+    second: vernash_24
+  - first:
+      213: 21300050
+    second: vernash_25
+  - first:
+      213: 21300052
+    second: vernash_26
+  - first:
+      213: 21300054
+    second: vernash_27
+  - first:
+      213: 21300056
+    second: vernash_28
+  - first:
+      213: 21300058
+    second: vernash_29
+  - first:
+      213: 21300060
+    second: vernash_30
+  - first:
+      213: 21300062
+    second: vernash_31
+  - first:
+      213: 21300064
+    second: vernash_32
+  - first:
+      213: 21300066
+    second: vernash_33
+  - first:
+      213: 21300068
+    second: vernash_34
+  - first:
+      213: 21300070
+    second: vernash_35
+  - first:
+      213: 21300072
+    second: vernash_36
+  - first:
+      213: 21300074
+    second: vernash_37
+  - first:
+      213: 21300076
+    second: vernash_38
+  - first:
+      213: 21300078
+    second: vernash_39
+  - first:
+      213: 21300080
+    second: vernash_40
+  - first:
+      213: 21300082
+    second: vernash_41
+  - first:
+      213: 21300084
+    second: vernash_42
+  - first:
+      213: 21300086
+    second: vernash_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vernash_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 448
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474fa2053adce1149ba01df3a0b4f696
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 450
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49896a9947842724cb27e16945e8e362
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 451
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec7ed2de11282f47add029278cef886
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 451
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76b5ba41cddf954fa771d56d70f9181
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 453
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53092ad71386c994d80116e524220996
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 455
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e32359a3c13a146b79974475b99412
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_6
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 456
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb19daf03eaf4f4997f33f572ab0fee
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 367
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc351f3ec170743989bebb13d32172
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 368
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f0c0718696959489e510a5b93c8606
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 368
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d5c154322efbb43ba8b14c14fccef5
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 369
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9060799a655c8584aaf829393c4b2e6a
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 371
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bff66d301d57ac419b5202da98c45fe
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 373
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4425dcfa687dec14fb25013fab83205a
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 374
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4ad2f65b2b10247a4f117ae23d53c0
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 297
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a857dada6ddce542b714a67c5ec7c3d
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 301
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a35aebe5c8b9024cb5514c936201e57
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 301
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce225fd4433fc24b897a297bb7dc1da
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 301
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a48fc7193a2d4290eca9d2400dbb8
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 300
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bfa41c4f92e2f4aad5b7a076378766
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 302
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f533f3805a60a704f9807a7eb4dac730
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_20
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 302
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dfd8a2494e5c14088d76957e0d4791
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_21
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 304
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bfbf11e3566784982d77a97740ccef
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 227
+        width: 46
+        height: 57
+      alignment: 9
+      pivot: {x: 0.36492, y: 0.5521872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c660a91b8ed3534380dc6c539e704ed
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 227
+        width: 42
+        height: 57
+      alignment: 9
+      pivot: {x: 0.41658455, y: 0.5556673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705e024ef09f3354c97672d5a5dc4d4a
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_24
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 229
+        width: 38
+        height: 57
+      alignment: 9
+      pivot: {x: 0.46694946, y: 0.5521872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ba1a0ff519d4b4d9ff406a0e159161
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_25
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 230
+        width: 34
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5038901, y: 0.55682695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec748e3020ec8834389a70fe410a013b
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 234
+        width: 39
+        height: 57
+      alignment: 9
+      pivot: {x: 0.4712321, y: 0.55248916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53af10ca2d6a60e4fb67a6de5fd81803
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_27
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 233
+        width: 43
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5156548, y: 0.55773765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa2b68c2f655d1459b9ace36f3d0223
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_28
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 231
+        width: 47
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54455954, y: 0.55511314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cd27b936fdfe742b75f8faabcbdd41
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_29
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 232
+        width: 52
+        height: 57
+      alignment: 9
+      pivot: {x: 0.59205747, y: 0.53805435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c89ae6b57f07846844aa1fc54263f1
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 163
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231c54ef3fac3f542b94d4d88f923984
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_31
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 166
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730f9a6b55b8ee44ca5afeeb209766b8
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_32
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 166
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504d9c29b4a4fb443bd2291066aaada2
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_33
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 167
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36adf6dfb65f3e14f803467a91c23441
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_34
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 165
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc966817dbdcb754f8f5c19b29a20b05
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 170
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ee773f65dbccf4e821532b9d96aa45
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_36
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 166
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6441bc8d1bd7fe4e88933d9671226a4
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_37
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 167
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca667087bbba5a04081bf3ea7e146326
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_38
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 166
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250c9348e37f51443ad30f429e4b0611
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_39
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 164
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a72bdeef05edc140932e697ce84b920
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_40
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 163
+        width: 55
+        height: 43
+      alignment: 9
+      pivot: {x: 0.50427467, y: 0.5164007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf14ac7d971f8d94da719982355e290e
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 161
+        width: 55
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5575195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e105de56b3207ca4984af9bae32ee39b
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_42
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 155
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.50427467, y: 0.5875786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04691a6b9e779aa44903cde83acb52f2
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vernash_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 200
+        width: 21
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb4e19d7f5a82047a45a18dcc97bcd8
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e75fa924105ab14cb7d39791504ce4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vernash_0: 21300000
+      vernash_1: 21300002
+      vernash_10: 21300020
+      vernash_11: 21300022
+      vernash_12: 21300024
+      vernash_13: 21300026
+      vernash_14: 21300028
+      vernash_15: 21300030
+      vernash_16: 21300032
+      vernash_17: 21300034
+      vernash_18: 21300036
+      vernash_19: 21300038
+      vernash_2: 21300004
+      vernash_20: 21300040
+      vernash_21: 21300042
+      vernash_22: 21300044
+      vernash_23: 21300046
+      vernash_24: 21300048
+      vernash_25: 21300050
+      vernash_26: 21300052
+      vernash_27: 21300054
+      vernash_28: 21300056
+      vernash_29: 21300058
+      vernash_3: 21300006
+      vernash_30: 21300060
+      vernash_31: 21300062
+      vernash_32: 21300064
+      vernash_33: 21300066
+      vernash_34: 21300068
+      vernash_35: 21300070
+      vernash_36: 21300072
+      vernash_37: 21300074
+      vernash_38: 21300076
+      vernash_39: 21300078
+      vernash_4: 21300008
+      vernash_40: 21300080
+      vernash_41: 21300082
+      vernash_42: 21300084
+      vernash_43: 21300086
+      vernash_5: 21300010
+      vernash_6: 21300012
+      vernash_7: 21300014
+      vernash_8: 21300016
+      vernash_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 37ce6d0cc8eb2d246a5b91bd10e2636d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: cooldown 1_0
+  - first:
+      213: 21300002
+    second: cooldown 1_1
+  - first:
+      213: 21300004
+    second: cooldown 1_2
+  - first:
+      213: 21300006
+    second: cooldown 1_3
+  - first:
+      213: 21300008
+    second: cooldown 1_4
+  - first:
+      213: 21300010
+    second: cooldown 1_5
+  - first:
+      213: 21300012
+    second: cooldown 1_6
+  - first:
+      213: 21300014
+    second: cooldown 1_7
+  - first:
+      213: 21300016
+    second: cooldown 1_8
+  - first:
+      213: 21300018
+    second: cooldown 1_9
+  - first:
+      213: 21300020
+    second: cooldown 1_10
+  - first:
+      213: 21300022
+    second: cooldown 1_11
+  - first:
+      213: 21300024
+    second: cooldown 1_12
+  - first:
+      213: 21300026
+    second: cooldown 1_13
+  - first:
+      213: 21300028
+    second: cooldown 1_14
+  - first:
+      213: 21300030
+    second: cooldown 1_15
+  - first:
+      213: 21300032
+    second: cooldown 1_16
+  - first:
+      213: 21300034
+    second: cooldown 1_17
+  - first:
+      213: 21300036
+    second: cooldown 1_18
+  - first:
+      213: 21300038
+    second: cooldown 1_19
+  - first:
+      213: 21300040
+    second: cooldown 1_20
+  - first:
+      213: 21300042
+    second: cooldown 1_21
+  - first:
+      213: 21300044
+    second: cooldown 1_22
+  - first:
+      213: 21300046
+    second: cooldown 1_23
+  - first:
+      213: 21300048
+    second: cooldown 1_24
+  - first:
+      213: 21300050
+    second: cooldown 1_25
+  - first:
+      213: 21300052
+    second: cooldown 1_26
+  - first:
+      213: 21300054
+    second: cooldown 1_27
+  - first:
+      213: 21300056
+    second: cooldown 1_28
+  - first:
+      213: 21300058
+    second: cooldown 1_29
+  - first:
+      213: 21300060
+    second: cooldown 1_30
+  - first:
+      213: 21300062
+    second: cooldown 1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cooldown 1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5820be498eb0283428188d36e49a14a8
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8f5d8e423f83b4aa85b192b9b8657c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fb4ada04009eb49b2e2f378c886ec0
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eb3134724fd7e4193c0c2fba70ba85
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6907b7ef200a15742849980478462a0b
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c87a028fa0ba7e428e42b13d1f320e1
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a612a34d6de5974429d5f99c463590b9
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87e7671d95c8cc4eaebe07f0e9fe2b9
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03964c2bf9b49744b10bec0bdceaf21
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcfadb346b93124da1f0d5e5be27270
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b21a869a43c504d8241b7f623df384
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662882740266ec843b87abc3cb46d12d
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a4b0fcfe3d945498fe4346460bb178
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 146
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f79ba920386f74ebe3a9bc5d20fae9
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_14
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 145
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbae1c086385b1444b7b378f45702c88
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 145
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f136197997334a8afec0e47853b32
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 122
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ab705ac0f587543a939e4976ea1e1b
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8ab6ac09e3ff74daded1e7c82b034d
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70878629fdedc44ba312928d0ff2a7c
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ccd562f07d8c84e9f3dd7d805255ee
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaa0604eb4e588449edc42780697845
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa29402e8be1374b8d2007398fb0875
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_22
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cee25b34d2f45c4cb0f9f5097a160bf
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88f4992cd723754190ada9626876203
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d862ab7bd5cfcd4293f542979ffa4f2
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b4c3d115fbe474195e68e4df1d4bb2
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_26
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90d3fdae48ce4a4e950f94d3ef3dc82
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4acb31130f70c439692c1930ff9b1c
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_28
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe82f62857f7c294888b84ff671935fd
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9c6f20ab4331a4188cc54f1b771300
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_30
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623f3dd88ffcc6a479ce90b8810da481
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooldown 1_31
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 121
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a6f0efa1f4f3744a2679f568cb1068
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e6ac7a3aca1db004a86678ef2b53dfb5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cooldown 1_0: 21300000
+      cooldown 1_1: 21300002
+      cooldown 1_10: 21300020
+      cooldown 1_11: 21300022
+      cooldown 1_12: 21300024
+      cooldown 1_13: 21300026
+      cooldown 1_14: 21300028
+      cooldown 1_15: 21300030
+      cooldown 1_16: 21300032
+      cooldown 1_17: 21300034
+      cooldown 1_18: 21300036
+      cooldown 1_19: 21300038
+      cooldown 1_2: 21300004
+      cooldown 1_20: 21300040
+      cooldown 1_21: 21300042
+      cooldown 1_22: 21300044
+      cooldown 1_23: 21300046
+      cooldown 1_24: 21300048
+      cooldown 1_25: 21300050
+      cooldown 1_26: 21300052
+      cooldown 1_27: 21300054
+      cooldown 1_28: 21300056
+      cooldown 1_29: 21300058
+      cooldown 1_3: 21300006
+      cooldown 1_30: 21300060
+      cooldown 1_31: 21300062
+      cooldown 1_4: 21300008
+      cooldown 1_5: 21300010
+      cooldown 1_6: 21300012
+      cooldown 1_7: 21300014
+      cooldown 1_8: 21300016
+      cooldown 1_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

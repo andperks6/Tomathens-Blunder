@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: 0cb404cae01c6e547b1fb9e8a05ca78d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Newt 1_0
+  - first:
+      213: 21300002
+    second: Newt 1_1
+  - first:
+      213: 21300004
+    second: Newt 1_2
+  - first:
+      213: 21300006
+    second: Newt 1_3
+  - first:
+      213: 21300008
+    second: Newt 1_4
+  - first:
+      213: 21300010
+    second: Newt 1_5
+  - first:
+      213: 21300012
+    second: Newt 1_6
+  - first:
+      213: 21300014
+    second: Newt 1_7
+  - first:
+      213: 21300016
+    second: Newt 1_8
+  - first:
+      213: 21300018
+    second: Newt 1_9
+  - first:
+      213: 21300020
+    second: Newt 1_10
+  - first:
+      213: 21300022
+    second: Newt 1_11
+  - first:
+      213: 21300024
+    second: Newt 1_12
+  - first:
+      213: 21300026
+    second: Newt 1_13
+  - first:
+      213: 21300028
+    second: Newt 1_14
+  - first:
+      213: 21300030
+    second: Newt 1_15
+  - first:
+      213: 21300032
+    second: Newt 1_16
+  - first:
+      213: 21300034
+    second: Newt 1_17
+  - first:
+      213: 21300036
+    second: Newt 1_18
+  - first:
+      213: 21300038
+    second: Newt 1_19
+  - first:
+      213: 21300040
+    second: Newt 1_20
+  - first:
+      213: 21300042
+    second: Newt 1_21
+  - first:
+      213: 21300044
+    second: Newt 1_22
+  - first:
+      213: 21300046
+    second: Newt 1_23
+  - first:
+      213: 21300048
+    second: Newt 1_24
+  - first:
+      213: 21300050
+    second: Newt 1_25
+  - first:
+      213: 21300052
+    second: Newt 1_26
+  - first:
+      213: 21300054
+    second: Newt 1_27
+  - first:
+      213: 21300056
+    second: Newt 1_28
+  - first:
+      213: 21300058
+    second: Newt 1_29
+  - first:
+      213: 21300060
+    second: Newt 1_30
+  - first:
+      213: 21300062
+    second: Newt 1_31
+  - first:
+      213: 21300064
+    second: Newt 1_32
+  - first:
+      213: 21300066
+    second: Newt 1_33
+  - first:
+      213: 21300068
+    second: Newt 1_34
+  - first:
+      213: 21300070
+    second: Newt 1_35
+  - first:
+      213: 21300072
+    second: Newt 1_36
+  - first:
+      213: 21300074
+    second: Newt 1_37
+  - first:
+      213: 21300076
+    second: Newt 1_38
+  - first:
+      213: 21300078
+    second: Newt 1_39
+  - first:
+      213: 21300080
+    second: Newt 1_40
+  - first:
+      213: 21300082
+    second: Newt 1_41
+  - first:
+      213: 21300084
+    second: Newt 1_42
+  - first:
+      213: 21300086
+    second: Newt 1_43
+  - first:
+      213: 21300088
+    second: Newt 1_44
+  - first:
+      213: 21300090
+    second: Newt 1_45
+  - first:
+      213: 21300092
+    second: Newt 1_46
+  - first:
+      213: 21300094
+    second: Newt 1_47
+  - first:
+      213: 21300096
+    second: Newt 1_48
+  - first:
+      213: 21300098
+    second: Newt 1_49
+  - first:
+      213: 21300100
+    second: Newt 1_50
+  - first:
+      213: 21300102
+    second: Newt 1_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Newt 1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 738
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbecf341ea2caa4d89e7418b4b2ae50
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 737
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43e4797c52f72f43883fa06c219d0f7
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 736
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598f0b78b481e1c45adada1f67f670bd
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 735
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad225d2c93a6e4984cca9c28335f36
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 733
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d874320084603eb448ffb3f0357ae690
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 732
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e458877d6425ca2408701a6a9fe5ef1f
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 731
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ef2b358ae81314a803316a8d974ba2
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 661
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61c00f6f22a2d74e8162154f8565b9f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 662
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a806e6ac54e2549984105560fea809
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 663
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5179fd25e1e78d41b31bb6b765fe1d1
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 663
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9604255d24c736f4d9c436f48b2a6b7a
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 664
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eef9162c7959847baeedbc2a46d945
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 665
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d8438fed3125a46ab3108db3a2f807
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 666
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38e4381afe07554fa3fa7fa8043ad68
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 567
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd880a8b190c22459b75571c248ca3b
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 568
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a93cdb3889d80d4b863f47dce82ef23
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 569
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113668e60f8ace444ad5640abe992470
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 567
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ca4b4e24da0dd42ac1293d4dfe8060
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_18
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 567
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d8aaa494615164780df5010b1ec42d
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 566
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345fed27c77024f45a2d85840ee275b7
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 470
+        width: 40
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4856577, y: 0.51593715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1304f679b6ac81e4e872a2f1163c206f
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 469
+        width: 46
+        height: 48
+      alignment: 9
+      pivot: {x: 0.42932776, y: 0.5039876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fb66442fc03a443b70ea426adc4e2b
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 470
+        width: 49
+        height: 47
+      alignment: 9
+      pivot: {x: 0.40243313, y: 0.48372763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b607a98c6c38d49b53f2c83b9f7910
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 471
+        width: 50
+        height: 46
+      alignment: 9
+      pivot: {x: 0.39673492, y: 0.5000013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43357ae8efd4be64abcd562bc798ce8c
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_24
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 469
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.40641883, y: 0.48337257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f59c83af4f6fd4aa7a8dd8104aaf3d
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 467
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5562466, y: 0.4916866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2048d5ac4cafe468046c190eb734e6
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_26
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 380
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4268818, y: 0.48752958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a95809afdf8be43a3b8fa48f208665
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 382
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5854445, y: 0.4916866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38db8e615f1e0454ba77aee2ae21b11b
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 384
+        width: 50
+        height: 46
+      alignment: 9
+      pivot: {x: 0.61091524, y: 0.4916866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1e7ad7b9477884aae6805a4c9a3377
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_29
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 383
+        width: 49
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5936653, y: 0.47558853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2f757230bcbbc4985543e6fd62d57f
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_30
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 382
+        width: 46
+        height: 48
+      alignment: 9
+      pivot: {x: 0.57898813, y: 0.51195335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b14321fea0897458f977096ca27a67
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_31
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 383
+        width: 40
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51434326, y: 0.51593715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91bbfb6c6b028e46aaf5087b044b98a
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 276
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b337bb0e6f63bfd45b7c63a51b3e1baa
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 276
+        width: 42
+        height: 59
+      alignment: 9
+      pivot: {x: 0.47723442, y: 0.49675944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425684b09d835e44ca5bb47519704441
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_34
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 276
+        width: 37
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4173052, y: 0.44115975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b60cb62fb313b04ab4f05f9313ec916
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 276
+        width: 38
+        height: 68
+      alignment: 9
+      pivot: {x: 0.4597413, y: 0.4212579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6c3682a7523364a80a4b1ab1ebf71b
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 275
+        width: 30
+        height: 73
+      alignment: 9
+      pivot: {x: 0.27689615, y: 0.3794978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4412c5032856404db42c03cc8d4f73e
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_37
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 274
+        width: 42
+        height: 77
+      alignment: 9
+      pivot: {x: 0.15396118, y: 0.35843885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9569cfd523e7ace40abc367809e56ebb
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 189
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c9a6f015de5524fad64c37b772e527
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_39
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 189
+        width: 55
+        height: 48
+      alignment: 9
+      pivot: {x: 0.54160464, y: 0.48166433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce4b110f2aa4664796348333c96c28c
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_40
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 182
+        width: 49
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5260773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32abae354b3822a46a6f26bce3ab2233
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_41
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 170
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: 0.3943882, y: 0.6129681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f51e8b64a1d1b449daafce3826b41a
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 168
+        width: 34
+        height: 68
+      alignment: 9
+      pivot: {x: 0.28774127, y: 0.60354096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48bc4d07eae7834fafd4751d6b3ddc4
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_43
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 174
+        width: 34
+        height: 60
+      alignment: 9
+      pivot: {x: 0.28774127, y: 0.5498726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15d8121016c72c4293780728f204022
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 106
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d8f2f4fd08f0743955dbb469d5a613
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_45
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 106
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568b468b3b0b85e4291d1302773f5985
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_46
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 106
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9d28ee9b5000c41baa67e952cf2a23
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_47
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 107
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6ba9b089807a44c846fa4447acc5f9
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_48
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 23
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ec31848290f36409d7ff8859283ec4
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_49
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 24
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f944482e7e0de3e49b398d88737f6bfa
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_50
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 27
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4568e164334964bb1cd053df57f837
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newt 1_51
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 28
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9edc406a212614da74bedd84185e3b
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4d9fcd5287cc534489f050720bbb7ae3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Newt 1_0: 21300000
+      Newt 1_1: 21300002
+      Newt 1_10: 21300020
+      Newt 1_11: 21300022
+      Newt 1_12: 21300024
+      Newt 1_13: 21300026
+      Newt 1_14: 21300028
+      Newt 1_15: 21300030
+      Newt 1_16: 21300032
+      Newt 1_17: 21300034
+      Newt 1_18: 21300036
+      Newt 1_19: 21300038
+      Newt 1_2: 21300004
+      Newt 1_20: 21300040
+      Newt 1_21: 21300042
+      Newt 1_22: 21300044
+      Newt 1_23: 21300046
+      Newt 1_24: 21300048
+      Newt 1_25: 21300050
+      Newt 1_26: 21300052
+      Newt 1_27: 21300054
+      Newt 1_28: 21300056
+      Newt 1_29: 21300058
+      Newt 1_3: 21300006
+      Newt 1_30: 21300060
+      Newt 1_31: 21300062
+      Newt 1_32: 21300064
+      Newt 1_33: 21300066
+      Newt 1_34: 21300068
+      Newt 1_35: 21300070
+      Newt 1_36: 21300072
+      Newt 1_37: 21300074
+      Newt 1_38: 21300076
+      Newt 1_39: 21300078
+      Newt 1_4: 21300008
+      Newt 1_40: 21300080
+      Newt 1_41: 21300082
+      Newt 1_42: 21300084
+      Newt 1_43: 21300086
+      Newt 1_44: 21300088
+      Newt 1_45: 21300090
+      Newt 1_46: 21300092
+      Newt 1_47: 21300094
+      Newt 1_48: 21300096
+      Newt 1_49: 21300098
+      Newt 1_5: 21300010
+      Newt 1_50: 21300100
+      Newt 1_51: 21300102
+      Newt 1_6: 21300012
+      Newt 1_7: 21300014
+      Newt 1_8: 21300016
+      Newt 1_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 2fdd0a22638a05149b7116d9c564bfa5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: xp 1_0
+  - first:
+      213: 21300002
+    second: xp 1_1
+  - first:
+      213: 21300004
+    second: xp 1_2
+  - first:
+      213: 21300006
+    second: xp 1_3
+  - first:
+      213: 21300008
+    second: xp 1_4
+  - first:
+      213: 21300010
+    second: xp 1_5
+  - first:
+      213: 21300012
+    second: xp 1_6
+  - first:
+      213: 21300014
+    second: xp 1_7
+  - first:
+      213: 21300016
+    second: xp 1_8
+  - first:
+      213: 21300018
+    second: xp 1_9
+  - first:
+      213: 21300020
+    second: xp 1_10
+  - first:
+      213: 21300022
+    second: xp 1_11
+  - first:
+      213: 21300024
+    second: xp 1_12
+  - first:
+      213: 21300026
+    second: xp 1_13
+  - first:
+      213: 21300028
+    second: xp 1_14
+  - first:
+      213: 21300030
+    second: xp 1_15
+  - first:
+      213: 21300032
+    second: xp 1_16
+  - first:
+      213: 21300034
+    second: xp 1_17
+  - first:
+      213: 21300036
+    second: xp 1_18
+  - first:
+      213: 21300038
+    second: xp 1_19
+  - first:
+      213: 21300040
+    second: xp 1_20
+  - first:
+      213: 21300042
+    second: xp 1_21
+  - first:
+      213: 21300044
+    second: xp 1_22
+  - first:
+      213: 21300046
+    second: xp 1_23
+  - first:
+      213: 21300048
+    second: xp 1_24
+  - first:
+      213: 21300050
+    second: xp 1_25
+  - first:
+      213: 21300052
+    second: xp 1_26
+  - first:
+      213: 21300054
+    second: xp 1_27
+  - first:
+      213: 21300056
+    second: xp 1_28
+  - first:
+      213: 21300058
+    second: xp 1_29
+  - first:
+      213: 21300060
+    second: xp 1_30
+  - first:
+      213: 21300062
+    second: xp 1_31
+  - first:
+      213: 21300064
+    second: xp 1_32
+  - first:
+      213: 21300066
+    second: xp 1_33
+  - first:
+      213: 21300068
+    second: xp 1_34
+  - first:
+      213: 21300070
+    second: xp 1_35
+  - first:
+      213: 21300072
+    second: xp 1_36
+  - first:
+      213: 21300074
+    second: xp 1_37
+  - first:
+      213: 21300076
+    second: xp 1_38
+  - first:
+      213: 21300078
+    second: xp 1_39
+  - first:
+      213: 21300080
+    second: xp 1_40
+  - first:
+      213: 21300082
+    second: xp 1_41
+  - first:
+      213: 21300084
+    second: xp 1_42
+  - first:
+      213: 21300086
+    second: xp 1_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xp 1_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 229
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbaa971dbd1d8f4085d3f9582241b89
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 224
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a5b5708fc36004bbe6468401bc161a
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 219
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e43fc14da109841b5ce6bf2b359c26
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 214
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d83145cea8f42a4b8cba8212f195773
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 209
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7404539150eecbd4eb2ca7bec85b2c07
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 204
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3519fd07883ab4e9853a25f332f799
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 199
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3800f1c7324090e418e7a4d798ad43ba
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 194
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc003af01499414e914ec6b74ad903a
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 189
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f9dd251f7a388489d219f3e7ee393e
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 184
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e978cb2bf5cc2024594a94f3faed36d7
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 179
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746afa8346291c14f86895e38a02bd30
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 174
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63905f6ab1310c8478224e8b495bff6a
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 169
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da12886ea6530304894502b621eed54b
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 164
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb6525de627b06458eb02ac59d0a14c
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 159
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b93521a1f13f44b8e8f32517c39ef6
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 154
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ba2f5a6211fc94f86262b00bd9c6f1
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 149
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66bf8b171bfc1c48a1fa388a0ec3a77
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_17
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94b6899f2bdc0f46a0cfb3fae08ac9f
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 139
+        width: 129
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9741a71b8c56b78479ea08041450f263
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 134
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2175c079d84b5244aa25130327cddd46
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 129
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f278474582e332a43a5182271db48271
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 124
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce605ac57441774cb7bd34392852d93
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 119
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16d7cd0fb53f6040bb39d7278220fbd
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 114
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d4504de810b764997322f50667ae86
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 109
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848d8c2bfaa76f04abdf2982f6281f13
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 104
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34053f1210ba12b418be99fd531ba331
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 99
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721d903e7fea903478d36fd17e9d7d0e
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 94
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cde160772170ea4ca32ca420e52f72b
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 89
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c61d3706eae454499695a8722f808b
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dee1cad0da2444a94c4f02216072aa
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 79
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f8a3caf89d4a45990298a88e7618f
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_31
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 74
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68bf38b5dcaa784783dec75a5fec6b9
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 69
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2c46be84ad4354abb8053ad1cfa9d6
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_33
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 64
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251514c13e774cc4b9419c6d98106ae0
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_34
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 59
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd7ed35388f669449763610dcad5ad1
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_35
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 54
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ad508336e641e4ea96df5c1547aa10
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 49
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac270fe5991324e42bb32f466f812eea
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 44
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79499cc1096f3e43a91c241636f239a
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_38
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 39
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ee7ecfbf74be646982b9b328b1456e
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 34
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0c24f26da9b1745a0797f41e9c3205
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_40
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 29
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3abfd4f30662442b47c24991f8892c
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_41
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 24
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f165e4a42e3b6c04ca1d3fcf8f2187e7
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 19
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d407808d192264890dda1d0c822a44
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xp 1_43
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 130
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f320c304d9e3d48947d7cbce00c1d6
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7cea1b47218da7f4f927e82e9c4f770c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      xp 1_0: 21300000
+      xp 1_1: 21300002
+      xp 1_10: 21300020
+      xp 1_11: 21300022
+      xp 1_12: 21300024
+      xp 1_13: 21300026
+      xp 1_14: 21300028
+      xp 1_15: 21300030
+      xp 1_16: 21300032
+      xp 1_17: 21300034
+      xp 1_18: 21300036
+      xp 1_19: 21300038
+      xp 1_2: 21300004
+      xp 1_20: 21300040
+      xp 1_21: 21300042
+      xp 1_22: 21300044
+      xp 1_23: 21300046
+      xp 1_24: 21300048
+      xp 1_25: 21300050
+      xp 1_26: 21300052
+      xp 1_27: 21300054
+      xp 1_28: 21300056
+      xp 1_29: 21300058
+      xp 1_3: 21300006
+      xp 1_30: 21300060
+      xp 1_31: 21300062
+      xp 1_32: 21300064
+      xp 1_33: 21300066
+      xp 1_34: 21300068
+      xp 1_35: 21300070
+      xp 1_36: 21300072
+      xp 1_37: 21300074
+      xp 1_38: 21300076
+      xp 1_39: 21300078
+      xp 1_4: 21300008
+      xp 1_40: 21300080
+      xp 1_41: 21300082
+      xp 1_42: 21300084
+      xp 1_43: 21300086
+      xp 1_5: 21300010
+      xp 1_6: 21300012
+      xp 1_7: 21300014
+      xp 1_8: 21300016
+      xp 1_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

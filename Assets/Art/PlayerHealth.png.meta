@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: 1b9b2ff5eda4af245954fafa01471134
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: PlayerHealth_0
+  - first:
+      213: 21300002
+    second: PlayerHealth_1
+  - first:
+      213: 21300004
+    second: PlayerHealth_2
+  - first:
+      213: 21300006
+    second: PlayerHealth_3
+  - first:
+      213: 21300008
+    second: PlayerHealth_4
+  - first:
+      213: 21300010
+    second: PlayerHealth_5
+  - first:
+      213: 21300012
+    second: PlayerHealth_6
+  - first:
+      213: 21300014
+    second: PlayerHealth_7
+  - first:
+      213: 21300016
+    second: PlayerHealth_8
+  - first:
+      213: 21300018
+    second: PlayerHealth_9
+  - first:
+      213: 21300020
+    second: PlayerHealth_10
+  - first:
+      213: 21300022
+    second: PlayerHealth_11
+  - first:
+      213: 21300024
+    second: PlayerHealth_12
+  - first:
+      213: 21300026
+    second: PlayerHealth_13
+  - first:
+      213: 21300028
+    second: PlayerHealth_14
+  - first:
+      213: 21300030
+    second: PlayerHealth_15
+  - first:
+      213: 21300032
+    second: PlayerHealth_16
+  - first:
+      213: 21300034
+    second: PlayerHealth_17
+  - first:
+      213: 21300036
+    second: PlayerHealth_18
+  - first:
+      213: 21300038
+    second: PlayerHealth_19
+  - first:
+      213: 21300040
+    second: PlayerHealth_20
+  - first:
+      213: 21300042
+    second: PlayerHealth_21
+  - first:
+      213: 21300044
+    second: PlayerHealth_22
+  - first:
+      213: 21300046
+    second: PlayerHealth_23
+  - first:
+      213: 21300048
+    second: PlayerHealth_24
+  - first:
+      213: 21300050
+    second: PlayerHealth_25
+  - first:
+      213: 21300052
+    second: PlayerHealth_26
+  - first:
+      213: 21300054
+    second: PlayerHealth_27
+  - first:
+      213: 21300056
+    second: PlayerHealth_28
+  - first:
+      213: 21300058
+    second: PlayerHealth_29
+  - first:
+      213: 21300060
+    second: PlayerHealth_30
+  - first:
+      213: 21300062
+    second: PlayerHealth_31
+  - first:
+      213: 21300064
+    second: PlayerHealth_32
+  - first:
+      213: 21300066
+    second: PlayerHealth_33
+  - first:
+      213: 21300068
+    second: PlayerHealth_34
+  - first:
+      213: 21300070
+    second: PlayerHealth_35
+  - first:
+      213: 21300072
+    second: PlayerHealth_36
+  - first:
+      213: 21300074
+    second: PlayerHealth_37
+  - first:
+      213: 21300076
+    second: PlayerHealth_38
+  - first:
+      213: 21300078
+    second: PlayerHealth_39
+  - first:
+      213: 21300080
+    second: PlayerHealth_40
+  - first:
+      213: 21300082
+    second: PlayerHealth_41
+  - first:
+      213: 21300084
+    second: PlayerHealth_42
+  - first:
+      213: 21300086
+    second: PlayerHealth_43
+  - first:
+      213: 21300088
+    second: PlayerHealth_44
+  - first:
+      213: 21300090
+    second: PlayerHealth_45
+  - first:
+      213: 21300092
+    second: PlayerHealth_46
+  - first:
+      213: 21300094
+    second: PlayerHealth_47
+  - first:
+      213: 21300096
+    second: PlayerHealth_48
+  - first:
+      213: 21300098
+    second: PlayerHealth_49
+  - first:
+      213: 21300100
+    second: PlayerHealth_50
+  - first:
+      213: 21300102
+    second: PlayerHealth_51
+  - first:
+      213: 21300104
+    second: PlayerHealth_52
+  - first:
+      213: 21300106
+    second: PlayerHealth_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerHealth_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 908
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2a7ef0d02310548881f4db50a60ddc
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 888
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba45aeac9173e2c499c4a95b6b44c8f9
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 869
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10493797e278ea14298d38a5624611c8
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 849
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac60f0209db4e134bab56b46f9a547d0
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 830
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f20ba3dec1a9849a5ddde639aab9fa
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 810
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ff90786c051e54589ce853d9bb3b62
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 791
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d92b4142876ded428eac3ca8d5e22fc
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 771
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f22043f83865c4ca3363a382a49e22
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 752
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2024c1dfa4a6fe0458c136ddcc932d13
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 732
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725044eac720ea843befa9e793b4fad9
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 713
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838777b5de656e4488e9ff4c1fb30e71
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 693
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceaa1deb138c504c9366dceed864fc4
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 674
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c43fd0c3ad7bc458ce5e46691b04c5
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 654
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78989349005dbb4d955b8cbce6c37f8
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 635
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65e7dccd532bad49b0ef79fe60b7623
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 615
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7995bec05a5a919469c5c91c394b1039
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 596
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445f43ae6185c4c4491957c54494aee4
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 580
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44af6f6b67891d49abdf5b9af81c9da
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 565
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffbb0ba4f5455f43abb3a326e530aa5
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 549
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efcdadc51608d548acfade4e9cc9faf
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 533
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d9e1bb4cc91fc46a7d32dfc79598d8
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 518
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fa6ba1dbf75b04e8e2d1c292af12a6
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 502
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35cbdb0d1738a14da7d1d859147b03b
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 487
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9507683526c6cd74695f2223ef8a92a5
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 471
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8998aefec654674694312d581cfd935
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 455
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfade42951e2b744b0d6cdb7cca5965
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 440
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c8eba842b715b429e93733096b5340
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 424
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0f07e6bbb52174ea5d666f5d4aec57
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 409
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26efc62b4510cc94689605b0024d4e20
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 393
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3158eada412c3440844a188653d48e3
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 377
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a16a5de10290429596730b3a7577c
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_31
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 362
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5531c1d66fe6c0649b357ee1994c0539
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 346
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216b0f1b74389fd458a21755b9455da8
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 331
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bcdff5aca71994da9f3ee26438ee2b
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_34
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 315
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9016da613885b9c4fb7db1a74afc41b3
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 299
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29be0ae4b014395479cdfdb9712c55af
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 284
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4559c6b73491241844019bc9880ca2
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 268
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a7140bcdef25b46acb7dc3fe912ef4
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 253
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069316caca4896c46960439732b1a5f0
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 237
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31320bd421226fd4d984d4ad2acc41e2
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 221
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d19c27a24e67f48bd138bbd95f9e1c
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 206
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277692cb2cc31ee47a88892d15617630
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 190
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0f24e00f493474da73fe27374dffeb
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_43
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 175
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1330e181a2a5484ea40dd93b5a69a0f
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 159
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c4ad3b987b0da4bb59e7d90084430c
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 143
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a98459e0f28c914db5aa05655461f9c
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_46
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa30e568747568740b391dc5993d22a4
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 112
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbefd36c8bb962d4d9fe24b54bb08abe
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 97
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764aea3aecc04ab4683109e986ef5ed5
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 81
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaf47b497ba8e34b85da92a20fa72d3
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 65
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b8329119a7fc47817f637c7864c86
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281d87249e22df74d91a77b17bfaa1ba
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_52
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 210
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df406345801b22347b8eebedfe9decde
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealth_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 210
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9890cbce1c5ac468e8b17df7b3f76c
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e17a734865b611478b76af3288295b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlayerHealth_0: 21300000
+      PlayerHealth_1: 21300002
+      PlayerHealth_10: 21300020
+      PlayerHealth_11: 21300022
+      PlayerHealth_12: 21300024
+      PlayerHealth_13: 21300026
+      PlayerHealth_14: 21300028
+      PlayerHealth_15: 21300030
+      PlayerHealth_16: 21300032
+      PlayerHealth_17: 21300034
+      PlayerHealth_18: 21300036
+      PlayerHealth_19: 21300038
+      PlayerHealth_2: 21300004
+      PlayerHealth_20: 21300040
+      PlayerHealth_21: 21300042
+      PlayerHealth_22: 21300044
+      PlayerHealth_23: 21300046
+      PlayerHealth_24: 21300048
+      PlayerHealth_25: 21300050
+      PlayerHealth_26: 21300052
+      PlayerHealth_27: 21300054
+      PlayerHealth_28: 21300056
+      PlayerHealth_29: 21300058
+      PlayerHealth_3: 21300006
+      PlayerHealth_30: 21300060
+      PlayerHealth_31: 21300062
+      PlayerHealth_32: 21300064
+      PlayerHealth_33: 21300066
+      PlayerHealth_34: 21300068
+      PlayerHealth_35: 21300070
+      PlayerHealth_36: 21300072
+      PlayerHealth_37: 21300074
+      PlayerHealth_38: 21300076
+      PlayerHealth_39: 21300078
+      PlayerHealth_4: 21300008
+      PlayerHealth_40: 21300080
+      PlayerHealth_41: 21300082
+      PlayerHealth_42: 21300084
+      PlayerHealth_43: 21300086
+      PlayerHealth_44: 21300088
+      PlayerHealth_45: 21300090
+      PlayerHealth_46: 21300092
+      PlayerHealth_47: 21300094
+      PlayerHealth_48: 21300096
+      PlayerHealth_49: 21300098
+      PlayerHealth_5: 21300010
+      PlayerHealth_50: 21300100
+      PlayerHealth_51: 21300102
+      PlayerHealth_52: 21300104
+      PlayerHealth_53: 21300106
+      PlayerHealth_6: 21300012
+      PlayerHealth_7: 21300014
+      PlayerHealth_8: 21300016
+      PlayerHealth_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

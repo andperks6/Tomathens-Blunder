@@ -1,0 +1,5408 @@
+fileFormatVersion: 2
+guid: 7bf1b4aa6bcb81c44b06ace29c9e54b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Bunchofitems_0
+  - first:
+      213: 21300002
+    second: Bunchofitems_1
+  - first:
+      213: 21300004
+    second: Bunchofitems_2
+  - first:
+      213: 21300006
+    second: Bunchofitems_3
+  - first:
+      213: 21300008
+    second: Bunchofitems_4
+  - first:
+      213: 21300010
+    second: Bunchofitems_5
+  - first:
+      213: 21300012
+    second: Bunchofitems_6
+  - first:
+      213: 21300014
+    second: Bunchofitems_7
+  - first:
+      213: 21300016
+    second: Bunchofitems_8
+  - first:
+      213: 21300018
+    second: Bunchofitems_9
+  - first:
+      213: 21300020
+    second: Bunchofitems_10
+  - first:
+      213: 21300022
+    second: Bunchofitems_11
+  - first:
+      213: 21300024
+    second: Bunchofitems_12
+  - first:
+      213: 21300026
+    second: Bunchofitems_13
+  - first:
+      213: 21300028
+    second: Bunchofitems_14
+  - first:
+      213: 21300030
+    second: Bunchofitems_15
+  - first:
+      213: 21300032
+    second: Bunchofitems_16
+  - first:
+      213: 21300034
+    second: Bunchofitems_17
+  - first:
+      213: 21300036
+    second: Bunchofitems_18
+  - first:
+      213: 21300038
+    second: Bunchofitems_19
+  - first:
+      213: 21300040
+    second: Bunchofitems_20
+  - first:
+      213: 21300042
+    second: Bunchofitems_21
+  - first:
+      213: 21300044
+    second: Bunchofitems_22
+  - first:
+      213: 21300046
+    second: Bunchofitems_23
+  - first:
+      213: 21300048
+    second: Bunchofitems_24
+  - first:
+      213: 21300050
+    second: Bunchofitems_25
+  - first:
+      213: 21300052
+    second: Bunchofitems_26
+  - first:
+      213: 21300054
+    second: Bunchofitems_27
+  - first:
+      213: 21300056
+    second: Bunchofitems_28
+  - first:
+      213: 21300058
+    second: Bunchofitems_29
+  - first:
+      213: 21300060
+    second: Bunchofitems_30
+  - first:
+      213: 21300062
+    second: Bunchofitems_31
+  - first:
+      213: 21300064
+    second: Bunchofitems_32
+  - first:
+      213: 21300066
+    second: Bunchofitems_33
+  - first:
+      213: 21300068
+    second: Bunchofitems_34
+  - first:
+      213: 21300070
+    second: Bunchofitems_35
+  - first:
+      213: 21300072
+    second: Bunchofitems_36
+  - first:
+      213: 21300074
+    second: Bunchofitems_37
+  - first:
+      213: 21300076
+    second: Bunchofitems_38
+  - first:
+      213: 21300078
+    second: Bunchofitems_39
+  - first:
+      213: 21300080
+    second: Bunchofitems_40
+  - first:
+      213: 21300082
+    second: Bunchofitems_41
+  - first:
+      213: 21300084
+    second: Bunchofitems_42
+  - first:
+      213: 21300086
+    second: Bunchofitems_43
+  - first:
+      213: 21300088
+    second: Bunchofitems_44
+  - first:
+      213: 21300090
+    second: Bunchofitems_45
+  - first:
+      213: 21300092
+    second: Bunchofitems_46
+  - first:
+      213: 21300094
+    second: Bunchofitems_47
+  - first:
+      213: 21300096
+    second: Bunchofitems_48
+  - first:
+      213: 21300098
+    second: Bunchofitems_49
+  - first:
+      213: 21300100
+    second: Bunchofitems_50
+  - first:
+      213: 21300102
+    second: Bunchofitems_51
+  - first:
+      213: 21300104
+    second: Bunchofitems_52
+  - first:
+      213: 21300106
+    second: Bunchofitems_53
+  - first:
+      213: 21300108
+    second: Bunchofitems_54
+  - first:
+      213: 21300110
+    second: Bunchofitems_55
+  - first:
+      213: 21300112
+    second: Bunchofitems_56
+  - first:
+      213: 21300114
+    second: Bunchofitems_57
+  - first:
+      213: 21300116
+    second: Bunchofitems_58
+  - first:
+      213: 21300118
+    second: Bunchofitems_59
+  - first:
+      213: 21300120
+    second: Bunchofitems_60
+  - first:
+      213: 21300122
+    second: Bunchofitems_61
+  - first:
+      213: 21300124
+    second: Bunchofitems_62
+  - first:
+      213: 21300126
+    second: Bunchofitems_63
+  - first:
+      213: 21300128
+    second: Bunchofitems_64
+  - first:
+      213: 21300130
+    second: Bunchofitems_65
+  - first:
+      213: 21300132
+    second: Bunchofitems_66
+  - first:
+      213: 21300134
+    second: Bunchofitems_67
+  - first:
+      213: 21300136
+    second: Bunchofitems_68
+  - first:
+      213: 21300138
+    second: Bunchofitems_69
+  - first:
+      213: 21300140
+    second: Bunchofitems_70
+  - first:
+      213: 21300142
+    second: Bunchofitems_71
+  - first:
+      213: 21300144
+    second: Bunchofitems_72
+  - first:
+      213: 21300146
+    second: Bunchofitems_73
+  - first:
+      213: 21300148
+    second: Bunchofitems_74
+  - first:
+      213: 21300150
+    second: Bunchofitems_75
+  - first:
+      213: 21300152
+    second: Bunchofitems_76
+  - first:
+      213: 21300154
+    second: Bunchofitems_77
+  - first:
+      213: 21300156
+    second: Bunchofitems_78
+  - first:
+      213: 21300158
+    second: Bunchofitems_79
+  - first:
+      213: 21300160
+    second: Bunchofitems_80
+  - first:
+      213: 21300162
+    second: Bunchofitems_81
+  - first:
+      213: 21300164
+    second: Bunchofitems_82
+  - first:
+      213: 21300166
+    second: Bunchofitems_83
+  - first:
+      213: 21300168
+    second: Bunchofitems_84
+  - first:
+      213: 21300170
+    second: Bunchofitems_85
+  - first:
+      213: 21300172
+    second: Bunchofitems_86
+  - first:
+      213: 21300174
+    second: Bunchofitems_87
+  - first:
+      213: 21300176
+    second: Bunchofitems_88
+  - first:
+      213: 21300178
+    second: Bunchofitems_89
+  - first:
+      213: 21300180
+    second: Bunchofitems_90
+  - first:
+      213: 21300182
+    second: Bunchofitems_91
+  - first:
+      213: 21300184
+    second: Bunchofitems_92
+  - first:
+      213: 21300186
+    second: Bunchofitems_93
+  - first:
+      213: 21300188
+    second: Bunchofitems_94
+  - first:
+      213: 21300190
+    second: Bunchofitems_95
+  - first:
+      213: 21300192
+    second: Bunchofitems_96
+  - first:
+      213: 21300194
+    second: Bunchofitems_97
+  - first:
+      213: 21300196
+    second: Bunchofitems_98
+  - first:
+      213: 21300198
+    second: Bunchofitems_99
+  - first:
+      213: 21300200
+    second: Bunchofitems_100
+  - first:
+      213: 21300202
+    second: Bunchofitems_101
+  - first:
+      213: 21300204
+    second: Bunchofitems_102
+  - first:
+      213: 21300206
+    second: Bunchofitems_103
+  - first:
+      213: 21300208
+    second: Bunchofitems_104
+  - first:
+      213: 21300210
+    second: Bunchofitems_105
+  - first:
+      213: 21300212
+    second: Bunchofitems_106
+  - first:
+      213: 21300214
+    second: Bunchofitems_107
+  - first:
+      213: 21300216
+    second: Bunchofitems_108
+  - first:
+      213: 21300218
+    second: Bunchofitems_109
+  - first:
+      213: 21300220
+    second: Bunchofitems_110
+  - first:
+      213: 21300222
+    second: Bunchofitems_111
+  - first:
+      213: 21300224
+    second: Bunchofitems_112
+  - first:
+      213: 21300226
+    second: Bunchofitems_113
+  - first:
+      213: 21300228
+    second: Bunchofitems_114
+  - first:
+      213: 21300230
+    second: Bunchofitems_115
+  - first:
+      213: 21300232
+    second: Bunchofitems_116
+  - first:
+      213: 21300234
+    second: Bunchofitems_117
+  - first:
+      213: 21300236
+    second: Bunchofitems_118
+  - first:
+      213: 21300238
+    second: Bunchofitems_119
+  - first:
+      213: 21300240
+    second: Bunchofitems_120
+  - first:
+      213: 21300242
+    second: Bunchofitems_121
+  - first:
+      213: 21300244
+    second: Bunchofitems_122
+  - first:
+      213: 21300246
+    second: Bunchofitems_123
+  - first:
+      213: 21300248
+    second: Bunchofitems_124
+  - first:
+      213: 21300250
+    second: Bunchofitems_125
+  - first:
+      213: 21300252
+    second: Bunchofitems_126
+  - first:
+      213: 21300254
+    second: Bunchofitems_127
+  - first:
+      213: 21300256
+    second: Bunchofitems_128
+  - first:
+      213: 21300258
+    second: Bunchofitems_129
+  - first:
+      213: 21300260
+    second: Bunchofitems_130
+  - first:
+      213: 21300262
+    second: Bunchofitems_131
+  - first:
+      213: 21300264
+    second: Bunchofitems_132
+  - first:
+      213: 21300266
+    second: Bunchofitems_133
+  - first:
+      213: 21300268
+    second: Bunchofitems_134
+  - first:
+      213: 21300270
+    second: Bunchofitems_135
+  - first:
+      213: 21300272
+    second: Bunchofitems_136
+  - first:
+      213: 21300274
+    second: Bunchofitems_137
+  - first:
+      213: 21300276
+    second: Bunchofitems_138
+  - first:
+      213: 21300278
+    second: Bunchofitems_139
+  - first:
+      213: 21300280
+    second: Bunchofitems_140
+  - first:
+      213: 21300282
+    second: Bunchofitems_141
+  - first:
+      213: 21300284
+    second: Bunchofitems_142
+  - first:
+      213: 21300286
+    second: Bunchofitems_143
+  - first:
+      213: 21300288
+    second: Bunchofitems_144
+  - first:
+      213: 21300290
+    second: Bunchofitems_145
+  - first:
+      213: 21300292
+    second: Bunchofitems_146
+  - first:
+      213: 21300294
+    second: Bunchofitems_147
+  - first:
+      213: 21300296
+    second: Bunchofitems_148
+  - first:
+      213: 21300298
+    second: Bunchofitems_149
+  - first:
+      213: 21300300
+    second: Bunchofitems_150
+  - first:
+      213: 21300302
+    second: Bunchofitems_151
+  - first:
+      213: 21300304
+    second: Bunchofitems_152
+  - first:
+      213: 21300306
+    second: Bunchofitems_153
+  - first:
+      213: 21300308
+    second: Bunchofitems_154
+  - first:
+      213: 21300310
+    second: Bunchofitems_155
+  - first:
+      213: 21300312
+    second: Bunchofitems_156
+  - first:
+      213: 21300314
+    second: Bunchofitems_157
+  - first:
+      213: 21300316
+    second: Bunchofitems_159
+  - first:
+      213: 21300318
+    second: Bunchofitems_161
+  - first:
+      213: 21300320
+    second: Bunchofitems_163
+  - first:
+      213: 21300322
+    second: Bunchofitems_165
+  - first:
+      213: 21300324
+    second: Bunchofitems_167
+  - first:
+      213: 21300326
+    second: Bunchofitems_168
+  - first:
+      213: 21300328
+    second: Bunchofitems_169
+  - first:
+      213: 21300330
+    second: Bunchofitems_170
+  - first:
+      213: 21300332
+    second: Bunchofitems_171
+  - first:
+      213: 21300334
+    second: Bunchofitems_172
+  - first:
+      213: 21300336
+    second: Bunchofitems_173
+  - first:
+      213: 21300338
+    second: Bunchofitems_174
+  - first:
+      213: 21300340
+    second: Bunchofitems_175
+  - first:
+      213: 21300342
+    second: Bunchofitems_177
+  - first:
+      213: 21300344
+    second: Bunchofitems_178
+  - first:
+      213: 21300346
+    second: Bunchofitems_179
+  - first:
+      213: 21300348
+    second: Bunchofitems_180
+  - first:
+      213: 21300350
+    second: Bunchofitems_181
+  - first:
+      213: 21300352
+    second: Bunchofitems_182
+  - first:
+      213: 21300354
+    second: Bunchofitems_183
+  - first:
+      213: 21300356
+    second: Bunchofitems_184
+  - first:
+      213: 21300358
+    second: Bunchofitems_185
+  - first:
+      213: 21300360
+    second: Bunchofitems_186
+  - first:
+      213: 21300362
+    second: Bunchofitems_187
+  - first:
+      213: 21300364
+    second: Bunchofitems_188
+  - first:
+      213: 21300366
+    second: Bunchofitems_189
+  - first:
+      213: 21300368
+    second: Bunchofitems_190
+  - first:
+      213: 21300370
+    second: Bunchofitems_191
+  - first:
+      213: 21300372
+    second: Bunchofitems_192
+  - first:
+      213: 21300374
+    second: Bunchofitems_193
+  - first:
+      213: 21300376
+    second: Bunchofitems_194
+  - first:
+      213: 21300378
+    second: Bunchofitems_195
+  - first:
+      213: 21300380
+    second: Bunchofitems_196
+  - first:
+      213: 21300382
+    second: Bunchofitems_197
+  - first:
+      213: 21300384
+    second: Bunchofitems_198
+  - first:
+      213: 21300386
+    second: Bunchofitems_199
+  - first:
+      213: 21300388
+    second: Bunchofitems_200
+  - first:
+      213: 21300390
+    second: Bunchofitems_201
+  - first:
+      213: 21300392
+    second: Bunchofitems_202
+  - first:
+      213: 21300394
+    second: Bunchofitems_203
+  - first:
+      213: 21300396
+    second: Bunchofitems_204
+  - first:
+      213: 21300398
+    second: Bunchofitems_205
+  - first:
+      213: 21300400
+    second: Bunchofitems_206
+  - first:
+      213: 21300402
+    second: Bunchofitems_207
+  - first:
+      213: 21300404
+    second: Bunchofitems_208
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bunchofitems_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 927
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eb020cfae3b514384beb7519f9d70d
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 939
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710bd527c8a7bf940a5e90a1413969c1
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 932
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbcad1aa15be3f43976888a557d8e2d
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 934
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c79c6197a73d547876ca3ba14080bb
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 938
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ce84dd21e17c541abab2d44ea4d5d4
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_5
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 894
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a41d15a15a42bd4ab0ff6078ed3799e
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 894
+        width: 25
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6737915, y: 0.48235306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335c8ccd6b6dc043bad91bb590f707c
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 930
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb5ecb4015d43449b52edf20a866f1c
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 920
+        width: 10
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6a81ce6b78fe14798a1308b31897f8
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_9
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 921
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdef14f331a77e44a63cc7db8afe252
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_10
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 917
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b10f3273ecab245a57989cf2077089
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_11
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 911
+        width: 9
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1e3f89b9109344882c0a4fae0c50d6
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_12
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 918
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcac7d158beb49468af984b44e63687
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_13
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 904
+        width: 11
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67839a6cfdb4edf438e9304a85941a7f
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_14
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 908
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ccdfbd1dfff794dbac96971598ca5e
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_15
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 916
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf9106d98c79a54c9ddf1e9db62dffa
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 913
+        width: 16
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb602cdb290fcb6419d71dcbf260ef5f
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_17
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 919
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d416eeeeaa674990ddbd7ea886286
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_18
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 925
+        width: 6
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8485dbc83f1c2434983082c4736dedcb
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_19
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 928
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f635630afb7abc64ba6c50327a322698
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_20
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 927
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49abf161689bea64a95aff04bd811000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_21
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 928
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf54f581a2061394aa684272e4294456
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_22
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 808
+        width: 23
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04780f52492d6d438973fd16525ab42
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_23
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 809
+        width: 23
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38fc1981ca474b4fb35499d22dde777
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_24
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 808
+        width: 29
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06558f6c3031299429976929595d46fb
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_25
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 894
+        width: 14
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e6e6c05a3beac438c01ee1221fc7da
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_26
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 893
+        width: 14
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8d8ed61158a6544ad78406f3d627e9
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_27
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 893
+        width: 14
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63329ef813018aa448f429714c751dd2
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 880
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9167a7257af9d54bbb6f7e759efcda6
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 880
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4454c62a53f8d42904843f4526d2c2
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 883
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc50e02549a350a4f802f5a812a8e554
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 880
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eff02e43a126dc47b38b536142bef83
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_32
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 883
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974bd79fe1e27874ba06837e155820f8
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_33
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 885
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2fce0cf7a37824cb6da68065fbc998
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_34
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 895
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb957d24bf391744fb46677a03aec502
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_35
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 897
+        width: 50
+        height: 31
+      alignment: 9
+      pivot: {x: 0.45008117, y: 0.39861667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94d947c575e315428955876226c8746
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_36
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 862
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e2d357fe7283840ab902d6f75bd510
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_37
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 862
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24c58d651832a445ad488886e94e221
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_38
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 862
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10afb694ac9862b44a943d8bb8774b5c
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_39
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 829
+        width: 17
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c778b1ac381c5f54cafd8aa478033b89
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_40
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 827
+        width: 14
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb9b006c7a04954597b01a658356e74
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_41
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 826
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58b20821b06e704a81ad7097ab5781c
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_42
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 792
+        width: 9
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afce40569e4047b40b581401f8949774
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_43
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 792
+        width: 7
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f746773d864175f4087999203f9b0999
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_44
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 792
+        width: 7
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c4892a1f1d7ac48892860f564b6960
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_45
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 756
+        width: 24
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47b4758a11404d40955cf79592b73d6
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_46
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 756
+        width: 21
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13990431a1cccd04e9fe4f15aeae5f50
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_47
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 756
+        width: 22
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5ff5ca7682cc246bed322de4e9e4b8
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_48
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 853
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7e041a0e50bc64a801ef06f373e1b7
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_49
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 854
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cb5f93fb0d36a4da72956034de36b7
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_50
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 852
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81fce8976f77b3478168427fb5e2407
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_51
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 798
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3128eb010ad7cc44685cd1df0ac2c53f
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_52
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 798
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5474911, y: 0.4505221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be2ba51d84e6594d9582f8aba817d4e
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_53
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 799
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b83baec85071df4c93f3a872032c04a
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_54
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a58c589169483146bf69d899a6f86e4
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8e0d367ebaf724fa9a2959301b65e9
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_56
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c6ad057086ff46950ff361d8095a4
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_57
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fbe1b5c001a4e46a16c1db4be7873b
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_58
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 804
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd038ffceee9318479b67593eabafddf
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_59
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 802
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c09adee683e994b9088037f1ccb58c
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_60
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 803
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b10cc30c1d304d9316428de89b6b6
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_61
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 825
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa2db27b9f4267439504df5507c7e53
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_62
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 826
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80406303861729e4e9224d62ed75edbe
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_63
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 824
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39878621309b24a43baa8fdf66c16821
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_64
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 774
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf681f11883e084fa9dd16a188b3697
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_65
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 775
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e9951fe74f4c44f8ab66e3d0db0081
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_66
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 775
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870020ad9ab1b1e46a58f279657c32f3
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_67
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 711
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da85f3c0ff0b13e4db18c5c9cedff422
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_68
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 718
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6214b1660217ba48aa9c67890a41aba
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_69
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 720
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b41bec35737c84384296709cc0e8d4
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_70
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 719
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de01dffd973b5f42ae2f46f2a212626
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_71
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 720
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df38979d3cc9fe4b803e5fa995183f7
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_72
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 721
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e68fa3c7c9db14baf8ade23e2232a2
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_73
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 723
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efad0e69b01d8704d9146bec0346b01f
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_74
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 717
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81200d7e6dd35554b99722ca82eb96d2
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_75
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 716
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b2ddec16646b040aa7851b2f915fb1
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_76
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 715
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79babee7110b544990a0eff6572dffa
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_77
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 707
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e322c80ec4387e548aacd783e87d8c21
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_78
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 708
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdd08c134917654fa3874b85f879dbb
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_79
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 709
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb26324bed47e64d8cdf4ca5d8c6595
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_80
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 709
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33eb3101d72a34cb65b5d89128a501
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_81
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 710
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c6710653fb73b4a982960cd8234a99
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_82
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 635
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19484b8ea9ac1946bac486d6932f2a7
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_83
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 638
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242dccfc928975f48b3113999146f84a
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_84
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 639
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a907d74b11fc24da0e4cc3ecadfc67
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_85
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 641
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b915b7d270702448ae89d74d0e3d23
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_86
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 642
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d72e35b30a9974a9e229e888ddb7ef
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_87
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 641
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5817deed66902934ca0a94a1f1ee2bcb
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_88
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 638
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f314512a6365c8343b6592992fdb3b81
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_89
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 635
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e119b690c5292b46a28450cae2272e3
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_90
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 634
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584cf5f642919b0499d38ea69eb2c65f
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_91
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 634
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e9dfabab62e6244949676628d87c73
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_92
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 635
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e9db79042d3734ca35aeb41b404366
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_93
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 635
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8189ebd3f801a484ca395f01f5399878
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_94
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 635
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d7eb4f4a51e384e863d8f77d2931af
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_95
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 637
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592dd0bb5defbbe48a493d4fb578074a
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_96
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 638
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7d84e3f314b7d4c8a6371ee3b63293
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_97
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 592
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba341d1f45022cc42885a970004d603e
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_98
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 593
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0efc37f4d39847428dcdbe2c704dfc4
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_99
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 593
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417051a4bd756e847b4d9370c4404a9f
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_100
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 593
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4239351cbcd8ba14380bfa2a1228d276
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_101
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 593
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee9e4c4cff63604aafe4c356e807851
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_102
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 570
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a46eec447d39644a0e0e378d797a62
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_103
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 566
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2657c2da597e7064b82c9dcccaf0d26b
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_104
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 569
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a96e70b4cab5742ab82ac140d45237
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_105
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 568
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338ea4b70d790f24e8191439763904a0
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_106
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 572
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decc14287b32ffd4294217eb92a1fa08
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_107
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 597
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee2363daa2dce745a11391b7d6c9e73
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_108
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 598
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100dc15465eb8d649a5a38a5f7055cc8
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_109
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 586
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9014a48cc5dd9464786f7970ac44025a
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_110
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 584
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa1ca49326036048afcc8491e6930a8
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_111
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 597
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6cee171ae37c140a70281180300edc
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_112
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 588
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35aa6aad274437646aca008a403fac3d
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_113
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 589
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b1ebc0dcf5bd54881059f4a1a37166
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_114
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 590
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2908621999cd14e88964495fcbf9a2
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_115
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 594
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f7ab8ca1f9da64e94920e4f2c8f3ec
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_116
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 593
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeecb4a33c03dc429fe07b701b0884b
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_117
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 592
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f07be69baa99d43b3ce3e6728121eb
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_118
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 591
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b8dbb0482b87c4bb6d1a08c4c6226f
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_119
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 591
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1951194c89897a540a5492a5b17d1729
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_120
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 591
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d9030aabf66cc45a1e487625ae64be
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_121
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 592
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf85451d0cbd2e43bd36e2e1c9cb997
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_122
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 592
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d96d5704bfb9e4e9929ab441c21b70
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_123
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 592
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd0478d51e620d4eb6d62debe96d186
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_124
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 565
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f405365ca02386e428a423d8f7dca981
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_125
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 567
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f400bd25212384248b6d13f5ed646186
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_126
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 566
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea22fd9512a67d43954a40c0d502b91
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_127
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 567
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdd7855357c62e409d428ed2005f127
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_128
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 545
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12d3cc0662be0d4b8fe327bf9e64bb0
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_129
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 579
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961854702672df24d8a102f7a001b21c
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_130
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 553
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897bb56a18d3e2b4895216a3674b1f1c
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_131
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 554
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ad8f8e3c929844b877294bc62003ac
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_132
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 555
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ac95f0540b13c4e9b33bcaf1cae76c
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_133
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 566
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7542a91deb664644fb83b48d7d782cdf
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_134
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 547
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8e09e3f99b53541a213284a7738225
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_135
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 539
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8b311aac491ad42b94639ad627f2d0
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_136
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 537
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce994a3bf8ef4a94194a8cb788f6a8f5
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_137
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 538
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916f122af0460c6459367c169d31cf85
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_138
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 539
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de55cf2e95d302428ffe59c282d4480
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_139
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 539
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d328bd85398d9024794f97161c8cc8f2
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_140
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 539
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aa46f429e97984c9761a674fc4a314
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_141
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 539
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d87edb0bf6a514db76ddcf63e09c43
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_142
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 507
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86210aa13d25094d95d158dcfdfcd75
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_143
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 503
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a23763bf8202a4cbab91b54e007428
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_144
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 506
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31471c967d8645a49812f32d7de49a8e
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_145
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 506
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82a2b63bdcff27478c19c0a3c313311
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_146
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 509
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5955c6ee1d88cd2458004d57d8ddd7cc
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_147
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 542
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12545e9ea6818f488095b8f7617950d
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_148
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 514
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709c1b6b1c5779a4b8a15c8cc626a1e0
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_149
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 514
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23d2bf12d3cb234eac23c17977f1929
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_150
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 514
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4c68f497663f948a514825eaa8a442
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_151
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 514
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3a044b242b6f14fafc9cbd5d87e9b5
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_152
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 516
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc93b3893aba1af42a548a7de03da1ff
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_153
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 501
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de86e25cf2b60cd43aaef0d45b038fe7
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_154
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 500
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5827b092ad6984ca7509b1defd5867
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_155
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 499
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86319ffd62f534fa0c5d538954c45d
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_156
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 499
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d41cf11ec4530f4495ea515c1e8a741
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_157
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 501
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5ca8034c0511d4ebc241f82a21bbc1
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_159
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 498
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daa50633114fdf42a109fcb1338c84d
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_161
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 496
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8703c1d76838d847a6f72112148fcc4
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_163
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 492
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf7497e69b688746b3ca43e00fa5f28
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_165
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 487
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef38cd67bf69cb543b09aa7a73981f9a
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_167
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 490
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b76db3136df7443a9a75c3e674b71e
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_168
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 496
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e54364b4e19320438cd194917bf66db
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_169
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 496
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7ce3653aad0ed4ab638d4bfacc0ac1
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_170
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 496
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8c0756c2353a840802bd8ff3b4d4c5
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_171
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 496
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aca5f72f32e83649895c5750330d556
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_172
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 498
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2467cc2763c83846ba41e6ad7c557d5
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_173
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 445
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc0e644d9f5d914d8f63e273e962ea7
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_174
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 445
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65177623ec9ff1b4595e01f1e46b4bb3
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_175
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 450
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8819cbcc855d2c94b9a52808f67b12ee
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_177
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 479
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8e848687018a34b925b28787960a3c
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_178
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 479
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a530a12f23d384da85699dad947528
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_179
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 479
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58c762e0651aba428c71e15bf989159
+      internalID: 21300346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_180
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 479
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511ed7787f022da4e887c5a220cb2716
+      internalID: 21300348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_181
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 481
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0897f39a8b768e4ea3ab2783eb48771
+      internalID: 21300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_182
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 446
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a523a1427f48ae4eb47d68abcfdb879
+      internalID: 21300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_183
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 442
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7a4b89854763d4995e219152b04451
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_184
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 451
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a20ed4f053361b47a17ca357e0a6c4e
+      internalID: 21300356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_185
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 456
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d5f6f7277ae3b48a89780997b0f6d0
+      internalID: 21300358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_186
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 467
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eed8c02fc7550f44b8b61a897b305b8
+      internalID: 21300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_187
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 467
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497658676649ef742bb84c82a7781e03
+      internalID: 21300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_188
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 435
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db126cc89b46064b9269b86a72b5816
+      internalID: 21300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_189
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 435
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440e7e703a3aa384cbda5d8cc913afd3
+      internalID: 21300366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_190
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 358
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556d73bed52d4f44ab544baf8e65f6ec
+      internalID: 21300368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_191
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 358
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3119b7dc0dbcf40bb9be3c0592cf60
+      internalID: 21300370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_192
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 360
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b023c6e8d82f98409542ab2b137bdf2
+      internalID: 21300372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_193
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 360
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d03cf648867e747ad1af0c7f7e46c0
+      internalID: 21300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_194
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 361
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1785eece69100a41b4d5079f0d51b84
+      internalID: 21300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_195
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 360
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37824e63941eecc4594686a53d3b0d17
+      internalID: 21300378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_196
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 308
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd78357351190b49ae39d5c5cfa153a
+      internalID: 21300380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_197
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 308
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c72f35ae1b91943866bc48aec6bf16
+      internalID: 21300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_198
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 316
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28005b6f72b2974ebfe93049b040279
+      internalID: 21300384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_199
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 316
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca807b065a6fda04484b1e83156747d7
+      internalID: 21300386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_200
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 307
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16244bd1cae32624381e9be9c3301293
+      internalID: 21300388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_201
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 306
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcff8e41173ad94b9558b4452a91267
+      internalID: 21300390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_202
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 261
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac5545835b96414498b14307c876aba
+      internalID: 21300392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_203
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 261
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd4a21ba30458d4ab30bd227a585608
+      internalID: 21300394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_204
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 266
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16d7e847f49c444181c82d6ee2af596
+      internalID: 21300396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_205
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 266
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02a3a1b56f09864590f7fcf199fa65c
+      internalID: 21300398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_206
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 253
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decfac3257891b740a89384f34293d8c
+      internalID: 21300400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_207
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 252
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4878398b9a0a31b47abbd7a07d5d2588
+      internalID: 21300402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunchofitems_208
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 404
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e01b7c1e93c4f45855106f17f633c3
+      internalID: 21300404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 89a428c513638df47a546dde8380f2dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bunchofitems_0: 21300000
+      Bunchofitems_1: 21300002
+      Bunchofitems_10: 21300020
+      Bunchofitems_100: 21300200
+      Bunchofitems_101: 21300202
+      Bunchofitems_102: 21300204
+      Bunchofitems_103: 21300206
+      Bunchofitems_104: 21300208
+      Bunchofitems_105: 21300210
+      Bunchofitems_106: 21300212
+      Bunchofitems_107: 21300214
+      Bunchofitems_108: 21300216
+      Bunchofitems_109: 21300218
+      Bunchofitems_11: 21300022
+      Bunchofitems_110: 21300220
+      Bunchofitems_111: 21300222
+      Bunchofitems_112: 21300224
+      Bunchofitems_113: 21300226
+      Bunchofitems_114: 21300228
+      Bunchofitems_115: 21300230
+      Bunchofitems_116: 21300232
+      Bunchofitems_117: 21300234
+      Bunchofitems_118: 21300236
+      Bunchofitems_119: 21300238
+      Bunchofitems_12: 21300024
+      Bunchofitems_120: 21300240
+      Bunchofitems_121: 21300242
+      Bunchofitems_122: 21300244
+      Bunchofitems_123: 21300246
+      Bunchofitems_124: 21300248
+      Bunchofitems_125: 21300250
+      Bunchofitems_126: 21300252
+      Bunchofitems_127: 21300254
+      Bunchofitems_128: 21300256
+      Bunchofitems_129: 21300258
+      Bunchofitems_13: 21300026
+      Bunchofitems_130: 21300260
+      Bunchofitems_131: 21300262
+      Bunchofitems_132: 21300264
+      Bunchofitems_133: 21300266
+      Bunchofitems_134: 21300268
+      Bunchofitems_135: 21300270
+      Bunchofitems_136: 21300272
+      Bunchofitems_137: 21300274
+      Bunchofitems_138: 21300276
+      Bunchofitems_139: 21300278
+      Bunchofitems_14: 21300028
+      Bunchofitems_140: 21300280
+      Bunchofitems_141: 21300282
+      Bunchofitems_142: 21300284
+      Bunchofitems_143: 21300286
+      Bunchofitems_144: 21300288
+      Bunchofitems_145: 21300290
+      Bunchofitems_146: 21300292
+      Bunchofitems_147: 21300294
+      Bunchofitems_148: 21300296
+      Bunchofitems_149: 21300298
+      Bunchofitems_15: 21300030
+      Bunchofitems_150: 21300300
+      Bunchofitems_151: 21300302
+      Bunchofitems_152: 21300304
+      Bunchofitems_153: 21300306
+      Bunchofitems_154: 21300308
+      Bunchofitems_155: 21300310
+      Bunchofitems_156: 21300312
+      Bunchofitems_157: 21300314
+      Bunchofitems_159: 21300316
+      Bunchofitems_16: 21300032
+      Bunchofitems_161: 21300318
+      Bunchofitems_163: 21300320
+      Bunchofitems_165: 21300322
+      Bunchofitems_167: 21300324
+      Bunchofitems_168: 21300326
+      Bunchofitems_169: 21300328
+      Bunchofitems_17: 21300034
+      Bunchofitems_170: 21300330
+      Bunchofitems_171: 21300332
+      Bunchofitems_172: 21300334
+      Bunchofitems_173: 21300336
+      Bunchofitems_174: 21300338
+      Bunchofitems_175: 21300340
+      Bunchofitems_177: 21300342
+      Bunchofitems_178: 21300344
+      Bunchofitems_179: 21300346
+      Bunchofitems_18: 21300036
+      Bunchofitems_180: 21300348
+      Bunchofitems_181: 21300350
+      Bunchofitems_182: 21300352
+      Bunchofitems_183: 21300354
+      Bunchofitems_184: 21300356
+      Bunchofitems_185: 21300358
+      Bunchofitems_186: 21300360
+      Bunchofitems_187: 21300362
+      Bunchofitems_188: 21300364
+      Bunchofitems_189: 21300366
+      Bunchofitems_19: 21300038
+      Bunchofitems_190: 21300368
+      Bunchofitems_191: 21300370
+      Bunchofitems_192: 21300372
+      Bunchofitems_193: 21300374
+      Bunchofitems_194: 21300376
+      Bunchofitems_195: 21300378
+      Bunchofitems_196: 21300380
+      Bunchofitems_197: 21300382
+      Bunchofitems_198: 21300384
+      Bunchofitems_199: 21300386
+      Bunchofitems_2: 21300004
+      Bunchofitems_20: 21300040
+      Bunchofitems_200: 21300388
+      Bunchofitems_201: 21300390
+      Bunchofitems_202: 21300392
+      Bunchofitems_203: 21300394
+      Bunchofitems_204: 21300396
+      Bunchofitems_205: 21300398
+      Bunchofitems_206: 21300400
+      Bunchofitems_207: 21300402
+      Bunchofitems_208: 21300404
+      Bunchofitems_21: 21300042
+      Bunchofitems_22: 21300044
+      Bunchofitems_23: 21300046
+      Bunchofitems_24: 21300048
+      Bunchofitems_25: 21300050
+      Bunchofitems_26: 21300052
+      Bunchofitems_27: 21300054
+      Bunchofitems_28: 21300056
+      Bunchofitems_29: 21300058
+      Bunchofitems_3: 21300006
+      Bunchofitems_30: 21300060
+      Bunchofitems_31: 21300062
+      Bunchofitems_32: 21300064
+      Bunchofitems_33: 21300066
+      Bunchofitems_34: 21300068
+      Bunchofitems_35: 21300070
+      Bunchofitems_36: 21300072
+      Bunchofitems_37: 21300074
+      Bunchofitems_38: 21300076
+      Bunchofitems_39: 21300078
+      Bunchofitems_4: 21300008
+      Bunchofitems_40: 21300080
+      Bunchofitems_41: 21300082
+      Bunchofitems_42: 21300084
+      Bunchofitems_43: 21300086
+      Bunchofitems_44: 21300088
+      Bunchofitems_45: 21300090
+      Bunchofitems_46: 21300092
+      Bunchofitems_47: 21300094
+      Bunchofitems_48: 21300096
+      Bunchofitems_49: 21300098
+      Bunchofitems_5: 21300010
+      Bunchofitems_50: 21300100
+      Bunchofitems_51: 21300102
+      Bunchofitems_52: 21300104
+      Bunchofitems_53: 21300106
+      Bunchofitems_54: 21300108
+      Bunchofitems_55: 21300110
+      Bunchofitems_56: 21300112
+      Bunchofitems_57: 21300114
+      Bunchofitems_58: 21300116
+      Bunchofitems_59: 21300118
+      Bunchofitems_6: 21300012
+      Bunchofitems_60: 21300120
+      Bunchofitems_61: 21300122
+      Bunchofitems_62: 21300124
+      Bunchofitems_63: 21300126
+      Bunchofitems_64: 21300128
+      Bunchofitems_65: 21300130
+      Bunchofitems_66: 21300132
+      Bunchofitems_67: 21300134
+      Bunchofitems_68: 21300136
+      Bunchofitems_69: 21300138
+      Bunchofitems_7: 21300014
+      Bunchofitems_70: 21300140
+      Bunchofitems_71: 21300142
+      Bunchofitems_72: 21300144
+      Bunchofitems_73: 21300146
+      Bunchofitems_74: 21300148
+      Bunchofitems_75: 21300150
+      Bunchofitems_76: 21300152
+      Bunchofitems_77: 21300154
+      Bunchofitems_78: 21300156
+      Bunchofitems_79: 21300158
+      Bunchofitems_8: 21300016
+      Bunchofitems_80: 21300160
+      Bunchofitems_81: 21300162
+      Bunchofitems_82: 21300164
+      Bunchofitems_83: 21300166
+      Bunchofitems_84: 21300168
+      Bunchofitems_85: 21300170
+      Bunchofitems_86: 21300172
+      Bunchofitems_87: 21300174
+      Bunchofitems_88: 21300176
+      Bunchofitems_89: 21300178
+      Bunchofitems_9: 21300018
+      Bunchofitems_90: 21300180
+      Bunchofitems_91: 21300182
+      Bunchofitems_92: 21300184
+      Bunchofitems_93: 21300186
+      Bunchofitems_94: 21300188
+      Bunchofitems_95: 21300190
+      Bunchofitems_96: 21300192
+      Bunchofitems_97: 21300194
+      Bunchofitems_98: 21300196
+      Bunchofitems_99: 21300198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

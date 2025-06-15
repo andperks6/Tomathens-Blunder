@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 38c59a38e132c0946961421e179e21af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: animal animations_0
+  - first:
+      213: 21300002
+    second: animal animations_1
+  - first:
+      213: 21300004
+    second: animal animations_2
+  - first:
+      213: 21300006
+    second: animal animations_3
+  - first:
+      213: 21300008
+    second: animal animations_4
+  - first:
+      213: 21300010
+    second: animal animations_5
+  - first:
+      213: 21300012
+    second: animal animations_6
+  - first:
+      213: 21300014
+    second: animal animations_7
+  - first:
+      213: 21300016
+    second: animal animations_8
+  - first:
+      213: 21300018
+    second: animal animations_9
+  - first:
+      213: 21300020
+    second: animal animations_10
+  - first:
+      213: 21300022
+    second: animal animations_11
+  - first:
+      213: 21300024
+    second: animal animations_12
+  - first:
+      213: 21300026
+    second: animal animations_13
+  - first:
+      213: 21300028
+    second: animal animations_14
+  - first:
+      213: 21300030
+    second: animal animations_15
+  - first:
+      213: 21300032
+    second: animal animations_16
+  - first:
+      213: 21300034
+    second: animal animations_17
+  - first:
+      213: 21300036
+    second: animal animations_18
+  - first:
+      213: 21300038
+    second: animal animations_19
+  - first:
+      213: 21300040
+    second: animal animations_20
+  - first:
+      213: 21300042
+    second: animal animations_21
+  - first:
+      213: 21300044
+    second: animal animations_22
+  - first:
+      213: 21300046
+    second: animal animations_23
+  - first:
+      213: 21300048
+    second: animal animations_24
+  - first:
+      213: 21300050
+    second: animal animations_25
+  - first:
+      213: 21300052
+    second: animal animations_26
+  - first:
+      213: 21300054
+    second: animal animations_27
+  - first:
+      213: 21300056
+    second: animal animations_28
+  - first:
+      213: 21300058
+    second: animal animations_29
+  - first:
+      213: 21300060
+    second: animal animations_30
+  - first:
+      213: 21300062
+    second: animal animations_31
+  - first:
+      213: 21300064
+    second: animal animations_32
+  - first:
+      213: 21300066
+    second: animal animations_33
+  - first:
+      213: 21300068
+    second: animal animations_34
+  - first:
+      213: 21300070
+    second: animal animations_35
+  - first:
+      213: 21300072
+    second: animal animations_36
+  - first:
+      213: 21300074
+    second: animal animations_37
+  - first:
+      213: 21300076
+    second: animal animations_38
+  - first:
+      213: 21300078
+    second: animal animations_39
+  - first:
+      213: 21300080
+    second: animal animations_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animal animations_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 654
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d1a8aa93f9ff848bb86b1deee8962a
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 653
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1e3a5154e12f4688978c746deeeb8
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 652
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed966a98d2122048b73c20f3640813a
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 652
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d628337cce28c9b4e8f338928acaf5c3
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 653
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f869b144badd16443988c74f07aa74ff
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 592
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f61eb03d98674642906bdf74c9e5112
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 591
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3dcf25e25e5ea42be75b16ac586d8a
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 591
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb018d48cff95d4c9531c709c9a2b0b
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 592
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd09f9d12e8957249b081ade583de348
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 593
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda46e62ee686d14194ae60d0cf56f00
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 517
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bd5344797456947bca3bd4f82b1e5b
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 518
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86367ef944b14d54f822a12f41d5bd2b
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 519
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3232f6eb34e8140a9166b24820b29b
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 516
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d74dbb70d466048b906fb623bf0a3e
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 515
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e91390df5b18b4db86a7613d332ac5
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 444
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0881605ec048f974b933f56ce79f89fa
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 446
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f2e3e1264f2e348a004af3b7fbbc34
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 446
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92851a7895acff94ebdefc0cee448d73
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 447
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8d028f64d1d92408ffb67c70840dd4
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_19
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 443
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bae2a4aebc4fd4fbb2fa86008b42c8
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 353
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48006958094c166458b889f4862522e8
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 359
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c697bd004692da43b5e60679c4ccb07
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_22
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 356
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f35b35191c2bb459593988dd389242
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 359
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8742651e1b4cf44988953e3b64fe54
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_24
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 360
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315e9f3ff9bdf6e41a04a4f02c5cffb6
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 265
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275ac0a0ad87c16498eddfb59cca1767
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_26
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 267
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cbf4bbb0554a342b4c903699f7a9fe
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 267
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcc4cbf8ce274d42bfa19a456de552a
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_28
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 264
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e019cfb5e89ce5547bbf4e9a6023d40d
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 262
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313649e4f16121947bab6245fad789fd
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 199
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bf480f2548c8c4eaf6a0394f88d2c1
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 199
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c7cd8ad6ec0df498b808104baec52f
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 199
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9397d8b17651647b41a9d868adc522
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_33
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 199
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dcd70186bedb04fb117cd78445b2c4
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 132
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0948034583d84af47a749c3f6589041c
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 132
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05470e1be77bf242aebb4410cfccbc2
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba2a3e095438c46a8424b83d12d5ff
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_37
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 52
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c70bc0bf8c8a49bbfbba623cbc8c9
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 48
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da466ee6f50410f4c827477ffd05e77e
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_39
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 59
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe76c4e0977fc4c8895cff01faecc6
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal animations_40
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 56
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e330e877a7db054285152b576f75c05
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 41417fea8d46c4f44961fb8801b51461
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animal animations_0: 21300000
+      animal animations_1: 21300002
+      animal animations_10: 21300020
+      animal animations_11: 21300022
+      animal animations_12: 21300024
+      animal animations_13: 21300026
+      animal animations_14: 21300028
+      animal animations_15: 21300030
+      animal animations_16: 21300032
+      animal animations_17: 21300034
+      animal animations_18: 21300036
+      animal animations_19: 21300038
+      animal animations_2: 21300004
+      animal animations_20: 21300040
+      animal animations_21: 21300042
+      animal animations_22: 21300044
+      animal animations_23: 21300046
+      animal animations_24: 21300048
+      animal animations_25: 21300050
+      animal animations_26: 21300052
+      animal animations_27: 21300054
+      animal animations_28: 21300056
+      animal animations_29: 21300058
+      animal animations_3: 21300006
+      animal animations_30: 21300060
+      animal animations_31: 21300062
+      animal animations_32: 21300064
+      animal animations_33: 21300066
+      animal animations_34: 21300068
+      animal animations_35: 21300070
+      animal animations_36: 21300072
+      animal animations_37: 21300074
+      animal animations_38: 21300076
+      animal animations_39: 21300078
+      animal animations_4: 21300008
+      animal animations_40: 21300080
+      animal animations_5: 21300010
+      animal animations_6: 21300012
+      animal animations_7: 21300014
+      animal animations_8: 21300016
+      animal animations_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
