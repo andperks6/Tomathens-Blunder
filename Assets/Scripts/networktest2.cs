@@ -1,10 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
 
 public class networktest2 : NetworkBehaviour
 {
+
     public GameObject[] races;
     
     public int boxident;
@@ -13,6 +14,8 @@ public class networktest2 : NetworkBehaviour
     startbuttons whichRaceObj;
     public NetworkConnection con2;
     public GameObject toad;
+    //TODO: validate best start position. took base value from playerstart pos game object
+	  public Vector3 playerSpawnPosition = new Vector3(127.93f, -57.8f, 0);
     // Start is called before the first frame update
     void Start()
     {
