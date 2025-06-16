@@ -35,12 +35,15 @@ public class startbuttons : MonoBehaviour
         {
             size = true;
         }
+
         public void OnMouseDown()
         {
         if (gameObject.tag == "PlayerIcon")
         {
 
             parent.whichRace = boxident;
+            parent.ShowSelectedChar(this);
+
         }
         // TODO: add switching teams functionality
         //  if (gameObject.tag == "Next")
