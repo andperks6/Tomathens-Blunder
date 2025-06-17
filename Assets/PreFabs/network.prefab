@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 5609412915715863282}
   - component: {fileID: 5609412915715863283}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: titleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 5609412916785932079}
   - component: {fileID: 5609412916785932048}
   m_Layer: 5
-  m_Name: Text
+  m_Name: subtitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -522,7 +522,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'In Memory Of
 
-    a Dear Brother'
+    Sam Dahlgren'
 --- !u!1 &5609412917035411721
 GameObject:
   m_ObjectHideFlags: 0
