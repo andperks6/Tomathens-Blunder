@@ -14,10 +14,13 @@ public class MerchantShop : MonoBehaviour {
     private bool buy1;
     private int onlybuyonce;
     private int coinDed;
-    public int whichStore;
-    public bool isspell;
+    public int whichStore; // 1 = items/spells, 2 = keys
+    private ItemType currentItemType;
     public int window;
     public ShopText sp;
+
+    private const int NORMAL_ITEM_COST = 1;
+    private const int KEY_COST = 9;
 
     // Use this for initialization
     void Start () {
@@ -27,202 +30,33 @@ public class MerchantShop : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-        coin = playerinfo.playerGold;
-        
-        sp.content = coin.ToString();
-        if (whichStore == 1)
-        {
-            if (buy1 == true && onlybuyonce != whichItem)
-                //be sure to redo all the costs, theyre all at 1 coin just for testing.
-            {
-                if (whichItem == 1 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 1, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 2 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 2, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 3 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 3, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 4 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 4, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 5 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 5, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 6 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 6, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 7 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 7, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 8 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 8, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 9 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 9, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 10 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 10, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 11 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 11, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 12 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 12, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 13 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 13, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 14 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 14, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 15 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 15, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 16 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 16, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 17 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 17, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 18 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 18, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 19 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 19, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 20 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1,20, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 21 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 21, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 22 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 22, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 23 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 23, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 24 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 24, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 25 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 25, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 26 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 26, isspell);
-                    buy1 = false;
-                }
-                if (whichItem == 27 && coin > 1)
-                {
-                    playerStat.GetComponent<StatManager>().itemBought(1, 27, isspell);
-                    buy1 = false;
-                }
-            }
-        }
-        if (whichStore == 2)
-        {
-            if (buy1 == true )
+	   void Update () {
+	       coin = playerinfo.playerGold;
+	       sp.content = coin.ToString();
 
-            {
-                if (whichItem == 1 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1, 1);
-                    buy1 = false;
-                }
-                if (whichItem == 2 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1, 2);
-                    buy1 = false;
-                }
-                if (whichItem == 3 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1, 3);
-                    buy1 = false;
-                }
-                if (whichItem == 4 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1, 4);
-                    buy1 = false;
-                }
-                if (whichItem == 5 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1, 5);
-                    buy1 = false;
-                }
-                if (whichItem == 6 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1 ,6);
-                    buy1 = false;
-                }
-                if (whichItem == 7 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1 , 7);
-                    buy1 = false;
-                }
-                if (whichItem == 8 && coin > 9)
-                {
-                    playerStat.GetComponent<StatManager>().KeyBought(1 , 8);
-                    buy1 = false;
-                }
-               
-
-            }
-        }
-
+	       if (buy1 && onlybuyonce != whichItem) {
+	           bool canAfford = false;
+	           int cost = (whichStore == 2) ? KEY_COST : NORMAL_ITEM_COST;
+	           
+	           if (coin > cost) {
+	               canAfford = true;
+	               
+	               if (whichStore == 1) {
+	                   // Regular items and spells
+	                   if (whichItem > 0 && whichItem <= 27) {
+	                       playerStat.GetComponent<StatManager>().itemBought(1, whichItem, currentItemType == ItemType.Spell);
+	                       buy1 = false;
+	                   }
+	               }
+	               else if (whichStore == 2) {
+	                   // Keys
+	                   if (whichItem > 0 && whichItem <= 8) {
+	                       playerStat.GetComponent<StatManager>().KeyBought(1, whichItem);
+	                       buy1 = false;
+	                   }
+	               }
+	           }
+	       }
     }
     public void closeshop()
     {
@@ -237,7 +71,10 @@ public class MerchantShop : MonoBehaviour {
     public void whichItem1(int identifier, bool spell)
     {
         whichItem = identifier;
-        isspell = spell;
+        currentItemType = spell ? ItemType.Spell : ItemType.Normal;
+        if (whichStore == 2) {
+            currentItemType = ItemType.Key;
+        }
     }
 
 }

@@ -12,7 +12,7 @@ public class ItemForSale : MonoBehaviour {
     private Vector3 size1;
     public GameObject background;
     public GameObject select;
-    public bool spell;
+    public ItemType itemType = ItemType.Normal;
     public int window;
     private SpriteRenderer sprite;
     private BoxCollider2D box2d;
@@ -70,7 +70,7 @@ public class ItemForSale : MonoBehaviour {
         {
             select.SetActive(true);
             select.transform.position = new Vector2(transform.position.x, transform.position.y);
-            shop.GetComponent<MerchantShop>().whichItem1(identifier, spell);
+            shop.GetComponent<MerchantShop>().whichItem1(identifier, itemType == ItemType.Spell);
         }
     }
 }

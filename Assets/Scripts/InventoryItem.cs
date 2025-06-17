@@ -7,6 +7,7 @@ public class InventoryItem : MonoBehaviour {
 
     public bool size;
     private Vector3 size1;
+    public ItemType itemType = ItemType.Normal;
     public string type;
     public int whichselect;
     public bool selected;
@@ -31,8 +32,26 @@ public class InventoryItem : MonoBehaviour {
     private bool showingbox;
     public float tab1;
     public float tab;
-    public bool spell;
     public int[] whichSpell;
+
+    // Convert equipment type string to slot selection
+    // This handles equipment slots (head, foot, chest) separately from ItemType (Normal, Spell, Key)
+    private void SetEquipmentType(string typeStr) {
+        switch(typeStr.ToLower()) {
+            case "misc":
+                whichselect = 1;
+                break;
+            case "head":
+                whichselect = 2;
+                break;
+            case "foot":
+                whichselect = 3;
+                break;
+            case "chest":
+                whichselect = 4;
+                break;
+        }
+    }
     
     
 
@@ -45,6 +64,11 @@ public class InventoryItem : MonoBehaviour {
         box2d = GetComponent<BoxCollider2D>();
         stats = GetComponent<ItemStats>();
         sprite.enabled = false;
+
+        // Initialize equipment slot based on type
+        if (!string.IsNullOrEmpty(type)) {
+            SetEquipmentType(type);
+        }
     }
 
     // Update is called once per frame
@@ -79,7 +103,7 @@ public class InventoryItem : MonoBehaviour {
                 transform.localScale = new Vector3(size1.x + .05f, size1.y + .05f, 1);
                 size = false;
             }
-            if (spell == false)
+            if (itemType != ItemType.Spell)
             {
                 if (SBSI == ws && selectBoxes == true && SBS == true)
                 {
@@ -100,7 +124,7 @@ public class InventoryItem : MonoBehaviour {
     }
     public void OnMouseOver()
     {
-        if (selectBoxes == false && spell == false)
+        if (selectBoxes == false && itemType != ItemType.Spell)
         {
             size = true;
             
@@ -110,12 +134,12 @@ public class InventoryItem : MonoBehaviour {
             { 
             Vector2 spot = new Vector2(transform.position.x + 1.4f, transform.position.y+.3f);
             GameObject textbox = (GameObject)Instantiate(box, spot, Quaternion.Euler(0, 0, 0));
-            textbox.transform.parent = transform;          
+            textbox.transform.SetParent(transform, false);
             showingbox = true;
             }
            
         }
-        if (selectBoxes == false && spell == true)
+        if (selectBoxes == false && itemType == ItemType.Spell)
         {
             size = true;
 
@@ -125,27 +149,11 @@ public class InventoryItem : MonoBehaviour {
             size = true;
             
         }
-        if (type == "misc")
-        {
-            whichselect = 1;
-        }
-        if (type == "head")
-        {
-            whichselect = 2;
-        }
-        if (type == "foot")
-        {
-            whichselect = 3;
-        }
-        if (type == "chest")
-        {
-            whichselect = 4;
-        }
 
     }
     public void OnMouseDown()
     {
-        if (spell == false)
+        if (itemType != ItemType.Spell)
         {
             if (selectBoxes == false && equiped == false)
             {
@@ -161,20 +169,22 @@ public class InventoryItem : MonoBehaviour {
                 IM.GetComponent<InterfaceMain>().itemTransfer(whichSelectBox);
                 boxfilled = true;
             }
-            if (selectBoxes == true && SBSI == ws && boxfilled == true)
+            if (selectBoxes == true && SBSI == ws && boxfilled == true && iteminslot != null)
             {
                 iteminslot.transform.position = IM.item.transform.position;
                 InventoryItem i = iteminslot.GetComponent<InventoryItem>();
-                i.box2d.enabled = true;
-                i.GetComponent<ItemStats>().uneqiuped();
-                i.equiped = false;
-                i.stats.enabled = false;
+                if (i != null)
+                {
+                    i.box2d.enabled = true;
+                    i.GetComponent<ItemStats>().uneqiuped();
+                    i.equiped = false;
+                    i.stats.enabled = false;
+                }
 
                 IM.GetComponent<InterfaceMain>().itemTransfer(whichSelectBox);
-
             }
         }
-        if (selectBoxes == false && spell == true)
+        if (selectBoxes == false && itemType == ItemType.Spell)
         {
             size = true;
             Vector2 spot2 = new Vector2(IM.spotforsw.position.x, IM.spotforsw.position.y);
@@ -195,7 +205,7 @@ public class InventoryItem : MonoBehaviour {
     }
     public void OnMouseExit()
     {
-        if (spell == false)
+        if (itemType != ItemType.Spell)
         {
             foreach (Transform child in transform)
             {
