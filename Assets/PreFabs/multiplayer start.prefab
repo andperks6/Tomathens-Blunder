@@ -148,6 +148,8 @@ MonoBehaviour:
   boxident: 0
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389650579568697
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +222,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 550
+  m_SortingOrder: 600
   m_Sprite: {fileID: 21300014, guid: fc7869a28ab51f04d881d67718563be8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -295,6 +297,8 @@ MonoBehaviour:
   boxident: 3
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389650923144953
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,7 +371,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 550
+  m_SortingOrder: 600
   m_Sprite: {fileID: 21300006, guid: fc7869a28ab51f04d881d67718563be8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -442,6 +446,8 @@ MonoBehaviour:
   boxident: 4
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389651250561100
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,7 +520,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 550
+  m_SortingOrder: 600
   m_Sprite: {fileID: 21300012, guid: fc7869a28ab51f04d881d67718563be8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -589,6 +595,8 @@ MonoBehaviour:
   boxident: 2
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389651386844629
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,7 +669,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 550
+  m_SortingOrder: 600
   m_Sprite: {fileID: 21300004, guid: fc7869a28ab51f04d881d67718563be8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -736,6 +744,8 @@ MonoBehaviour:
   boxident: 1
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389651570541016
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +893,8 @@ MonoBehaviour:
   boxident: 0
   network: {fileID: 0}
   parent: {fileID: 0}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389651728770744
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,6 +1042,8 @@ MonoBehaviour:
   boxident: 0
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389652115266509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1191,8 @@ MonoBehaviour:
   boxident: 5
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 0
 --- !u!1 &5443389652349740181
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,7 +1265,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 550
+  m_SortingOrder: 600
   m_Sprite: {fileID: 21300008, guid: fc7869a28ab51f04d881d67718563be8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1324,6 +1340,8 @@ MonoBehaviour:
   boxident: 0
   network: {fileID: 0}
   parent: {fileID: 1965573840}
+  highlightObject: {fileID: 0}
+  startSelected: 1
 --- !u!1 &5443389652474209318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1476,7 @@ MonoBehaviour:
   sb1: {fileID: 0}
   whichRace: 0
   toad: {fileID: 1201189528383774, guid: ef073fd427f0a9a4d808d5a559b4aafe, type: 3}
+  playerSpawnPosition: {x: 127.93, y: -57.8, z: 0}
 --- !u!1001 &5851345892694473662
 PrefabInstance:
   m_ObjectHideFlags: 0

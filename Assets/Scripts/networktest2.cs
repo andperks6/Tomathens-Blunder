@@ -69,6 +69,6 @@ public class networktest2 : NetworkBehaviour
             whichRaceObj.GetComponent<SpriteRenderer>().color = Color.white;
         }
         whichRaceObj = character;
-        character.GetComponent<SpriteRenderer>().color = Color.red;
+        character.GetComponent<SpriteRenderer>().color = Color.cyan;
     }
 }

@@ -12,10 +12,22 @@ public class startbuttons : MonoBehaviour
     public networktest network;
     public networktest2 parent;
 
+    [SerializeField]
+    GameObject highlightObject;
+
+
+    [SerializeField]
+    bool startSelected;
+
+    Vector3 startScale;
     // Start is called before the first frame update
     void Start()
     {
-
+        startScale = transform.localScale;
+        if (startSelected)
+        {
+            parent.ShowSelectedChar(this);
+        }
     }
     // Update is called once per frame
     void Update()
@@ -23,11 +35,11 @@ public class startbuttons : MonoBehaviour
 
         if (size == false)
         {
-            transform.localScale = new Vector3(.5f, .5f, 1);
+            transform.localScale = startScale;
         }
         if (size == true)
         {
-            transform.localScale = new Vector3(.6f, .6f, 1);
+            transform.localScale = startScale * 1.2f;
             size = false;
         }
         }
