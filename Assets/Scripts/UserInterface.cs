@@ -1,53 +1,67 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class UserInterface : MonoBehaviour {
+public class UserInterface : MonoBehaviour
+{
     Transform camera;
-    public SpriteRenderer sprite;
     public bool openMenu;
     public bool sub;
     public int ptab;
     public int whichTab;
-	// Use this for initialization
-	void Start () {
-        
-        sprite = GetComponent<SpriteRenderer>();
-        sprite.enabled = false;
+
+    private bool wasMenuOpen;
+
+    void Start()
+    {
+
+
+
+        openMenu = false;
+        wasMenuOpen = false;
+
         Text child = GetComponentInChildren<Text>();
         ptab = 1;
-    }
-	
-	// Update is called once per frame
-	void Update () {
+        whichTab = 1;
         
-       
-        if (Input.GetKeyDown("tab"))
-        {
-            openMenu = !openMenu;
+    }
 
+    void Update()
+    {
+        bool shouldShow = openMenu;
+        if (openMenu && sub && whichTab != ptab)
+        {
+            shouldShow = false;
         }
 
-        if (openMenu == true)
+        // Only update visibility if menu state changed
+        if (wasMenuOpen != shouldShow)
         {
-            sprite.enabled = true;
+            Debug.Log($"UserInterface: Menu state changed - shouldShow: {shouldShow}, previous: {wasMenuOpen}");
             
-            
-
-        }
-        if (openMenu == false)
-        {
-            sprite.enabled = false;
-           
-           
-        }
-        if (sub == true)
-        {
-            if (whichTab == ptab)
+            // Update all sprite renderers visibility
+            var spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
+            foreach (var renderer in spriteRenderers)
             {
-                sprite.enabled = true;
+                renderer.enabled = shouldShow;
             }
-            else { sprite.enabled = false; }
+            
+            wasMenuOpen = shouldShow;
         }
+    }
+
+    void OnEnable()
+    {
+        // Ensure all sprites start hidden when enabled
+        var spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
+        foreach (var renderer in spriteRenderers)
+        {
+            renderer.enabled = false;
+        }
+        openMenu = false;
+        wasMenuOpen = false;
+        
+        Debug.Log("UserInterface: OnEnable - Reset visibility states");
     }
 }

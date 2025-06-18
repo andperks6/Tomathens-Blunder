@@ -1125,6 +1125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
+  itemType: 0
   type: 
   whichselect: 0
   selected: 0
@@ -1147,7 +1148,6 @@ MonoBehaviour:
   content1: 
   tab1: 0
   tab: 1
-  spell: 0
   whichSpell: 
 --- !u!61 &61581083276576392
 BoxCollider2D:
@@ -4958,6 +4958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
+  itemType: 0
   type: 
   whichselect: 0
   selected: 0
@@ -4980,7 +4981,6 @@ MonoBehaviour:
   content1: 
   tab1: 0
   tab: 1
-  spell: 0
   whichSpell: 
 --- !u!61 &61672827553526560
 BoxCollider2D:
@@ -7020,6 +7020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
+  itemType: 0
   type: 
   whichselect: 0
   selected: 0
@@ -7042,7 +7043,6 @@ MonoBehaviour:
   content1: 
   tab1: 0
   tab: 1
-  spell: 0
   whichSpell: 
 --- !u!61 &61587651698962306
 BoxCollider2D:
@@ -8645,7 +8645,6 @@ GameObject:
   - component: {fileID: 4213562808536820}
   - component: {fileID: 212146515023709868}
   - component: {fileID: 95932212370473266}
-  - component: {fileID: 114898535606723236}
   - component: {fileID: 61155775418589054}
   - component: {fileID: 114856814619121360}
   - component: {fileID: 50342224949127610}
@@ -8739,23 +8738,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114898535606723236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437067852768372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 246c38ebe789eef40be58f6b418e3e85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  openMenu: 0
-  sub: 0
-  ptab: 0
-  whichTab: 0
 --- !u!61 &61155775418589054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8830,7 +8812,6 @@ GameObject:
   - component: {fileID: 4984098752317548}
   - component: {fileID: 212895881937136656}
   - component: {fileID: 95892011516022028}
-  - component: {fileID: 114967788569520268}
   - component: {fileID: 61904629099745214}
   - component: {fileID: 114646529943872610}
   - component: {fileID: 50206476615248804}
@@ -8924,23 +8905,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114967788569520268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444302902292718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 246c38ebe789eef40be58f6b418e3e85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  openMenu: 0
-  sub: 0
-  ptab: 0
-  whichTab: 0
 --- !u!61 &61904629099745214
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11109,6 +11073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
+  itemType: 0
   type: 
   whichselect: 0
   selected: 0
@@ -11131,7 +11096,6 @@ MonoBehaviour:
   content1: 
   tab1: 0
   tab: 1
-  spell: 0
   whichSpell: 
 --- !u!61 &61950218664188864
 BoxCollider2D:
@@ -14800,6 +14764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
+  itemType: 0
   type: 
   whichselect: 0
   selected: 0
@@ -14822,7 +14787,6 @@ MonoBehaviour:
   content1: 
   tab1: 0
   tab: 1
-  spell: 0
   whichSpell: 
 --- !u!61 &61673495295423648
 BoxCollider2D:
@@ -16396,7 +16360,6 @@ GameObject:
   - component: {fileID: 4094646611429048}
   - component: {fileID: 212582830053685026}
   - component: {fileID: 95479761010395160}
-  - component: {fileID: 114414922408735014}
   - component: {fileID: 114881967642176264}
   - component: {fileID: 61296992157177716}
   - component: {fileID: 50250358213449692}
@@ -16490,23 +16453,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114414922408735014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839409936338790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 246c38ebe789eef40be58f6b418e3e85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  openMenu: 0
-  sub: 0
-  ptab: 0
-  whichTab: 0
 --- !u!114 &114881967642176264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19087,6 +19033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
+  itemType: 0
   type: 
   whichselect: 0
   selected: 0
@@ -19109,7 +19056,6 @@ MonoBehaviour:
   content1: 
   tab1: 0
   tab: 1
-  spell: 0
   whichSpell: 
 --- !u!61 &61904138816657578
 BoxCollider2D:
@@ -19649,7 +19595,6 @@ GameObject:
   - component: {fileID: 4100767636779952}
   - component: {fileID: 212222098541276474}
   - component: {fileID: 95563485958816088}
-  - component: {fileID: 114314829849715988}
   - component: {fileID: 114916828401739024}
   - component: {fileID: 61274944122234434}
   - component: {fileID: 50320575069918376}
@@ -19743,23 +19688,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114314829849715988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951043276573984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 246c38ebe789eef40be58f6b418e3e85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  openMenu: 0
-  sub: 0
-  ptab: 0
-  whichTab: 0
 --- !u!114 &114916828401739024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19997,7 +19925,6 @@ GameObject:
   - component: {fileID: 212098526912346766}
   - component: {fileID: 95705906881740846}
   - component: {fileID: 114811905568231406}
-  - component: {fileID: 114877075994153582}
   m_Layer: 0
   m_Name: Interface
   m_TagString: Untagged
@@ -20227,23 +20154,6 @@ MonoBehaviour:
   box6spell: 0
   check: 0
   openmenu2: 0
---- !u!114 &114877075994153582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967367992777098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 246c38ebe789eef40be58f6b418e3e85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  openMenu: 0
-  sub: 0
-  ptab: 0
-  whichTab: 0
 --- !u!1 &1985775887498226
 GameObject:
   m_ObjectHideFlags: 0

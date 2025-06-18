@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 61656687081976274}
   - component: {fileID: 114463708014047524}
   - component: {fileID: -1932799010450465191}
+  - component: {fileID: 8891585439275164854}
   m_Layer: 0
   m_Name: Stoat
   m_TagString: Player
@@ -325,6 +326,21 @@ MonoBehaviour:
   serverOnly: 0
   m_AssetId: 
   hasSpawned: 0
+--- !u!114 &8891585439275164854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006993307942740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc0038fd2754dc4d8d29c18ce86cc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1405725972431070}
+  xpBar: {fileID: 0}
+  manaPool: {fileID: 0}
 --- !u!1 &1405725972431070
 GameObject:
   m_ObjectHideFlags: 0

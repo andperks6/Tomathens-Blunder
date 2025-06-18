@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 114485999368953446}
   - component: {fileID: -8547635634856842325}
   - component: {fileID: 531720593250535173}
+  - component: {fileID: 7795419311505035071}
   m_Layer: 0
   m_Name: Mouse
   m_TagString: Player
@@ -539,6 +540,21 @@ MonoBehaviour:
   localPositionSensitivity: 0.01
   localRotationSensitivity: 0.01
   localScaleSensitivity: 0.01
+--- !u!114 &7795419311505035071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349904910037596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc0038fd2754dc4d8d29c18ce86cc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1171491842937426}
+  xpBar: {fileID: 0}
+  manaPool: {fileID: 0}
 --- !u!1 &668123098474669025
 GameObject:
   m_ObjectHideFlags: 0

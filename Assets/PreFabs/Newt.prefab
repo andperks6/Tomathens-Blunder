@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 114329133090819870}
   - component: {fileID: 3556844797129498060}
   - component: {fileID: 478228312831334950}
+  - component: {fileID: -6350383827563837088}
   m_Layer: 0
   m_Name: Newt
   m_TagString: Player
@@ -540,6 +541,21 @@ MonoBehaviour:
   localPositionSensitivity: 0.01
   localRotationSensitivity: 0.01
   localScaleSensitivity: 0.01
+--- !u!114 &-6350383827563837088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834765622998404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc0038fd2754dc4d8d29c18ce86cc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1430607146706050}
+  xpBar: {fileID: 0}
+  manaPool: {fileID: 0}
 --- !u!1 &3526560252952217011
 GameObject:
   m_ObjectHideFlags: 0
