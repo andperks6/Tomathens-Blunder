@@ -31,12 +31,12 @@ public class AttackSensor : MonoBehaviour {
         }
         if (other.gameObject.tag == "Bat")
         {
-            other.gameObject.GetComponent<MeleeEnemyBehaviour>().HurtByPlayer(damage, Stat);
+            other.gameObject.GetComponent<RangedEnemyBehaviour>().HurtByPlayer(damage, Stat);
         }
 
         if (other.gameObject.tag == "Crow")
         {
-            other.gameObject.GetComponent<MeleeEnemyBehaviour>().HurtByPlayer(damage, Stat);
+            other.gameObject.GetComponent<RangedEnemyBehaviour>().HurtByPlayer(damage, Stat);
         }
 
 
