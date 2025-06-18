@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MeleeEnemyBehaviour : MonoBehaviour
 {
+	private float despawnTimer = 90f; // 1:30 minute lifetime
 	private Vector3 pos;
 	public float movespeed;
 	public float cricketdirection;
@@ -79,9 +80,25 @@ public class MeleeEnemyBehaviour : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		// Update despawn timer
+		despawnTimer -= Time.deltaTime;
+		
+		// Start fading when 5 seconds remain
+		if (despawnTimer <= 5f && !Dead)
+		{
+			float fadeAlpha = despawnTimer / 5f;
+			sprite.color = new Color(1, 1, 1, fadeAlpha);
+		}
+		
+		if (despawnTimer <= 0 && !Dead)
+		{
+			Dead = true;
+			// Don't give XP when despawning
+			xpgiven = true;
+		}
+
 		if (Dead == false)
 		{
-
 
 			if (readytotakedamage == false)
 			{

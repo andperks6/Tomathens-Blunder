@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 
 public class RangedEnemyBehaviour : MonoBehaviour {
-
+    private float despawnTimer = 90f; // 1.5 min lifetime
+    
     public GameObject Box;
     public GameObject projectile;
     public Transform psPoint;
@@ -85,6 +86,23 @@ public class RangedEnemyBehaviour : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        // Update despawn timer
+        despawnTimer -= Time.deltaTime;
+        
+        // Start fading when 5 seconds remain
+        if (despawnTimer <= 5f && !dead)
+        {
+            float fadeAlpha = despawnTimer / 5f;
+            sprite.color = new Color(1, 1, 1, fadeAlpha);
+        }
+        
+        if (despawnTimer <= 0 && !dead)
+        {
+            dead = true;
+            // Don't give XP when despawning
+            xpgiven = 1;
+        }
+
         if (dead == false)
         {
             if (readytotakedamage == false)
