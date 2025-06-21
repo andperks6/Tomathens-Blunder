@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MothAttack : MonoBehaviour {
 
@@ -59,13 +57,13 @@ public class MothAttack : MonoBehaviour {
         damage2 = parent.damage;
         deleteTimer = deleteTimer - Time.deltaTime;
 
-        if (parent.attack == true)
+        if (parent.attack)
         {
             shoot = true;
 
         }
 
-        if (shoot == true)
+        if (shoot)
         {
             waittime = waittime - Time.deltaTime;
 
@@ -98,7 +96,7 @@ public class MothAttack : MonoBehaviour {
         }
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<CharacterController>().Hurt(damage2);
+            other.gameObject.GetComponent<NetworkCharacterController>().Hurt(damage2);
             Destroy(gameObject);
         }
         

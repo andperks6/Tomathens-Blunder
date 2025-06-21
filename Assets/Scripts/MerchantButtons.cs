@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MerchantButtons : MonoBehaviour {
 
@@ -32,7 +30,7 @@ public class MerchantButtons : MonoBehaviour {
         {
             transform.localScale = new Vector3(.5f, .5f, 1);
         }
-        if (size == true)
+        if (size)
         {
             transform.localScale = new Vector3(.6f, .6f, 1);
             size = false;
@@ -58,7 +56,7 @@ public class MerchantButtons : MonoBehaviour {
             sprite.color = new Color(.5f, .5f, .5f, 1);
             colorChange = .2f;
         }
-        if (gameObject.tag == "Next" && back == true && oneclick == false)
+        if (gameObject.tag == "Next" && back && oneclick == false)
         {
             merchant.window = 1;
             sprite.color = new Color(.5f, .5f, .5f, 1);

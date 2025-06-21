@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Magicbars : MonoBehaviour {
     private SpriteRenderer sprite;
@@ -35,39 +33,39 @@ public class Magicbars : MonoBehaviour {
 	void Update () {
         sm = im.statmanager;
         sprite.color = new Color(red, green, blue, black);
-        if (fire == true)
+        if (fire)
         {
             amount = sm.firelevel / 100;
         }
-        if (earth == true)
+        if (earth)
         {
             amount = sm.earthlevel / 100;
         }
-        if (water == true)
+        if (water)
         {
             amount = sm.waterlevel / 100;
         }
-        if (air == true)
+        if (air)
         {
             amount = sm.airlevel / 100;
         }
-        if (dark == true)
+        if (dark)
         {
             amount = sm.darklevel / 100;
         }
-        if (light1 == true)
+        if (light1)
         {
             amount = sm.lightlevel / 100;
         }
-        if (sorcery == true)
+        if (sorcery)
         {
             amount = sm.sorcerylevel / 100;
         }
-        if (enchantment == true)
+        if (enchantment)
         {
             amount = sm.enchantmentlevel / 100;
         }
-        if (ritual == true)
+        if (ritual)
         {
             amount = sm.rituallevel / 100;
         }

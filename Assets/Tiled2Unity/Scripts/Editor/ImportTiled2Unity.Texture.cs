@@ -1,12 +1,7 @@
 ﻿#if !UNITY_WEBPLAYER
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-
-using UnityEditor;
-using UnityEngine;
 
 namespace Tiled2Unity
 {
@@ -16,7 +11,7 @@ namespace Tiled2Unity
         public void TextureImported(string texturePath)
         {
             // Find the import behaviour that was waiting on this texture to be imported
-            string asset = System.IO.Path.GetFileName(texturePath);
+            string asset = Path.GetFileName(texturePath);
             foreach (var importComponent in ImportBehaviour.EnumerateImportBehaviors_ByWaitingTexture(asset))
             {
                 // The texture has finished loading. Keep track of that status.
@@ -33,7 +28,7 @@ namespace Tiled2Unity
             }
         }
 
-        private void ImportAllTextures(Tiled2Unity.ImportBehaviour importComponent)
+        private void ImportAllTextures(ImportBehaviour importComponent)
         {
             // Textures need to be imported before we can create or import materials
             foreach (var xmlImportTexture in importComponent.XmlDocument.Root.Elements("ImportTexture"))

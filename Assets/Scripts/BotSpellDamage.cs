@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BotSpellDamage : MonoBehaviour {
 
@@ -25,7 +23,7 @@ public class BotSpellDamage : MonoBehaviour {
 
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<CharacterController>().Hurt(damage);
+            other.gameObject.GetComponent<NetworkCharacterController>().Hurt(damage);
             Destroy(gameObject);
 
         }

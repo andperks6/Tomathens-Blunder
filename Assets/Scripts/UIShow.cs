@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class UIShow : MonoBehaviour {
 
-    Transform camera;
     public SpriteRenderer sprite;
     public InterfaceMain UI;
     public bool openMenu;
@@ -33,7 +30,7 @@ public class UIShow : MonoBehaviour {
         whichTab = UI.tab;
         
 
-        if (UI.openmenu2 == true)
+        if (UI.openmenu2)
         {
             sprite.enabled = true;
 
@@ -46,9 +43,9 @@ public class UIShow : MonoBehaviour {
 
 
         }
-        if (sub == true )
+        if (sub )
         {
-            if (whichTab == ptab && UI.openmenu2 == true)
+            if (whichTab == ptab && UI.openmenu2)
             {
                 sprite.enabled = true;
             }

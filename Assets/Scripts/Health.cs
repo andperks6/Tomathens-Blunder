@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Health : MonoBehaviour {
     public StatManager stat;
@@ -27,7 +25,7 @@ public class Health : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (stat.fountian == true && healthCurrent < healthMax)
+        if (stat.fountian && healthCurrent < healthMax)
         {
             healthCurrent = healthCurrent + 10 *Time.deltaTime;
         }
@@ -35,7 +33,7 @@ public class Health : MonoBehaviour {
         { healthCurrent = healthCurrent + stat.healthRegen * Time.deltaTime; }
 
         healthMax = stat.health;
-        if (Fullhealth == true )
+        if (Fullhealth )
         {
             healthCurrent = healthMax;
         }
@@ -57,7 +55,7 @@ public class Health : MonoBehaviour {
             showTimer = 3;
 
         }
-        if (show == true)
+        if (show)
         {
             showTimer = showTimer - Time.deltaTime;
             if (showTimer <= 0)

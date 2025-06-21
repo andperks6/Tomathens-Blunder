@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ShopSenor : MonoBehaviour {
     public StatManager player;
@@ -17,7 +15,7 @@ public class ShopSenor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (otherShop.readytobuy == true)
+        if (otherShop.readytobuy)
         {
             if (otherShop.buytimer > buytimer)
             {
@@ -26,7 +24,7 @@ public class ShopSenor : MonoBehaviour {
             }
         }
        
-        if (readytobuy == true)
+        if (readytobuy)
         {
             playerGold = player.gold;
             buytimer = buytimer -Time.deltaTime;
@@ -37,7 +35,7 @@ public class ShopSenor : MonoBehaviour {
                 buytimer = 3;
             }
         }
-        if (Input.GetKeyDown("x") && readytobuy == true)
+        if (Input.GetKeyDown("x") && readytobuy)
         {
             shop.SetActive(true);
             text.SetActive(false);

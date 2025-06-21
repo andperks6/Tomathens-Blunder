@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Cricketmovement : MonoBehaviour {
     
@@ -43,7 +41,7 @@ public class Cricketmovement : MonoBehaviour {
 
         }
 
-        if (touched == true)
+        if (touched)
         {
             
             turn = false;

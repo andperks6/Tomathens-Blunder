@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SpellEqiup : MonoBehaviour {
     public SpriteRenderer sprite;
@@ -49,7 +47,7 @@ public class SpellEqiup : MonoBehaviour {
         
 
 
-        if (im2.spellring == true)
+        if (im2.spellring)
         {
             sprite.enabled = true;
         }
@@ -58,7 +56,7 @@ public class SpellEqiup : MonoBehaviour {
         {
             transform.localScale = new Vector3(size1.x, size1.y, 1);
         }
-        if (size == true)
+        if (size)
         {
             transform.localScale = new Vector3(size1.x + .05f, size1.y + .05f, 1);
             size = false;
@@ -70,12 +68,12 @@ public class SpellEqiup : MonoBehaviour {
     }
     public void OnMouseDown()
     {
-        if (im2.spellring == true)
+        if (im2.spellring)
         {
             if (full == false)
             {
                 spellident = im2.whichspell;
-                GameObject spell = (GameObject)Instantiate(spellbank.spells[spellident], transform.position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(spellbank.spells[spellident], transform.position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 UIShow tpz = spell.GetComponent<UIShow>();
@@ -86,11 +84,11 @@ public class SpellEqiup : MonoBehaviour {
                 full = true;
 
             }
-            if (full == true)
+            if (full)
             {
                 spelldata.destroy = true;
                 spellident = im2.whichspell;
-                GameObject spell = (GameObject)Instantiate(spellbank.spells[spellident], transform.position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(spellbank.spells[spellident], transform.position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 UIShow tpz = spell.GetComponent<UIShow>();

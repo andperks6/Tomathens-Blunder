@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SpellButtons : MonoBehaviour {
 
@@ -30,7 +28,7 @@ public class SpellButtons : MonoBehaviour {
         {
             transform.localScale = new Vector3(1f, 1f, 1);
         }
-        if (size == true)
+        if (size)
         {
             transform.localScale = new Vector3(1.03f, 1.03f, 1);
             size = false;

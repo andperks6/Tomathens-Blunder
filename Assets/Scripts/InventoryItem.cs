@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class InventoryItem : MonoBehaviour {
 
@@ -83,11 +81,11 @@ public class InventoryItem : MonoBehaviour {
             openMenu = !openMenu;
 
         }
-        if (openMenu == true && tab == tab1)
+        if (openMenu && tab == tab1)
         {
             if (selectBoxes == false)
             { sprite.enabled = true; }
-                if (IM.sbShow == true)
+                if (IM.sbShow)
             {
                 SBS = true;
             }
@@ -98,22 +96,22 @@ public class InventoryItem : MonoBehaviour {
             {
                 transform.localScale = new Vector3(size1.x, size1.y, 1);
             }
-            if (size == true)
+            if (size)
             {
                 transform.localScale = new Vector3(size1.x + .05f, size1.y + .05f, 1);
                 size = false;
             }
             if (itemType != ItemType.Spell)
             {
-                if (SBSI == ws && selectBoxes == true && SBS == true)
+                if (SBSI == ws && selectBoxes && SBS)
                 {
                     sprite.enabled = true;
                 }
-                if (SBSI != ws && selectBoxes == true)
+                if (SBSI != ws && selectBoxes)
                 {
                     sprite.enabled = false;
                 }
-                if (SBS == false && selectBoxes == true)
+                if (SBS == false && selectBoxes)
                 {
                     sprite.enabled = false;
                 }
@@ -133,7 +131,7 @@ public class InventoryItem : MonoBehaviour {
             if (showingbox == false)
             { 
             Vector2 spot = new Vector2(transform.position.x + 1.4f, transform.position.y+.3f);
-            GameObject textbox = (GameObject)Instantiate(box, spot, Quaternion.Euler(0, 0, 0));
+            GameObject textbox = Instantiate(box, spot, Quaternion.Euler(0, 0, 0));
             textbox.transform.SetParent(transform, false);
             showingbox = true;
             }
@@ -144,7 +142,7 @@ public class InventoryItem : MonoBehaviour {
             size = true;
 
         }
-        if (selectBoxes == true)
+        if (selectBoxes)
         {
             size = true;
             
@@ -163,13 +161,13 @@ public class InventoryItem : MonoBehaviour {
                 IM.item = gameObject;
                 IM.GetComponent<InterfaceMain>().showboxes(whichselect);
             }
-            if (selectBoxes == true && SBSI == ws && boxfilled == false)
+            if (selectBoxes && SBSI == ws && boxfilled == false)
             {
 
                 IM.GetComponent<InterfaceMain>().itemTransfer(whichSelectBox);
                 boxfilled = true;
             }
-            if (selectBoxes == true && SBSI == ws && boxfilled == true && iteminslot != null)
+            if (selectBoxes && SBSI == ws && boxfilled && iteminslot != null)
             {
                 iteminslot.transform.position = IM.item.transform.position;
                 InventoryItem i = iteminslot.GetComponent<InventoryItem>();
@@ -188,7 +186,7 @@ public class InventoryItem : MonoBehaviour {
         {
             size = true;
             Vector2 spot2 = new Vector2(IM.spotforsw.position.x, IM.spotforsw.position.y);
-            GameObject spellwindow = (GameObject)Instantiate(spellbook, spot2, Quaternion.Euler(0, 0, 0));
+            GameObject spellwindow = Instantiate(spellbook, spot2, Quaternion.Euler(0, 0, 0));
            
             Spells ss = spellwindow.GetComponent<Spells>();
             ss.im = IM;

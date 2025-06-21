@@ -51,8 +51,9 @@ public class RangedEnemyBehaviour : MonoBehaviour {
     public string EnemyTag;
     private float changecolor;
     public float xp;
-    private float xpgiven;
+    private bool xpgiven;
     private bool clicked;
+    private static readonly int Stop = Animator.StringToHash("Stop");
 
     // Use this for initialization
     void Start()
@@ -100,7 +101,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
         {
             dead = true;
             // Don't give XP when despawning
-            xpgiven = 1;
+            xpgiven = true;
         }
 
         if (dead == false)
@@ -113,7 +114,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                     readytotakedamage = true;
                 }
             }
-            if (aggresive == true)
+            if (aggresive)
             {
 
 
@@ -130,9 +131,10 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                     sprite.sortingOrder = 11;
                 }
 
-                playerDistance = new Vector2(followPos.x - transform.position.x, followPos.y - transform.position.y);
+                var position = transform.position;
+                playerDistance = new Vector2(followPos.x - position.x, followPos.y - position.y);
 
-                if (attack == true && attackTime > 0)
+                if (attack && attackTime > 0)
                 {
                     Shoot = false;
                     attackTime = attackTime - Time.deltaTime;
@@ -173,7 +175,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                     anim.SetBool("Attack", attack);
                     anim.SetFloat("X", x);
                     anim.SetFloat("Y", y);
-                    if (create == true)
+                    if (create)
                     {
                         ProjSpawntime = ProjSpawntime - Time.deltaTime;
                         if (x == 1)
@@ -193,7 +195,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                         if (ProjSpawntime < 0.1)
                         {
                             Vector3 stp = new Vector3(psPoint.transform.position.x + offset, psPoint.transform.position.y, psPoint.transform.position.z);
-                            GameObject fireball = (GameObject)Instantiate(projectile, stp, Quaternion.Euler(0, 0, 0));
+                            GameObject fireball = Instantiate(projectile, stp, Quaternion.Euler(0, 0, 0));
                             fireball.transform.parent = gameObject.transform;
                             create = false;
                             Shoot = false;
@@ -289,7 +291,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
             {
                 directtimer = directtimer - Time.deltaTime;
             }
-            if (rest == true && aggresive == false)
+            if (rest && aggresive == false)
             {
                 restTimer = restTimer - Time.deltaTime;
                 anim.SetBool("Stop", true);
@@ -303,7 +305,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                 }
             }
 
-            if (directSet == true && directtimer > 6 && rest == false && aggresive == false)
+            if (directSet && directtimer > 6 && rest == false && aggresive == false)
             {
 
                 cricketdirection = Random.Range(1, 4);
@@ -321,7 +323,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
 
                 x = 1;
                 y = 0;
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 3;
@@ -334,7 +336,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                     rest = true;
 
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 4;
                     free = false;
@@ -345,13 +347,16 @@ public class RangedEnemyBehaviour : MonoBehaviour {
             {
                 //down
                 anim.SetBool("Stop", false);
-                pos = new Vector3(transform.position.x, transform.position.y - movespeed * Time.deltaTime, transform.position.z);
-                transform.position = new Vector3(pos.x, pos.y, pos.z);
+                var transform1 = transform;
+                var position = transform1.position;
+                pos = new Vector3(position.x, position.y - movespeed * Time.deltaTime, position.z);
+                position = new Vector3(pos.x, pos.y, pos.z);
+                transform1.position = position;
                 directSet = false;
                 x = 0;
                 y = -1;
 
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 4;
@@ -364,7 +369,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                     rest = true;
 
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 1;
                     free = false;
@@ -376,14 +381,17 @@ public class RangedEnemyBehaviour : MonoBehaviour {
             if (cricketdirection == 3 && rest == false && attack == false)
             {
                 //left
-                anim.SetBool("Stop", false);
-                pos = new Vector3(transform.position.x - movespeed * Time.deltaTime, transform.position.y, transform.position.z);
-                transform.position = new Vector3(pos.x, pos.y, pos.z);
+                anim.SetBool(Stop, false);
+                var transform1 = transform;
+                var position = transform1.position;
+                pos = new Vector3(position.x - movespeed * Time.deltaTime, position.y, position.z);
+                position = new Vector3(pos.x, pos.y, pos.z);
+                transform1.position = position;
                 directSet = false;
                 x = -1;
                 y = 0;
 
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 1;
@@ -394,7 +402,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                 {
                     rest = true;
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 2;
                     free = false;
@@ -412,7 +420,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                 x = 0;
                 y = 1;
 
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 2;
@@ -425,7 +433,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
                     rest = true;
 
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 3;
                     free = false;
@@ -437,7 +445,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
             anim.SetFloat("X", x);
             anim.SetFloat("Y", y);
 
-            if (touched == true)
+            if (touched)
             {
                 touchtimer = touchtimer - Time.deltaTime;
                 if (touchtimer < 0)
@@ -476,6 +484,11 @@ public class RangedEnemyBehaviour : MonoBehaviour {
             sprite.color = new Color(1, 1, 1, transperency);
             transperency = transperency - .001f;
 
+            if (xpgiven == false && stat != null)
+            {
+                stat.xp = stat.xp + xp;
+                xpgiven = true;
+            }
             if (transperency < 0)
             {
                 Destroy(gameObject);
@@ -500,7 +513,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
     }
     public void HurtByPlayer(float damage, StatManager sm)
     {
-        if (readytotakedamage == true)
+        if (readytotakedamage)
         {
             sprite.color = new Color(1, .5f, .5f, 1);
             HealthBar.healthCurrent -= damage;
@@ -514,7 +527,7 @@ public class RangedEnemyBehaviour : MonoBehaviour {
     }
     public void OnMouseOver()
     {
-        if (dead == true && clicked == false)
+        if (dead && clicked == false)
         {
             SelectBox select = Box.GetComponentInChildren<SelectBox>();
             select.show = true;
@@ -527,9 +540,9 @@ public class RangedEnemyBehaviour : MonoBehaviour {
     }
     public void OnMouseDown()
     {
-        if (dead == true && clicked == false)
+        if (dead && clicked == false)
         {
-            GameObject lootbox = (GameObject)Instantiate(loot, transform.position, Quaternion.Euler(0, 0, 0));
+            GameObject lootbox = Instantiate(loot, transform.position, Quaternion.Euler(0, 0, 0));
             lootbox.transform.parent = gameObject.transform;
             Loot stat1 = lootbox.GetComponent<Loot>();
             stat1.sm = stat;

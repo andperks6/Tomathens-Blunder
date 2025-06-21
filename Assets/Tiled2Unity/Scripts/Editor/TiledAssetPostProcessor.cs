@@ -15,14 +15,12 @@
 #else
 #endif
 
-using System.Collections;
+using System;
 using System.IO;
 using System.Linq;
-using System.Xml;
-using System;
-
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace Tiled2Unity
 {
@@ -39,7 +37,7 @@ namespace Tiled2Unity
             // Certain file types are ignored by this asset post processor (i.e. scripts)
             // (Note that an empty string as the extension is a folder)
             string[] ignoreThese = { ".cs", ".txt",  ".shader", "", };
-            if (ignoreThese.Any(ext => String.Compare(ext, System.IO.Path.GetExtension(assetPath), true) == 0))
+            if (ignoreThese.Any(ext => String.Compare(ext, Path.GetExtension(assetPath), true) == 0))
             {
                 return false;
             }
@@ -57,7 +55,7 @@ namespace Tiled2Unity
 
         private bool UseThisImporter()
         {
-            return UseThisImporter(this.assetPath);
+            return UseThisImporter(assetPath);
         }
 
         private static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromPath)
@@ -74,7 +72,7 @@ namespace Tiled2Unity
                 }
 
 #if !UNITY_WEBPLAYER
-                using (var logger = new Tiled2Unity.Logger("Importing '{0}'", imported))
+                using (var logger = new Logger("Importing '{0}'", imported))
                 using (ImportTiled2Unity t2uImporter = new ImportTiled2Unity(imported))
                 {
                     if (t2uImporter.IsTiled2UnityFile())
@@ -112,7 +110,7 @@ namespace Tiled2Unity
             if (!UseThisImporter())
                 return;
 
-            ModelImporter modelImporter = this.assetImporter as ModelImporter;
+            ModelImporter modelImporter = assetImporter as ModelImporter;
 
             // Keep normals otherwise Unity will complain about needing them.
             // Normals may not be a bad idea anyhow
@@ -155,32 +153,32 @@ namespace Tiled2Unity
 #if T2U_USE_LEGACY_IMPORTER
                 mr.castShadows = false;
 #else
-                mr.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+                mr.shadowCastingMode = ShadowCastingMode.Off;
 #endif
 
 #if !T2U_USE_LEGACY_IMPORTER
-                mr.reflectionProbeUsage = UnityEngine.Rendering.ReflectionProbeUsage.Off;
+                mr.reflectionProbeUsage = ReflectionProbeUsage.Off;
 #endif
 
 #if T2U_USE_LIGHT_PROBES_API
                 // No probes
                 mr.useLightProbes = false;
 #else
-                mr.lightProbeUsage = UnityEngine.Rendering.LightProbeUsage.Off;
+                mr.lightProbeUsage = LightProbeUsage.Off;
 #endif
             }
         }
 
-        private UnityEngine.Material OnAssignMaterialModel(Material defaultMaterial, Renderer renderer)
+        private Material OnAssignMaterialModel(Material defaultMaterial, Renderer renderer)
         {
             if (!UseThisImporter())
                 return null;
 
             // What is the parent mesh name?
-            string rootName = System.IO.Path.GetFileNameWithoutExtension(this.assetPath);
+            string rootName = Path.GetFileNameWithoutExtension(assetPath);
 
 #if !UNITY_WEBPLAYER
-            ImportTiled2Unity importer = new ImportTiled2Unity(this.assetPath);
+            ImportTiled2Unity importer = new ImportTiled2Unity(assetPath);
             return importer.FixMaterialForMeshRenderer(rootName, renderer);
 #else
             return null;
@@ -192,7 +190,7 @@ namespace Tiled2Unity
             if (!UseThisImporter())
                 return;
 
-            if (!string.IsNullOrEmpty(this.assetImporter.userData))
+            if (!string.IsNullOrEmpty(assetImporter.userData))
             {
                 // The texture has already been exported and we don't want to reset the texture import settings
                 // This allows users to change their texture settings and have those changes stick.
@@ -200,9 +198,9 @@ namespace Tiled2Unity
             }
 
             // Put some dummy UserData on the importer so we know not to apply these settings again.
-            this.assetImporter.userData = "tiled2unity";
+            assetImporter.userData = "tiled2unity";
 
-            TextureImporter textureImporter = this.assetImporter as TextureImporter;
+            TextureImporter textureImporter = assetImporter as TextureImporter;
             textureImporter.npotScale = TextureImporterNPOTScale.None;
             textureImporter.convertToNormalmap = false;
             textureImporter.alphaIsTransparency = true;

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MeleeEnemyBehaviour : MonoBehaviour
 {
@@ -106,7 +104,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                 }
             }
 
-            if (aggresive == true)
+            if (aggresive)
             {
                 animTime = animTime - Time.deltaTime;
 
@@ -128,7 +126,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
 
                 playerDistance = new Vector2(followPos.x - transform.position.x, followPos.y - transform.position.y);
 
-                if (attack == true && attackTime > 0)
+                if (attack && attackTime > 0)
                 {
                     attackTime = attackTime - Time.deltaTime;
                     movespeed = 0;
@@ -168,7 +166,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
 
 
                     }
-                    if (Mathf.Abs(playerDistance.x) + Mathf.Abs(playerDistance.y) - .6f < 1.2f && aggresive == true)
+                    if (Mathf.Abs(playerDistance.x) + Mathf.Abs(playerDistance.y) - .6f < 1.2f && aggresive)
                     {
                         attack = true;
 
@@ -209,7 +207,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
             {
                 directtimer = directtimer - Time.deltaTime;
             }
-            if (rest == true && aggresive == false)
+            if (rest && aggresive == false)
             {
                 restTimer = restTimer - Time.deltaTime;
                 anim.SetBool("Stop", true);
@@ -223,7 +221,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                 }
             }
 
-            if (directSet == true && directtimer > 6 && rest == false && aggresive == false)
+            if (directSet && directtimer > 6 && rest == false && aggresive == false)
             {
 
                 cricketdirection = Random.Range(1, 4);
@@ -241,7 +239,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
 
                 x = 1;
                 y = 0;
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 3;
@@ -254,7 +252,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                     rest = true;
 
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 4;
                     free = false;
@@ -270,7 +268,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                 directSet = false;
                 x = 0;
                 y = -1;
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 4;
@@ -283,7 +281,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                     rest = true;
 
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 1;
                     free = false;
@@ -301,7 +299,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                 directSet = false;
                 x = -1;
                 y = 0;
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 1;
@@ -312,7 +310,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                 {
                     rest = true;
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 2;
                     free = false;
@@ -329,7 +327,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                 directSet = false;
                 x = 0;
                 y = 1;
-                if (flip == true)
+                if (flip)
                 {
                     aggresive = false;
                     cricketdirection = 2;
@@ -342,7 +340,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
                     rest = true;
 
                 }
-                if (free == true)
+                if (free)
                 {
                     cricketdirection = 3;
                     free = false;
@@ -351,7 +349,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
             }
             anim.SetFloat("X", x);
             anim.SetFloat("Y", y);
-            if (touched == true)
+            if (touched)
             {
 
 
@@ -420,7 +418,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
     }
     public void HurtByPlayer(float damage, StatManager sm1)
     {
-        if (readytotakedamage == true)
+        if (readytotakedamage)
         {
             sprite.color = new Color(1, .5f, .5f, 1);
             HealthBar.healthCurrent -= damage;
@@ -434,7 +432,7 @@ public class MeleeEnemyBehaviour : MonoBehaviour
     }
     public void OnMouseOver()
     {
-        if (Dead == true && clicked == false)
+        if (Dead && clicked == false)
         {
             SelectBox select = Box.GetComponentInChildren<SelectBox>();
             select.show = true;
@@ -448,9 +446,9 @@ public class MeleeEnemyBehaviour : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        if (Dead == true && clicked == false)
+        if (Dead && clicked == false)
         {
-            GameObject lootbox = (GameObject)Instantiate(loot, transform.position, Quaternion.Euler(0, 0, 0));
+            GameObject lootbox = Instantiate(loot, transform.position, Quaternion.Euler(0, 0, 0));
             lootbox.transform.parent = gameObject.transform;
             Loot stat = lootbox.GetComponent<Loot>();
             stat.sm = sm;

@@ -6,13 +6,12 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Xml.Linq;
-
-using UnityEngine;
 using UnityEditor;
-
-using Path = System.IO.Path;
+using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Tiled2Unity
 {
@@ -40,7 +39,7 @@ namespace Tiled2Unity
             }
         }
 
-        private void ImportAllPrefabs(Tiled2Unity.ImportBehaviour importComponent)
+        private void ImportAllPrefabs(ImportBehaviour importComponent)
         {
             foreach (var xmlPrefab in importComponent.XmlDocument.Root.Elements("Prefab"))
             {
@@ -48,7 +47,7 @@ namespace Tiled2Unity
             }
         }
 
-        private void CreatePrefab(XElement xmlPrefab, Tiled2Unity.ImportBehaviour importComponent)
+        private void CreatePrefab(XElement xmlPrefab, ImportBehaviour importComponent)
         {
             var customImporters = GetCustomImporterInstances(importComponent);
 
@@ -84,20 +83,23 @@ namespace Tiled2Unity
                 importComponent.ImportingAssets.Add(prefabPath);
             }
 
-            UnityEngine.Object finalPrefab = AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
+            Object finalPrefab = AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
 
             if (finalPrefab == null)
             {
                 // The prefab needs to be created
                 ImportUtils.ReadyToWrite(prefabPath);
-                finalPrefab = PrefabUtility.CreateEmptyPrefab(prefabPath);
+                // Create an empty prefab asset
+                GameObject emptyObject = new GameObject();
+                finalPrefab = PrefabUtility.SaveAsPrefabAsset(emptyObject, prefabPath);
+                Object.DestroyImmediate(emptyObject);
             }
 
-            // Replace the prefab, keeping connections based on name. This imports the prefab asset as a side-effect.
-            PrefabUtility.ReplacePrefab(tempPrefab, finalPrefab, ReplacePrefabOptions.ReplaceNameBased);
+            // Save the prefab, keeping connections based on name
+            finalPrefab = PrefabUtility.SaveAsPrefabAssetAndConnect(tempPrefab, prefabPath, InteractionMode.AutomatedAction);
 
             // Destroy the instance from the current scene hierarchy.
-            UnityEngine.Object.DestroyImmediate(tempPrefab);
+            Object.DestroyImmediate(tempPrefab);
         }
 
         private void AddGameObjectsTo(GameObject parent, XElement xml, bool isParentTrigger, ImportBehaviour importComponent, IList<ICustomTiledImporter> customImporters)
@@ -242,7 +244,7 @@ namespace Tiled2Unity
 
 #if UNITY_5_6_OR_NEWER
             // Add a component that will control our instanced shader properties
-            Tiled2Unity.GPUInstancing instancing = gameObject.GetOrAddComponent<Tiled2Unity.GPUInstancing>();
+            GPUInstancing instancing = gameObject.GetOrAddComponent<GPUInstancing>();
             instancing.Opacity = opacity;
 #endif
         }
@@ -436,7 +438,7 @@ namespace Tiled2Unity
         private GameObject CreateGameObjectWithMesh(string meshName, ImportBehaviour importComponent)
         {
             string meshAssetPath = GetMeshAssetPath(importComponent.MapName, meshName);
-            UnityEngine.Object[] objects = AssetDatabase.LoadAllAssetsAtPath(meshAssetPath);
+            Object[] objects = AssetDatabase.LoadAllAssetsAtPath(meshAssetPath);
             foreach (var obj in objects)
             {
                 // Do we have a game object?
@@ -447,7 +449,7 @@ namespace Tiled2Unity
                 // Does the game object have a MeshRenderer component?
                 if (gameObj.GetComponent<MeshRenderer>() != null)
                 {
-                    GameObject instancedGameObj = GameObject.Instantiate(gameObj) as GameObject;
+                    GameObject instancedGameObj = GameObject.Instantiate(gameObj);
                     instancedGameObj.AddComponent<SortingLayerExposed>();
                     return instancedGameObj;
                 }
@@ -465,7 +467,7 @@ namespace Tiled2Unity
             // Find a matching game object within the mesh object and "copy" it
             // (In Unity terms, the Instantiated object is a copy)
             string objPath = GetMeshAssetPath(importComponent.MapName, importComponent.MapName);
-            UnityEngine.Object[] objects = AssetDatabase.LoadAllAssetsAtPath(objPath);
+            Object[] objects = AssetDatabase.LoadAllAssetsAtPath(objPath);
             foreach (var obj in objects)
             {
                 if (obj.name != copyFromName)
@@ -491,7 +493,7 @@ namespace Tiled2Unity
             var xml = goXml.Element("TileLayer");
             if (xml != null)
             {
-                Tiled2Unity.TileLayer tileLayer = gameObject.AddComponent<Tiled2Unity.TileLayer>();
+                TileLayer tileLayer = gameObject.AddComponent<TileLayer>();
                 SetLayerComponentProperties(tileLayer, xml);
             }
         }
@@ -501,7 +503,7 @@ namespace Tiled2Unity
             var xml = goXml.Element("ObjectLayer");
             if (xml != null)
             {
-                Tiled2Unity.ObjectLayer objectLayer = gameObject.AddComponent<Tiled2Unity.ObjectLayer>();
+                ObjectLayer objectLayer = gameObject.AddComponent<ObjectLayer>();
                 objectLayer.Color = ImportUtils.GetAttributeAsColor(xml, "color", Color.black);
                 SetLayerComponentProperties(objectLayer, xml);
             }
@@ -512,12 +514,12 @@ namespace Tiled2Unity
             var xml = goXml.Element("GroupLayer");
             if (xml != null)
             {
-                Tiled2Unity.GroupLayer groupLayer = gameObject.AddComponent<Tiled2Unity.GroupLayer>();
+                GroupLayer groupLayer = gameObject.AddComponent<GroupLayer>();
                 SetLayerComponentProperties(groupLayer, xml);
             }
         }
 
-        private void SetLayerComponentProperties(Tiled2Unity.Layer layer, XElement xml)
+        private void SetLayerComponentProperties(Layer layer, XElement xml)
         {
             layer.Offset = new Vector2 { x = ImportUtils.GetAttributeAsFloat(xml, "offsetX", 0), y = ImportUtils.GetAttributeAsFloat(xml, "offsetY", 0) };
         }
@@ -537,7 +539,7 @@ namespace Tiled2Unity
             var xml = goXml.Element("RectangleObjectComponent");
             if (xml != null)
             {
-                RectangleObject tmxRectangle = gameObject.AddComponent<Tiled2Unity.RectangleObject>();
+                RectangleObject tmxRectangle = gameObject.AddComponent<RectangleObject>();
                 FillBaseTmxObjectProperties(tmxRectangle, xml);
             }
         }
@@ -547,7 +549,7 @@ namespace Tiled2Unity
             var xml = goXml.Element("CircleObjectComponent");
             if (xml != null)
             {
-                CircleObject tmxCircle = gameObject.AddComponent<Tiled2Unity.CircleObject>();
+                CircleObject tmxCircle = gameObject.AddComponent<CircleObject>();
                 FillBaseTmxObjectProperties(tmxCircle, xml);
             }
         }
@@ -557,7 +559,7 @@ namespace Tiled2Unity
             var xml = goXml.Element("PolygonObjectComponent");
             if (xml != null)
             {
-                PolygonObject tmxPolygon = gameObject.AddComponent<Tiled2Unity.PolygonObject>();
+                PolygonObject tmxPolygon = gameObject.AddComponent<PolygonObject>();
                 FillBaseTmxObjectProperties(tmxPolygon, xml);
             }
         }
@@ -567,7 +569,7 @@ namespace Tiled2Unity
             var xml = goXml.Element("PolylineObjectComponent");
             if (xml != null)
             {
-                PolylineObject tmxPolyline = gameObject.AddComponent<Tiled2Unity.PolylineObject>();
+                PolylineObject tmxPolyline = gameObject.AddComponent<PolylineObject>();
                 FillBaseTmxObjectProperties(tmxPolyline, xml);
             }
         }
@@ -586,7 +588,7 @@ namespace Tiled2Unity
             }
         }
 
-        private void FillBaseTmxObjectProperties(Tiled2Unity.TmxObject tmxComponent, XElement xml)
+        private void FillBaseTmxObjectProperties(TmxObject tmxComponent, XElement xml)
         {
             tmxComponent.TmxId = ImportUtils.GetAttributeAsInt(xml, "tmx-object-id", -1);
             tmxComponent.TmxName = ImportUtils.GetAttributeAsString(xml, "tmx-object-name", "");
@@ -611,7 +613,7 @@ namespace Tiled2Unity
             }
         }
 
-        private void HandleTiledAttributes(GameObject gameObject, XElement goXml, Tiled2Unity.ImportBehaviour importComponent)
+        private void HandleTiledAttributes(GameObject gameObject, XElement goXml, ImportBehaviour importComponent)
         {
             // Add the TiledMap component
             TiledMap map = gameObject.AddComponent<TiledMap>();
@@ -641,7 +643,7 @@ namespace Tiled2Unity
         private void HandleCustomProperties(GameObject gameObject, XElement goXml, IList<ICustomTiledImporter> importers)
         {
             var props = from p in goXml.Elements("Property")
-                        select new { Name = p.Attribute("name").Value, Value = p.Attribute("value").Value };
+                        select new { Name = p.Attribute("name").Value, p.Attribute("value").Value };
 
             if (props.Count() > 0)
             {
@@ -668,7 +670,7 @@ namespace Tiled2Unity
                              from t in a.GetTypes()
                              where typeof(ICustomTiledImporter).IsAssignableFrom(t)
                              where !t.IsAbstract
-                             where System.Attribute.GetCustomAttribute(t, typeof(CustomTiledImporterAttribute)) == null
+                             where Attribute.GetCustomAttribute(t, typeof(CustomTiledImporterAttribute)) == null
                              select t;
             foreach (var t in errorTypes)
             {
@@ -680,7 +682,7 @@ namespace Tiled2Unity
                         from t in a.GetTypes()
                         where typeof(ICustomTiledImporter).IsAssignableFrom(t)
                         where !t.IsAbstract
-                        from attr in System.Attribute.GetCustomAttributes(t, typeof(CustomTiledImporterAttribute))
+                        from attr in Attribute.GetCustomAttributes(t, typeof(CustomTiledImporterAttribute))
                         let custom = attr as CustomTiledImporterAttribute
                         orderby custom.Order
                         select t;

@@ -1,6 +1,4 @@
-﻿
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class InterfaceMain : MonoBehaviour {
     public UserInterface parent;
@@ -49,7 +47,7 @@ public class InterfaceMain : MonoBehaviour {
         tab = parent.ptab;
         openmenu2 = parent.openMenu;
         anim.SetFloat("Tab", tab);
-        if (disableSelect == true)
+        if (disableSelect)
         {
             disableselectTimer = disableselectTimer - Time.deltaTime;
             if (disableselectTimer < 0)
@@ -71,15 +69,15 @@ public class InterfaceMain : MonoBehaviour {
     public void NewItem(int ID, bool spell)
     {
         if (spell == false) {
-            GameObject item = (GameObject)Instantiate(GameItems[ID], Invslots[slotsUsed].position, Quaternion.Euler(0, 0, 0));
+            GameObject item = Instantiate(GameItems[ID], Invslots[slotsUsed].position, Quaternion.Euler(0, 0, 0));
             item.transform.parent = transform;
             slotsUsed++;
             InventoryItem II = item.GetComponent<InventoryItem>();
             II.IM = gameObject.GetComponent<InterfaceMain>();
         }
-        if (spell == true)
+        if (spell)
         {
-            GameObject item = (GameObject)Instantiate(GameItems[ID], spellslots[spellslotsused].position, Quaternion.Euler(0, 0, 0));
+            GameObject item = Instantiate(GameItems[ID], spellslots[spellslotsused].position, Quaternion.Euler(0, 0, 0));
             item.transform.parent = transform;
             spellslotsused++;
             InventoryItem II = item.GetComponent<InventoryItem>();
@@ -89,7 +87,7 @@ public class InterfaceMain : MonoBehaviour {
     }
     public void NewKey(int ID)
     {
-        GameObject item = (GameObject)Instantiate(Keys[ID - 1], KeySlots[ID - 1].position, Quaternion.Euler(0, 0, 0));
+        GameObject item = Instantiate(Keys[ID - 1], KeySlots[ID - 1].position, Quaternion.Euler(0, 0, 0));
         item.transform.parent = transform;
         UIShow kid = item.GetComponent<UIShow>();
         kid.UI = gameObject.GetComponent<InterfaceMain>();

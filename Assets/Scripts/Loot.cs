@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Loot : MonoBehaviour {
     public string parent;
@@ -27,7 +25,7 @@ public class Loot : MonoBehaviour {
         parent = parentname;
         if(parent == "Cricket" && spawned == false)
         {
-            GameObject gold = (GameObject)Instantiate(items[0], slots[0].position, Quaternion.Euler(0, 0, 0));
+            GameObject gold = Instantiate(items[0], slots[0].position, Quaternion.Euler(0, 0, 0));
             gold.transform.parent = gameObject.transform;
             LootItem stat = gold.GetComponent<LootItem>();
             stat.sm = sm;          
@@ -36,7 +34,7 @@ public class Loot : MonoBehaviour {
            
             if (random == 1)
             {
-                GameObject garnet= (GameObject)Instantiate(items[1], slots[1].position, Quaternion.Euler(0, 0, 0));
+                GameObject garnet= Instantiate(items[1], slots[1].position, Quaternion.Euler(0, 0, 0));
                 garnet.transform.parent = gameObject.transform;                              
                 LootItem stat1 = garnet.GetComponent<LootItem>();
                 stat1.sm = sm;
@@ -47,7 +45,7 @@ public class Loot : MonoBehaviour {
         }
         if (parent == "Beetle" && spawned == false)
         {
-            GameObject gold1 = (GameObject)Instantiate(items[0], slots[0].position, Quaternion.Euler(0, 0, 0));
+            GameObject gold1 = Instantiate(items[0], slots[0].position, Quaternion.Euler(0, 0, 0));
             gold1.transform.parent = gameObject.transform;
             LootItem stat = gold1.GetComponent<LootItem>();
             stat.sm = sm;
@@ -56,7 +54,7 @@ public class Loot : MonoBehaviour {
             
             if (random == 1)
             {
-                GameObject ruby = (GameObject)Instantiate(items[4], slots[1].position, Quaternion.Euler(0, 0, 0));
+                GameObject ruby = Instantiate(items[4], slots[1].position, Quaternion.Euler(0, 0, 0));
                 ruby.transform.parent = gameObject.transform;
                 LootItem stat1 = ruby.GetComponent<LootItem>();
                 stat1.sm = sm;

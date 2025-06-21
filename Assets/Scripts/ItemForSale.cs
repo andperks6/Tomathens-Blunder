@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ItemForSale : MonoBehaviour {
 
@@ -34,7 +32,7 @@ public class ItemForSale : MonoBehaviour {
             transform.localScale = new Vector3(size1.x,size1.y);
         
         }
-        if (size == true)
+        if (size)
         {
             transform.localScale = new Vector3(size1.x + .1f, size1.y + .1f);
             size = false;

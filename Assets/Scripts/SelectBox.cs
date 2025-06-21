@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SelectBox : MonoBehaviour {
     public SpriteRenderer sprite;
@@ -14,7 +12,7 @@ public class SelectBox : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (show == true)
+        if (show)
         {
             sprite.enabled = true;
         }

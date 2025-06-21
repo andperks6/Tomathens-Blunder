@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class button : MonoBehaviour
 {
@@ -28,7 +25,7 @@ public class button : MonoBehaviour
             {
                 transform.localScale = new Vector3(1f, 1f, 1);
             }
-            if (size == true)
+            if (size)
             {
                 transform.localScale = new Vector3(1.05f, 1.05f, 1);
                 size = false;

@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class UserInterface : MonoBehaviour
 {
-    Transform camera;
     public bool openMenu;
     public bool sub;
     public int ptab;
@@ -21,7 +17,7 @@ public class UserInterface : MonoBehaviour
         openMenu = false;
         wasMenuOpen = false;
 
-        Text child = GetComponentInChildren<Text>();
+        GetComponentInChildren<Text>();
         ptab = 1;
         whichTab = 1;
         
@@ -42,9 +38,9 @@ public class UserInterface : MonoBehaviour
             
             // Update all sprite renderers visibility
             var spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
-            foreach (var renderer in spriteRenderers)
+            foreach (var spriteRenderer in spriteRenderers)
             {
-                renderer.enabled = shouldShow;
+                spriteRenderer.enabled = shouldShow;
             }
             
             wasMenuOpen = shouldShow;
@@ -55,9 +51,9 @@ public class UserInterface : MonoBehaviour
     {
         // Ensure all sprites start hidden when enabled
         var spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
-        foreach (var renderer in spriteRenderers)
+        foreach (var spriteRenderer in spriteRenderers)
         {
-            renderer.enabled = false;
+            spriteRenderer.enabled = false;
         }
         openMenu = false;
         wasMenuOpen = false;

@@ -2,16 +2,8 @@
 // Note: This parital class is not compiled in for WebPlayer builds.
 // The Unity Webplayer is deprecated. If you *must* use it then make sure Tiled2Unity assets are imported via another build target first.
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Xml;
 using System.Xml.Linq;
-
-using UnityEditor;
 using UnityEngine;
-
 
 namespace Tiled2Unity
 {
@@ -20,7 +12,7 @@ namespace Tiled2Unity
     {
 
         // Called when Unity detects the *.tiled2unity.xml file needs to be (re)imported
-        public void ImportBegin(string xmlPath, Tiled2Unity.ImportTiled2Unity importTiled2Unity)
+        public void ImportBegin(string xmlPath, ImportTiled2Unity importTiled2Unity)
         {
             // Create a (tempoary) gameobject in the scene hierarchy that can manage state of the import process
             GameObject t2uImporter = new GameObject("__tiled2unity_importer");
@@ -28,7 +20,7 @@ namespace Tiled2Unity
             t2uImporter.gameObject.transform.SetAsFirstSibling();
 #endif
             // Add the ImportBehaviour component. This will track the state of the importer and get everything to happen in the right order.
-            var importComponent = t2uImporter.AddComponent<Tiled2Unity.ImportBehaviour>();
+            var importComponent = t2uImporter.AddComponent<ImportBehaviour>();
 
             // Load the XML and start the importing process
             if (LoadTiled2UnityXml(importComponent, xmlPath))
@@ -63,7 +55,7 @@ namespace Tiled2Unity
             return false;
         }
 
-        private void CheckVersion(Tiled2Unity.ImportBehaviour importComponent, Tiled2Unity.ImportTiled2Unity importTiled2Unity)
+        private void CheckVersion(ImportBehaviour importComponent, ImportTiled2Unity importTiled2Unity)
         {
             try
             {
@@ -83,7 +75,7 @@ namespace Tiled2Unity
             }
         }
 
-        private void CheckSettings(Tiled2Unity.ImportBehaviour importComponent)
+        private void CheckSettings(ImportBehaviour importComponent)
         {
             // Check anti-aliasing
             if (QualitySettings.antiAliasing != 0)
@@ -92,7 +84,7 @@ namespace Tiled2Unity
             }
         }
 
-        private UnityEngine.Material CreateMaterialFromXml(XElement xml, Tiled2Unity.ImportBehaviour importComponent)
+        private Material CreateMaterialFromXml(XElement xml, ImportBehaviour importComponent)
         {
             // Does this material support alpha color key?
             bool useColorKey = xml.Attribute("alphaColorKey") != null;
@@ -125,10 +117,10 @@ namespace Tiled2Unity
 #endif
 
             // Try creating the material with the right shader. Fall back to the built-in Sprites/Default shader if there's a problem.
-            UnityEngine.Material material = null;
+            Material material = null;
             try
             {
-                material = new UnityEngine.Material(UnityEngine.Shader.Find(shaderName));
+                material = new Material(Shader.Find(shaderName));
             }
             catch (Exception e)
             {
@@ -138,7 +130,7 @@ namespace Tiled2Unity
             if (material == null)
             {
                 importComponent.RecordWarning("Using default sprite shader for material");
-                material = new UnityEngine.Material(UnityEngine.Shader.Find("Sprites/Default"));
+                material = new Material(Shader.Find("Sprites/Default"));
             }
 
             if (useColorKey)

@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-
+using UnityEditor;
+using UnityEngine;
 #if !UNITY_WEBPLAYER
 using System.Xml.Linq;
 #endif
-
-using UnityEditor;
-using UnityEngine;
 
 namespace Tiled2Unity
 {

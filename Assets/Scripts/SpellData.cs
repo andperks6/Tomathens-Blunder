@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class SpellData : MonoBehaviour {
@@ -17,7 +15,7 @@ public class SpellData : MonoBehaviour {
     public UIShow uishow;
     public SpriteRenderer sprite;
     public bool alwayshow;
-    public CharacterController cc;
+    public NetworkCharacterController cc;
     public StatManager sm;
     public float manacost;
     public string spelltype;
@@ -35,25 +33,25 @@ public class SpellData : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (time == true)
+        if (time)
         {
             timer = timer + Time.deltaTime;
         }
-        if (disbleText == true)
+        if (disbleText)
         {
             text.enabled = false;
         }
-        if (destroy == true)
+        if (destroy)
         {
             Destroy(gameObject);
         }
-        if (alwayshow == true)
+        if (alwayshow)
         {
 
             uishow.enabled = false;
             sprite.enabled = true;
         }
-        if (eqiuped == true)
+        if (eqiuped)
         {
             if (manacost > sm.magickaCurrent)
             {
@@ -61,7 +59,7 @@ public class SpellData : MonoBehaviour {
             }
             else { sprite.color = new Color(1,1, 1, 1); }
 
-            if (Input.GetKeyDown("1")&& whichBox ==1 && castable == true)
+            if (Input.GetKeyDown("1")&& whichBox ==1 && castable)
             {
                 cc.spell = projectile;
                 cc.spelltype = spelltype;
@@ -69,7 +67,7 @@ public class SpellData : MonoBehaviour {
                 cc.sd = gameObject.GetComponent<SpellData>();
                 showring = true;
             }
-            if (Input.GetKeyDown("2") & whichBox == 2 && castable == true)
+            if (Input.GetKeyDown("2") & whichBox == 2 && castable)
             {
                 cc.spell = projectile;
                 cc.spelltype = spelltype;
@@ -77,7 +75,7 @@ public class SpellData : MonoBehaviour {
                 cc.sd = gameObject.GetComponent<SpellData>();
                 showring = true;
             }
-            if (Input.GetKeyDown("3") & whichBox == 3 && castable == true)
+            if (Input.GetKeyDown("3") & whichBox == 3 && castable)
             {
                 cc.spell = projectile;
                 cc.spelltype = spelltype;
@@ -85,7 +83,7 @@ public class SpellData : MonoBehaviour {
                 cc.sd = gameObject.GetComponent<SpellData>();
                 showring = true;
             }
-            if (Input.GetKeyDown("4") & whichBox == 4 && castable == true)
+            if (Input.GetKeyDown("4") & whichBox == 4 && castable)
             {
                 cc.spell = projectile;
                 cc.spelltype = spelltype;
@@ -93,7 +91,7 @@ public class SpellData : MonoBehaviour {
                 cc.sd = gameObject.GetComponent<SpellData>();
                 showring = true;
             }
-            if (Input.GetKeyDown("5") & whichBox == 5 && castable == true)
+            if (Input.GetKeyDown("5") & whichBox == 5 && castable)
             {
                 cc.spell = projectile;
                 cc.spelltype = spelltype;
@@ -101,7 +99,7 @@ public class SpellData : MonoBehaviour {
                 cc.sd = gameObject.GetComponent<SpellData>();
                 showring = true;
             }
-            if (Input.GetKeyDown("6") & whichBox == 6 && castable == true)
+            if (Input.GetKeyDown("6") & whichBox == 6 && castable)
             {
                 cc.spell = projectile;
                 cc.spelltype = spelltype;
@@ -109,7 +107,7 @@ public class SpellData : MonoBehaviour {
                 cc.sd = gameObject.GetComponent<SpellData>();
                 showring = true;
             }
-            if (startcd == true)
+            if (startcd)
             {
                 cd.cd = cooldown;
                 cd.cd2 = cooldown;

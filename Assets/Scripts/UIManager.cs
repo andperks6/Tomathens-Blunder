@@ -7,7 +7,7 @@ public class UIManager : MonoBehaviour
 
     // For global Canvas-based UI
     public event Action<bool> OnSystemMenuToggled;
-    public event Action<bool> OnSettingsToggled; // Added Settings event
+    public event Action<bool> OnSettingsToggled;
 
     // For sprite-based player UI
     public event Action<bool> OnTabMenuToggled;
