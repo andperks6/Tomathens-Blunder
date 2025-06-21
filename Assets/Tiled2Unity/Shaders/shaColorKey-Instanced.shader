@@ -7,13 +7,12 @@ Shader "Tiled2Unity/Default Color Key (Instanced)"
         _MainTex ("Tiled Texture", 2D) = "white" {}
         _Color ("Tint", Color) = (1,1,1,1)
         _AlphaColorKey ("Alpha Color Key", Color) = (0,0,0,0)
-        [MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
     }
 
     SubShader
     {
         Tags
-        { 
+        {
             "Queue"="Transparent"
             "IgnoreProjector"="True"
             "RenderType"="Transparent"
@@ -31,7 +30,7 @@ Shader "Tiled2Unity/Default Color Key (Instanced)"
         CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #pragma multi_compile DUMMY PIXELSNAP_ON
+            #pragma shader_feature PIXELSNAP_ON
             #include "UnityCG.cginc"
             #include "Tiled2Unity.cginc"
 
