@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LootItem : MonoBehaviour {
     public bool currency;
@@ -20,7 +18,7 @@ public class LootItem : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (hasText == true)
+        if (hasText)
         {
             LootText t = text1.GetComponent<LootText>();
             t.number = amount;
@@ -30,7 +28,7 @@ public class LootItem : MonoBehaviour {
         {
             transform.localScale = sizeofart;
         }
-        if (size == true)
+        if (size)
         {
             transform.localScale = new Vector3(sizeofart.x + .05f, sizeofart.y + .05f, 1);
             size = false;

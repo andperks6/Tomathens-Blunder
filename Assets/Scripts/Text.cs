@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class Text : MonoBehaviour {
@@ -33,7 +31,7 @@ public class Text : MonoBehaviour {
         {
             text1.text = number.ToString();
         }
-        if (UI.openMenu == true)
+        if (UI.openMenu)
         {
             text1.enabled = true;
         }

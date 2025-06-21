@@ -2,16 +2,13 @@
 // Note: This parital class is not compiled in for WebPlayer builds.
 // The Unity Webplayer is deprecated. If you *must* use it then make sure Tiled2Unity assets are imported via another build target first.
 using System;
-using System.IO;
-using System.IO.Compression;
 using System.Globalization;
-using System.Linq;
-using System.Reflection;
+using System.IO;
 using System.Text;
 using System.Xml.Linq;
-
 using UnityEditor;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Tiled2Unity
 {
@@ -89,7 +86,7 @@ namespace Tiled2Unity
             catch
             {
                 StringBuilder msg = new StringBuilder();
-                msg.AppendFormat("Could not convert '{0}' to enum of type '{1}'\n", enumString, typeof(T).ToString());
+                msg.AppendFormat("Could not convert '{0}' to enum of type '{1}'\n", enumString, typeof(T));
                 msg.AppendFormat("Choices are:\n");
 
                 foreach (T t in Enum.GetValues(typeof(T)))
@@ -110,7 +107,7 @@ namespace Tiled2Unity
 
         public static string GetAttributeAsFullPath(XElement elem, string attrName)
         {
-            return System.IO.Path.GetFullPath(elem.Attribute(attrName).Value);
+            return Path.GetFullPath(elem.Attribute(attrName).Value);
         }
 
         public static Color GetAttributeAsColor(XElement elem, string attrName)
@@ -126,18 +123,19 @@ namespace Tiled2Unity
             if (htmlColor.Length == 9)
             {
                 // ARBG
-                byte a = byte.Parse(htmlColor.Substring(1, 2), System.Globalization.NumberStyles.HexNumber);
-                byte r = byte.Parse(htmlColor.Substring(3, 2), System.Globalization.NumberStyles.HexNumber);
-                byte g = byte.Parse(htmlColor.Substring(5, 2), System.Globalization.NumberStyles.HexNumber);
-                byte b = byte.Parse(htmlColor.Substring(7, 2), System.Globalization.NumberStyles.HexNumber);
+                byte a = byte.Parse(htmlColor.Substring(1, 2), NumberStyles.HexNumber);
+                byte r = byte.Parse(htmlColor.Substring(3, 2), NumberStyles.HexNumber);
+                byte g = byte.Parse(htmlColor.Substring(5, 2), NumberStyles.HexNumber);
+                byte b = byte.Parse(htmlColor.Substring(7, 2), NumberStyles.HexNumber);
                 return new Color32(r, g, b, a);
             }
-            else if (htmlColor.Length == 7)
+
+            if (htmlColor.Length == 7)
             {
                 // RBA
-                byte r = byte.Parse(htmlColor.Substring(1, 2), System.Globalization.NumberStyles.HexNumber);
-                byte g = byte.Parse(htmlColor.Substring(3, 2), System.Globalization.NumberStyles.HexNumber);
-                byte b = byte.Parse(htmlColor.Substring(5, 2), System.Globalization.NumberStyles.HexNumber);
+                byte r = byte.Parse(htmlColor.Substring(1, 2), NumberStyles.HexNumber);
+                byte g = byte.Parse(htmlColor.Substring(3, 2), NumberStyles.HexNumber);
+                byte b = byte.Parse(htmlColor.Substring(5, 2), NumberStyles.HexNumber);
                 return new Color32(r, g, b, 255);
             }
 
@@ -172,7 +170,7 @@ namespace Tiled2Unity
         }
 
         // From: http://answers.unity3d.com/questions/24929/assetdatabase-replacing-an-asset-but-leaving-refer.html
-        public static T CreateOrReplaceAsset<T>(T asset, string path) where T : UnityEngine.Object
+        public static T CreateOrReplaceAsset<T>(T asset, string path) where T : Object
         {
             T existingAsset = (T)AssetDatabase.LoadAssetAtPath(path, typeof(T));
 

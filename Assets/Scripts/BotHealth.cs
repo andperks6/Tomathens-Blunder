@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BotHealth : MonoBehaviour {
 
@@ -52,7 +50,7 @@ public class BotHealth : MonoBehaviour {
             showTimer = 3;
 
         }
-        if (show == true)
+        if (show)
         {
             showTimer = showTimer - Time.deltaTime;
             if (showTimer <= 0)

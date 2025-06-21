@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
 namespace Tiled2Unity
 {
     [CustomEditor(typeof(SpriteDepthInMap))]
-    public class SpriteDepthInMapEditor : UnityEditor.Editor
+    public class SpriteDepthInMapEditor : Editor
     {
         public override void OnInspectorGUI()
         {

@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerRangedAttack : MonoBehaviour {
-    public CharacterController parent;
+    public NetworkCharacterController parent;
     public float Speed;
     public float deleteTimer;
     public Transform ProjectileSpot;
@@ -17,9 +15,9 @@ public class PlayerRangedAttack : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        parent = GetComponentInParent<CharacterController>();
+        parent = GetComponentInParent<NetworkCharacterController>();
         playerRot = parent.lastMove;     
-        ProjectileSpot = parent.ProjectileSpot;
+        ProjectileSpot = parent.projectileSpot;
         if (playerRot.x == -1)
         {
             distanceX = -15;
@@ -49,13 +47,13 @@ public class PlayerRangedAttack : MonoBehaviour {
     {
         deleteTimer = deleteTimer - Time.deltaTime;
 
-        if (parent.attack == true)
+        if (parent.attack)
         {
             shoot = true;
 
         }
 
-        if (shoot == true)
+        if (shoot)
         {
             waittime = waittime - Time.deltaTime;
 

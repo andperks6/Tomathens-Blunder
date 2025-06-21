@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class cooldown : MonoBehaviour {
     public SpellData sd;
@@ -18,7 +16,7 @@ public class cooldown : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (show == true)
+        if (show)
         {
             sprite.enabled = true;
             cd = cd - Time.deltaTime;

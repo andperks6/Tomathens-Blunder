@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Mirror;
+﻿using UnityEngine;
 
 public class startbuttons : MonoBehaviour
 {
@@ -37,7 +34,7 @@ public class startbuttons : MonoBehaviour
         {
             transform.localScale = startScale;
         }
-        if (size == true)
+        if (size)
         {
             transform.localScale = startScale * 1.2f;
             size = false;

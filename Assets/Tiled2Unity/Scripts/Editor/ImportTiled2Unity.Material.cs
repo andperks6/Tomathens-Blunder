@@ -2,17 +2,12 @@
 // Note: This parital class is not compiled in for WebPlayer builds.
 // The Unity Webplayer is deprecated. If you *must* use it then make sure Tiled2Unity assets are imported via another build target first.
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Xml;
 using System.Xml.Linq;
-
 using UnityEditor;
 using UnityEngine;
-
 
 namespace Tiled2Unity
 {
@@ -22,7 +17,7 @@ namespace Tiled2Unity
         public void MaterialImported(string materialPath)
         {
             // Find the import behaviour that was waiting on this material to be imported
-            string asset = System.IO.Path.GetFileName(materialPath);
+            string asset = Path.GetFileName(materialPath);
             foreach (var importComponent in ImportBehaviour.EnumerateImportBehaviors_ByWaitingMaterial(asset))
             {
                 // The material has finished loading. Keep track of that status.
@@ -41,7 +36,7 @@ namespace Tiled2Unity
 
         // We need to call this while the renderers on the model is having its material assigned to it
         // This is invoked for every submesh in the .obj wavefront mesh
-        public UnityEngine.Material FixMaterialForMeshRenderer(string objName, Renderer renderer)
+        public Material FixMaterialForMeshRenderer(string objName, Renderer renderer)
         {
             // Find the import behaviour that is waiting for the mesh to be imported.
             string assetName = objName + ".obj";
@@ -72,7 +67,7 @@ namespace Tiled2Unity
             string materialPath = GetExistingMaterialAssetPath(materialName);
 
             // Assign the material
-            UnityEngine.Material material = AssetDatabase.LoadAssetAtPath(materialPath, typeof(UnityEngine.Material)) as UnityEngine.Material;
+            Material material = AssetDatabase.LoadAssetAtPath(materialPath, typeof(Material)) as Material;
             if (material == null)
             {
                 importBehavior.RecordError("Could not find material: {0}", materialName);
@@ -81,7 +76,7 @@ namespace Tiled2Unity
             return material;
         }
 
-        private void ImportAllMaterials(Tiled2Unity.ImportBehaviour importComponent)
+        private void ImportAllMaterials(ImportBehaviour importComponent)
         {
             // Create a material for each texture that has been imported
             foreach (var xmlTexture in importComponent.XmlDocument.Root.Elements("ImportTexture"))
@@ -90,7 +85,7 @@ namespace Tiled2Unity
 
                 string textureFile = ImportUtils.GetAttributeAsString(xmlTexture, "filename");
                 string materialPath = MakeMaterialAssetPath(textureFile, isResource);
-                string materialFile = System.IO.Path.GetFileName(materialPath);
+                string materialFile = Path.GetFileName(materialPath);
 
                 // Keep track that we importing this material
                 if (!importComponent.ImportWait_Materials.Contains(materialFile, StringComparer.OrdinalIgnoreCase))
@@ -99,7 +94,7 @@ namespace Tiled2Unity
                 }
 
                 // Create the material
-                UnityEngine.Material material = CreateMaterialFromXml(xmlTexture, importComponent);
+                Material material = CreateMaterialFromXml(xmlTexture, importComponent);
 
                 // Assign the texture to the material
                 {
@@ -118,7 +113,7 @@ namespace Tiled2Unity
                 bool isResource = ImportUtils.GetAttributeAsBoolean(xmlInternal, "isResource", false);
 
                 string textureAsset = ImportUtils.GetAttributeAsString(xmlInternal, "assetPath");
-                string textureFile = System.IO.Path.GetFileName(textureAsset);
+                string textureFile = Path.GetFileName(textureAsset);
                 string materialPath = MakeMaterialAssetPath(textureFile, isResource);
 
                 // "Internal textures" may have a unique material name that goes with it
@@ -126,10 +121,10 @@ namespace Tiled2Unity
                 if (!String.IsNullOrEmpty(uniqueMaterialName))
                 {
                     materialPath = String.Format("{0}/{1}{2}", Path.GetDirectoryName(materialPath), uniqueMaterialName, Path.GetExtension(materialPath));
-                    materialPath = materialPath.Replace(System.IO.Path.DirectorySeparatorChar, '/');
+                    materialPath = materialPath.Replace(Path.DirectorySeparatorChar, '/');
                 }
 
-                string materialFile = System.IO.Path.GetFileName(materialPath);
+                string materialFile = Path.GetFileName(materialPath);
 
                 // Keep track that we are importing this material
                 if (!importComponent.ImportWait_Materials.Contains(materialFile, StringComparer.OrdinalIgnoreCase))
@@ -138,7 +133,7 @@ namespace Tiled2Unity
                 }
 
                 // Create the material and assign the texture
-                UnityEngine.Material material = CreateMaterialFromXml(xmlInternal, importComponent);
+                Material material = CreateMaterialFromXml(xmlInternal, importComponent);
                 AssignTextureAssetToMaterial(material, materialFile, textureAsset, importComponent);
 
                 ImportUtils.ReadyToWrite(materialPath);

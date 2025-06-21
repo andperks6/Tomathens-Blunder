@@ -5,13 +5,12 @@ Shader "Tiled2Unity/Diffuse Depth"
 		[PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
 		_Color ("Tint", Color) = (1,1,1,1)
 		_CutOff("Cut off", float) = 0.1
-		[MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
 	}
 
 	SubShader
 	{
 		Tags
-		{ 
+		{
 			"Queue"="Transparent"
 			"IgnoreProjector"="True"
 			"RenderType"="Transparent"
@@ -27,7 +26,7 @@ Shader "Tiled2Unity/Diffuse Depth"
 
 		CGPROGRAM
 		#pragma surface surf Lambert vertex:vert nofog keepalpha
-		#pragma multi_compile _ PIXELSNAP_ON
+		#pragma shader_feature PIXELSNAP_ON
 		#pragma multi_compile _ ETC1_EXTERNAL_ALPHA
 
 		sampler2D _MainTex;

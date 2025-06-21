@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Door : MonoBehaviour
 
@@ -48,7 +46,7 @@ public class Door : MonoBehaviour
 
 
 
-        if (open == true)
+        if (open)
         {
             doorOpentimer = doorOpentimer - Time.deltaTime;
             if (doorOpentimer < 0)

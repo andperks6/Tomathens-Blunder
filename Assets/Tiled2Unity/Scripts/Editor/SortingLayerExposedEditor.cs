@@ -1,17 +1,16 @@
 ﻿// Based on code provided by: Nick Gravelyn
 // from: https://gist.github.com/nickgravelyn/7460288
+
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
-
-using UnityEngine;
-using UnityEditor;
 using Tiled2Unity;
+using UnityEditor;
+using UnityEditorInternal;
+using UnityEngine;
 
-[CustomEditor(typeof(Tiled2Unity.SortingLayerExposed))]
-public class SortingLayerExposedEditor : UnityEditor.Editor
+[CustomEditor(typeof(SortingLayerExposed))]
+public class SortingLayerExposedEditor : Editor
 {
     public override void OnInspectorGUI()
     {
@@ -75,7 +74,7 @@ public class SortingLayerExposedEditor : UnityEditor.Editor
     // Get the sorting layer names
     public static string[] GetSortingLayerNames()
     {
-        Type internalEditorUtilityType = typeof(UnityEditorInternal.InternalEditorUtility);
+        Type internalEditorUtilityType = typeof(InternalEditorUtility);
         PropertyInfo sortingLayersProperty = internalEditorUtilityType.GetProperty("sortingLayerNames", BindingFlags.Static | BindingFlags.NonPublic);
         return (string[])sortingLayersProperty.GetValue(null, new object[0]);
     }
@@ -83,7 +82,7 @@ public class SortingLayerExposedEditor : UnityEditor.Editor
     // Get the unique sorting layer IDs -- tossed this in for good measure
     public int[] GetSortingLayerUniqueIDs()
     {
-        Type internalEditorUtilityType = typeof(UnityEditorInternal.InternalEditorUtility);
+        Type internalEditorUtilityType = typeof(InternalEditorUtility);
         PropertyInfo sortingLayerUniqueIDsProperty = internalEditorUtilityType.GetProperty("sortingLayerUniqueIDs", BindingFlags.Static | BindingFlags.NonPublic);
         return (int[])sortingLayerUniqueIDsProperty.GetValue(null, new object[0]);
     }

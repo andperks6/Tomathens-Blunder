@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Bobo : MonoBehaviour {
     public SpellButtons sp1;
@@ -18,16 +16,16 @@ public class Bobo : MonoBehaviour {
 
         if (equip == false)
         {
-            if (sp1.selected == true)
+            if (sp1.selected)
             {
                 sprite.enabled = true;
             }
             else { sprite.enabled = false; }
 
         }
-        if (equip == true)
+        if (equip)
         {
-            if (spelldata.showring == true)
+            if (spelldata.showring)
             {
                 sprite.enabled = true;
             }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class StatManager : MonoBehaviour
 {
@@ -9,7 +7,7 @@ public class StatManager : MonoBehaviour
 	public bool upStats;
 	private int primayAtrib;
 	public int playerlvl;
-	public CharacterController player;
+	public NetworkCharacterController player;
 	public Textmenu text1;
 	public InterfaceMain Inventory;
 	public hudspells hudspells2;
@@ -94,21 +92,21 @@ public class StatManager : MonoBehaviour
 		enchantmentlevel = 1;
 		// Primary Atribute  1 = strength, 2 = wisdom, 3 = speed
 
-		player = GetComponent<CharacterController>();
+		player = GetComponent<NetworkCharacterController>();
 		text1 = GetComponentInChildren<Textmenu>();
-		GameObject healthbar = (GameObject)Instantiate(playerHealthbar, new Vector2(transform.position.x + 4, transform.position.y - 6.2f), Quaternion.Euler(0, 0, 0));
+		GameObject healthbar = Instantiate(playerHealthbar, new Vector2(transform.position.x + 4, transform.position.y - 6.2f), Quaternion.Euler(0, 0, 0));
 		healthbar.transform.parent = transform;
 		PlayerBars pbh = healthbar.GetComponent<PlayerBars>();
 		pbh.sm = gameObject.GetComponent<StatManager>();
-		GameObject manabar = (GameObject)Instantiate(playerManabar, new Vector2(transform.position.x + 4, transform.position.y - 6.7f), Quaternion.Euler(0, 0, 0));
+		GameObject manabar = Instantiate(playerManabar, new Vector2(transform.position.x + 4, transform.position.y - 6.7f), Quaternion.Euler(0, 0, 0));
 		manabar.transform.parent = transform;
 		PlayerBars pbh2 = manabar.GetComponent<PlayerBars>();
 		pbh2.sm = gameObject.GetComponent<StatManager>();
-		GameObject xpbar = (GameObject)Instantiate(playerXPbar, new Vector2(transform.position.x - 5, transform.position.y - 5.8f), Quaternion.Euler(0, 0, 0));
+		GameObject xpbar = Instantiate(playerXPbar, new Vector2(transform.position.x - 5, transform.position.y - 5.8f), Quaternion.Euler(0, 0, 0));
 		xpbar.transform.parent = transform;
 		PlayerBars pbh3 = xpbar.GetComponent<PlayerBars>();
 		pbh3.sm = gameObject.GetComponent<StatManager>();
-		GameObject spellslots = (GameObject)Instantiate(playerSpellslots, new Vector2(transform.position.x - 5, transform.position.y - 6.5f), Quaternion.Euler(0, 0, 0));
+		GameObject spellslots = Instantiate(playerSpellslots, new Vector2(transform.position.x - 5, transform.position.y - 6.5f), Quaternion.Euler(0, 0, 0));
 		spellslots.transform.parent = transform;
 		hudspells hudspells = spellslots.GetComponent<hudspells>();
 		hudspells.sm = gameObject.GetComponent<StatManager>();
@@ -192,7 +190,7 @@ public class StatManager : MonoBehaviour
 		position = new Vector2(transform.position.x, transform.position.y);
 
 
-		if (fountian == true)
+		if (fountian)
 		{
 			distance = Vector2.Distance(position, fp);
 			if (Vector2.Distance(position, fp) < 6)
@@ -239,20 +237,20 @@ public class StatManager : MonoBehaviour
 		healthRegen = healthRegen1 + strength * .25f;
 		haste = haste1 + speed * .015f;
 		sprintregen = sprintregen1 + speed * .5f;
-		text1.garnetAmount = garnet;
-		text1.rubyAmount = ruby;
-		text1.goldAmount = gold;
-		text1.damageAmount = damage;
-		text1.healthAmount = health;
-		text1.StrengthAmount = strength;
-		text1.wisdomAmount = wisdom;
-		text1.speedAmount = speed;
-		text1.movementAmount = movespeed;
-		text1.magickaAmount = magicka;
-		text1.magickaregenAmount = magickaRegen;
-		text1.healthregenAmount = healthRegen;
-		text1.hasteAmount = haste;
-		text1.sprintregenAmount = sprintregen;
+			text1.garnetAmount = garnet;
+			text1.rubyAmount = ruby;
+			text1.goldAmount = gold;
+			text1.damageAmount = damage;
+			text1.healthAmount = health;
+			text1.StrengthAmount = strength;
+			text1.wisdomAmount = wisdom;
+			text1.speedAmount = speed;
+			text1.movementAmount = movespeed;
+			text1.magickaAmount = magicka;
+			text1.magickaregenAmount = magickaRegen;
+			text1.healthregenAmount = healthRegen;
+			text1.hasteAmount = haste;
+			text1.sprintregenAmount = sprintregen;
 
 
 

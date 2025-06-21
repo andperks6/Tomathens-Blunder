@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class ShopText : MonoBehaviour {
@@ -33,7 +31,7 @@ public class ShopText : MonoBehaviour {
         {
             text1.text = content;
         }
-       if (showing == true)
+       if (showing)
         {
             text1.sortingOrder = 211;
                 

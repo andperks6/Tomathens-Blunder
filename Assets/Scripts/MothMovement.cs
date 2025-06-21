@@ -1,14 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 public class MothMovement : MonoBehaviour
 {
    
     
     private Rigidbody2D rigidBoi;
-    Transform camera;
-    private bool playerMoving;
+    public Transform mainCamera;
     public Vector3 place;
     public float moveSpeed;
     public Vector2 lastMove;
@@ -18,7 +16,7 @@ public class MothMovement : MonoBehaviour
     public Transform projectile;
     public Vector2 projectileSpot;
     public GameObject spell;
-    public Health HealthBar;
+    [FormerlySerializedAs("HealthBar")] public Health healthBar;
     public bool dead;
     public BoxCollider2D collison;
     public float damage;
@@ -32,7 +30,7 @@ public class MothMovement : MonoBehaviour
         rigidBoi = GetComponent<Rigidbody2D>();
        
         collison = GetComponent<BoxCollider2D>();
-        camera = Camera.main.transform;
+        if (Camera.main != null) mainCamera = Camera.main.transform;
         attacktimer = -1;
         playerNumber = 1;
         
@@ -44,19 +42,17 @@ public class MothMovement : MonoBehaviour
     {
         if (dead == false)
         {
-            projectileSpot = new Vector2(projectile.position.x, projectile.position.y);
+            var position1 = projectile.position;
+            projectileSpot = new Vector2(position1.x, position1.y);
             string playername = playerNumber.ToString();
             gameObject.name = playername;
-            camera.position = Vector3.Lerp(transform.position, place, .15f);
-            place = new Vector3(transform.position.x, transform.position.y, -200);
-            playerMoving = false;
-
+            var position = transform.position;
+            mainCamera.position = Vector3.Lerp(position, place, .15f);
+            place = new Vector3(position.x, position.y, -200);
 
 
             if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
             {
-
-                playerMoving = true;
                 lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
                 rigidBoi.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, rigidBoi.velocity.y);
 
@@ -64,8 +60,6 @@ public class MothMovement : MonoBehaviour
             }
             if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
             {
-
-                playerMoving = true;
                 lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
                 rigidBoi.velocity = new Vector2(rigidBoi.velocity.x, Input.GetAxisRaw("Vertical") * moveSpeed);
 
@@ -85,8 +79,8 @@ public class MothMovement : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E) && attacktimer < 0)
             {
-                GameObject missle = (GameObject)Instantiate(spell, projectileSpot, Quaternion.Euler(0, 0, 0));
-                missle.transform.parent = transform;
+                GameObject missile = Instantiate(spell, projectileSpot, Quaternion.Euler(0, 0, 0));
+                missile.transform.parent = transform;
                 attack = true;
                 attacktimer = .8f;
                 moveSpeed = .8f;
@@ -114,12 +108,12 @@ public class MothMovement : MonoBehaviour
             
         }
     }
-    public void Hurt(float damage)
+    public void Hurt(float dmg)
     {
         
-            HealthBar.healthCurrent -= damage;
+            healthBar.healthCurrent -= dmg;
 
-            if (HealthBar.healthCurrent <= 0)
+            if (healthBar.healthCurrent <= 0)
             {
                 dead = true;
             }

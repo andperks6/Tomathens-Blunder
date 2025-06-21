@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BarTester : MonoBehaviour {
     public StatManager stat;
@@ -33,7 +31,7 @@ public class BarTester : MonoBehaviour {
         { healthCurrent = healthCurrent + stat.healthRegen * Time.deltaTime; }
 
         healthMax = stat.health;
-        if (Fullhealth == true)
+        if (Fullhealth)
         {
             healthCurrent = healthMax;
         }
@@ -55,7 +53,7 @@ public class BarTester : MonoBehaviour {
             showTimer = 3;
 
         }
-        if (show == true)
+        if (show)
         {
             showTimer = showTimer - Time.deltaTime;
             if (showTimer <= 0)

@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerSorceryspell : MonoBehaviour {
     public SpriteRenderer sprite;
-    public CharacterController parent;
+    public NetworkCharacterController parent;
     public float fireBallSpeed;
     public float deleteTimer;
     private Transform fireBallSpot;
@@ -16,26 +14,26 @@ public class PlayerSorceryspell : MonoBehaviour {
     {
         
         sprite = GetComponent<SpriteRenderer>();
-        fireBallSpot = parent.ProjectileSpot;
-        if (parent.PointP == 1)
+        fireBallSpot = parent.projectileSpot;
+        if (parent.pointP == 1)
         {
             transform.Rotate(0, 0, 90);
             vs = new Vector2(transform.position.x + 10, transform.position.y);
         }
 
-        if (parent.PointP == 2)
+        if (parent.pointP == 2)
         {
             transform.Rotate(0, 0, 270);
             vs = new Vector2(transform.position.x - 10, transform.position.y);
         }
 
-        if (parent.PointP == 3)
+        if (parent.pointP == 3)
         {
             transform.Rotate(0, 0, 180);
             vs = new Vector2(transform.position.x, transform.position.y + 10);
         }
 
-        if (parent.PointP == 4)
+        if (parent.pointP == 4)
         {
             transform.Rotate(0, 0, 0);
             vs = new Vector2(transform.position.x, transform.position.y - 10);
@@ -45,19 +43,19 @@ public class PlayerSorceryspell : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (parent.dead == true)
+        if (parent.dead)
         {
             Destroy(gameObject);
         }
         deleteTimer = deleteTimer - Time.deltaTime;
 
-        if (parent.shoot == true)
+        if (parent.shoot)
         {
             shoot = true;
 
         }
 
-        if (shoot == true)
+        if (shoot)
         {
 
 

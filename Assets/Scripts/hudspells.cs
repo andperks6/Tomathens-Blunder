@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class hudspells : MonoBehaviour {
     public StatManager sm;
     public Transform[] slots;
     public SplBank bank;
-    public CharacterController cc;
+    public NetworkCharacterController cc;
     public SpellData spelldata1;
     public SpellData spelldata2;
     public SpellData spelldata3;
@@ -89,7 +87,7 @@ public class hudspells : MonoBehaviour {
         {
             if (full1 == false)
             {
-                GameObject spell = (GameObject)Instantiate(bank.spells[box1], slots[0].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box1], slots[0].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -103,10 +101,10 @@ public class hudspells : MonoBehaviour {
                 full1 = true;
                 
             }
-            if (full1 == true)
+            if (full1)
             {
                 spelldata1.destroy = true;
-                GameObject spell = (GameObject)Instantiate(bank.spells[box1], slots[0].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box1], slots[0].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -124,7 +122,7 @@ public class hudspells : MonoBehaviour {
         {
             if (full2 == false)
             {
-                GameObject spell = (GameObject)Instantiate(bank.spells[box2], slots[1].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box2], slots[1].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -137,10 +135,10 @@ public class hudspells : MonoBehaviour {
                 full2 = true;
                 sd.whichBox = 2;
             }
-            if (full2 == true)
+            if (full2)
             {
                 spelldata2.destroy = true;
-                GameObject spell = (GameObject)Instantiate(bank.spells[box2], slots[1].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box2], slots[1].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -157,7 +155,7 @@ public class hudspells : MonoBehaviour {
         {
             if (full3 == false)
             {
-                GameObject spell = (GameObject)Instantiate(bank.spells[box3], slots[2].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box3], slots[2].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -171,10 +169,10 @@ public class hudspells : MonoBehaviour {
                 full3 = true;
 
             }
-            if (full3 == true)
+            if (full3)
             {
                 spelldata3.destroy = true;
-                GameObject spell = (GameObject)Instantiate(bank.spells[box3], slots[2].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box3], slots[2].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -191,7 +189,7 @@ public class hudspells : MonoBehaviour {
         {
             if (full4 == false)
             {
-                GameObject spell = (GameObject)Instantiate(bank.spells[box4], slots[3].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box4], slots[3].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -204,10 +202,10 @@ public class hudspells : MonoBehaviour {
                 sd.alwayshow = true;
                 full4 = true;
             }
-            if (full4 == true)
+            if (full4)
             {
                 spelldata4.destroy = true;
-                GameObject spell = (GameObject)Instantiate(bank.spells[box4], slots[3].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box4], slots[3].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.eqiuped = true;
@@ -224,7 +222,7 @@ public class hudspells : MonoBehaviour {
         {
             if (full5 == false)
             {
-                GameObject spell = (GameObject)Instantiate(bank.spells[box5], slots[4].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box5], slots[4].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -237,10 +235,10 @@ public class hudspells : MonoBehaviour {
                 sd.alwayshow = true;
                 full5 = true;
             }
-            if (full5 == true)
+            if (full5)
             {
                 spelldata5.destroy = true;
-                GameObject spell = (GameObject)Instantiate(bank.spells[box5], slots[4].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box5], slots[4].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -257,7 +255,7 @@ public class hudspells : MonoBehaviour {
         {
             if (full6 == false)
             {
-                GameObject spell = (GameObject)Instantiate(bank.spells[box6], slots[5].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box6], slots[5].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;
@@ -270,10 +268,10 @@ public class hudspells : MonoBehaviour {
                 sd.alwayshow = true;
                 full6 = true;
             }
-            if (full6 == true)
+            if (full6)
             {
                 spelldata6.destroy = true;
-                GameObject spell = (GameObject)Instantiate(bank.spells[box6], slots[5].position, Quaternion.Euler(0, 0, 0));
+                GameObject spell = Instantiate(bank.spells[box6], slots[5].position, Quaternion.Euler(0, 0, 0));
                 spell.transform.parent = transform;
                 SpellData sd = spell.GetComponent<SpellData>();
                 sd.disbleText = true;

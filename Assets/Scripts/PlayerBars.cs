@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerBars : MonoBehaviour {
     public StatManager sm;
@@ -25,16 +23,16 @@ public class PlayerBars : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if(healthbar == true)
+        if(healthbar)
         {
             healthPercent = sm.healthPercent;
         }
-        if (manabar == true)
+        if (manabar)
         {
             healthPercent = sm.magickaPercent;
         }
 
-        if (xpbar == true)
+        if (xpbar)
         {
            
             xp2 = sm.xp;

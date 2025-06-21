@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AttackSensor : MonoBehaviour {
     public StatManager Stat;
-    public CharacterController player;
+    public NetworkCharacterController player;
     public float damage;
 
 	// Use this for initialization
@@ -20,34 +18,34 @@ public class AttackSensor : MonoBehaviour {
     {
 
 
-        if (other.gameObject.tag == "Cricket")
+        if (other.gameObject.CompareTag("Cricket"))
         {
             other.gameObject.GetComponent<MeleeEnemyBehaviour>().HurtByPlayer(damage,Stat);          
         }
 
-        if (other.gameObject.tag == "Beetle")
+        if (other.gameObject.CompareTag("Beetle"))
         {
             other.gameObject.GetComponent<MeleeEnemyBehaviour>().HurtByPlayer(damage, Stat);
         }
-        if (other.gameObject.tag == "Bat")
+        if (other.gameObject.CompareTag("Bat"))
         {
             other.gameObject.GetComponent<RangedEnemyBehaviour>().HurtByPlayer(damage, Stat);
         }
 
-        if (other.gameObject.tag == "Crow")
+        if (other.gameObject.CompareTag("Crow"))
         {
             other.gameObject.GetComponent<RangedEnemyBehaviour>().HurtByPlayer(damage, Stat);
         }
 
 
-        if (other.gameObject.tag == "Mage")
+        if (other.gameObject.CompareTag("Mage"))
         {
             other.gameObject.GetComponent<RangedEnemyBehaviour>().HurtByPlayer(damage, Stat);
 
         }
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<CharacterController>().Hurt(damage);
+            other.gameObject.GetComponent<NetworkCharacterController>().Hurt(damage);
 
         }
     }

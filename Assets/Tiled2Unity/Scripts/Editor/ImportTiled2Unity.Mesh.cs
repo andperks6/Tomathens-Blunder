@@ -2,17 +2,9 @@
 // Note: This parital class is not compiled in for WebPlayer builds.
 // The Unity Webplayer is deprecated. If you *must* use it then make sure Tiled2Unity assets are imported via another build target first.
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Xml;
-using System.Xml.Linq;
-
-using UnityEditor;
-using UnityEngine;
-
-using Path = System.IO.Path;
 
 namespace Tiled2Unity
 {
@@ -41,7 +33,7 @@ namespace Tiled2Unity
             }
         }
 
-        private void ImportAllMeshes(Tiled2Unity.ImportBehaviour importComponent)
+        private void ImportAllMeshes(ImportBehaviour importComponent)
         {
             foreach (var xmlMesh in importComponent.XmlDocument.Root.Elements("ImportMesh"))
             {

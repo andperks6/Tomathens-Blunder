@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemySpell : MonoBehaviour {
 
@@ -40,19 +38,19 @@ public class EnemySpell : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (parent.dead == true)
+        if (parent.dead)
         {
             Destroy(gameObject);
         }
         deleteTimer = deleteTimer - Time.deltaTime;
 
-        if (parent.Shoot == true)
+        if (parent.Shoot)
         {
             shoot = true;
             
         }
 
-        if (shoot == true)
+        if (shoot)
         {
 
             

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LootButton : MonoBehaviour {
 
@@ -24,7 +22,7 @@ public class LootButton : MonoBehaviour {
         {
             transform.localScale = new Vector3(1f, 1f, 1);
         }
-        if (size == true)
+        if (size)
         {
             transform.localScale = new Vector3(1.05f, 1.05f, 1);
             size = false;
