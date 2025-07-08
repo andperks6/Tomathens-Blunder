@@ -10,7 +10,7 @@ public class networktest2 : NetworkBehaviour
     public startbuttons sb1;
     public int whichRace;
     startbuttons whichRaceObj;
-    public NetworkConnection con2;
+    public NetworkConnectionToClient con2;
     public GameObject toad;
     //TODO: validate best start position. took base value from playerstart pos game object
 	  public Vector3 playerSpawnPosition = new Vector3(127.93f, -57.8f, 0);
@@ -37,7 +37,7 @@ public class networktest2 : NetworkBehaviour
 
 
     }
-    public void ReplacePlayer(NetworkConnection conn)
+    public void ReplacePlayer(NetworkConnectionToClient conn)
     {
         // Cache a reference to the current player object
         GameObject oldPlayer = conn.identity.gameObject;
@@ -54,7 +54,7 @@ public class networktest2 : NetworkBehaviour
             Debug.LogError($"Invalid race index ({whichRace}) or races array not set. Spawning default toad prefab.");
         }
 
-        NetworkServer.ReplacePlayerForConnection(conn, Instantiate(playerPrefabToSpawn, transform.position, Quaternion.Euler(0, 0, 0)));
+        NetworkServer.ReplacePlayerForConnection(conn, Instantiate(playerPrefabToSpawn, transform.position, Quaternion.Euler(0, 0, 0)), ReplacePlayerOptions.KeepAuthority);
 
         // Remove the previous player object that's now been replaced
         NetworkServer.Destroy(oldPlayer);

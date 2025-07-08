@@ -9,7 +9,7 @@ public class networktest : NetworkManager
     public GameObject[] races;    
     public int boxident;
     public Transform startpos;
-    private NetworkConnection conn1;
+    private NetworkConnectionToClient conn1;
     private bool phase1;
     private bool phase2;
     public networktest2 nw2;
@@ -21,7 +21,7 @@ public class networktest : NetworkManager
   
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         
 
@@ -54,13 +54,13 @@ public class networktest : NetworkManager
     
     
 
-    public void ReplacePlayer(NetworkConnection conn)
+    public void ReplacePlayer(NetworkConnectionToClient conn)
     {
         // Cache a reference to the current player object
        GameObject oldPlayer = conn.identity.gameObject;
 
         // Instantiate the new player object and broadcast to clients
-      NetworkServer.ReplacePlayerForConnection(conn, Instantiate(toad,transform.position, Quaternion.Euler(0, 0, 0)));
+      NetworkServer.ReplacePlayerForConnection(conn, Instantiate(toad,transform.position, Quaternion.Euler(0, 0, 0)), ReplacePlayerOptions.KeepAuthority);
 
         // Remove the previous player object that's now been replaced
         NetworkServer.Destroy(oldPlayer);
